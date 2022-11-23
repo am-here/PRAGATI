@@ -1,0 +1,25 @@
+.heading {
+    background-color: rgb(38, 39, 40);
+}
+
+.front-heading {
+    color: #fff;
+    font-size: 7vw;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 6vw;
+    right: 0;
+    left: 0;
+}
+
+.bg-heading {
+    color: rgb(94, 94, 94);
+    font-size: 16vw;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+
+}
+

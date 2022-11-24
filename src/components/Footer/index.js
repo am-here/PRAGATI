@@ -1,7 +1,6 @@
 import React from 'react'
 import Heading from "../Heading";
 import "./footer.css"
-import logo from "/Users/harsh/Downloads/Coding/Web_Dev/pragati/src/resources/demo_logo.png"
 function Footer() {
   return (
     <>
@@ -10,7 +9,7 @@ function Footer() {
     <footer>
       <div className="row">
         <div className="col">
-          <img src={logo} alt="Logo" className="logo"/>
+          <img src={require(`../../resources/demo_logo.png`)} alt="Logo" className="logo"/>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem rerum veniam, atque esse dignissimos et officia reprehenderit possimus facere aliquam accusantium suscipit sapiente dolores tempora maiores! Eos vero voluptates voluptas?</p>
         </div>
         <div className="col colf">

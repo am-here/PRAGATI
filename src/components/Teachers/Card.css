@@ -15,7 +15,7 @@
     align-items: center;
     margin-bottom: 20px;
 }
-img{
+.image{
     display: block;
     width: 9rem;
     height: 9rem;
@@ -33,13 +33,13 @@ img{
     text-align: center;
     color: rgb(200, 207, 213);
 }
-h3{
+.name{
     font-size: 20px;
     margin-bottom: 10px;
     letter-spacing: 2px;
     font-weight: 400;
 }
-span{
+.bio{
     font-size:15px;
     letter-spacing: 1px;
     font-weight: 200;
@@ -51,7 +51,7 @@ span{
     justify-content: center;
     /* justify-content: space-evenly; */
 }
-a{
+.link{
     text-decoration: none;
     color: black;
     background-color: rgb(200, 207, 213);
@@ -59,6 +59,6 @@ a{
     border-radius: 5px;
     margin: 2px 5px;
 }
-a>i{
+.link>i{
     font-size: 25px;
 }

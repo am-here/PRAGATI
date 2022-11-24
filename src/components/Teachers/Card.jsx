@@ -8,16 +8,17 @@ function Card({ teacher }) {
         <img
           src={require(`../../assets/Teachers/${teacher.image}`)}
           alt="Teacher"
+          className="image"
         />
       </div>
       <div className="about-div">
-        <h3>{teacher.name}</h3>
-        <span>{teacher.bio}</span>
+        <h3 className="name">{teacher.name}</h3>
+        <span className="bio">{teacher.bio}</span>
         <div className="social">
-          <a href={`tel:${teacher.phone}`}>
+          <a href={`tel:${teacher.phone}`} className="link">
             <i class="fa-solid fa-phone"></i>
           </a>
-          <a href={`https://wa.me/${teacher.wapp}`}>
+          <a href={`https://wa.me/${teacher.wapp}`} className="link">
             <i class="fa-brands fa-whatsapp"></i>
           </a>
         </div>

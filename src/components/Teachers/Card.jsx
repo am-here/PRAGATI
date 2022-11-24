@@ -18,7 +18,7 @@ function Card({ teacher }) {
           <a href={`tel:${teacher.phone}`} className="link">
             <i class="fa-solid fa-phone"></i>
           </a>
-          <a href={`https://wa.me/${teacher.wapp}`} className="link">
+          <a href={`https://wa.me/91${teacher.wapp}`} className="link">
             <i class="fa-brands fa-whatsapp"></i>
           </a>
         </div>

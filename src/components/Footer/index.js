@@ -44,7 +44,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <hr />
+      <hr className='hr'/>
       <h3 className="copyright">Made by Coders Club with <span className="span" >&#9829;</span> </h3>
     </footer>
     </>

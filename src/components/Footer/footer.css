@@ -56,20 +56,20 @@
     font-size: 18px;
     margin-right: 10px;
 }
-.form input{
+.form .input{
     width: 100%;
     background: transparent;
     color: #ccc;
     border: 0;
     outline: none;
 }
-.form button{
+.form .button{
     background: transparent;
     border: 0;
     outline: none;
     cursor: pointer;
 }
-.form button .fa-arrow-right-to-bracket{
+.form .button .fa-arrow-right-to-bracket{
     font-size: 16px;
     color: #ccc;
 }

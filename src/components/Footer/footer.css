@@ -1,10 +1,9 @@
-footer{
+.footer{
     background-color: var(--bg-color);
     width: 100%;
-    /* position: absolute; */
     bottom: 0;
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 10px 0 30px;
     font-size: 13px;
     line-height: 20px;
 }
@@ -37,15 +36,15 @@ footer{
     border-bottom: 1px solid #ccc;
     margin: 20px 0;
 }
-ul li{
+.li{
     list-style: none;
     margin-bottom: 12px;
 }
-ul li a{
+.ali{
     text-decoration: none;
     color: #fff;
 }   
-form{
+.form{
     padding-bottom: 15px;
     display: flex;
     align-items: center;
@@ -53,24 +52,24 @@ form{
     border-bottom: 1px solid #ccc;
     margin-bottom: 50px;
 }
-form .fa-solid{
+.form .fa-solid{
     font-size: 18px;
     margin-right: 10px;
 }
-form input{
+.form .input{
     width: 100%;
     background: transparent;
     color: #ccc;
     border: 0;
     outline: none;
 }
-form button{
+.form .button{
     background: transparent;
     border: 0;
     outline: none;
     cursor: pointer;
 }
-form button .fa-arrow-right-to-bracket{
+.form .button .fa-arrow-right-to-bracket{
     font-size: 16px;
     color: #ccc;
 }
@@ -83,13 +82,13 @@ form button .fa-arrow-right-to-bracket{
     margin-right: 15px;
     cursor: pointer;
 }
-hr{
+.hr{
     width: 90%;
     border: 0;
     border-bottom: 1px solid #ccc;
     margin: 20px auto;
 }
-span{
+.span{
     font-size: 24px;
 }
 .copyright{
@@ -105,7 +104,7 @@ span{
     left: 0;
     overflow: hidden;
 }
-.underline span{
+.uspan{
     width: 15px;
     height: 100%;
     background: #fff;

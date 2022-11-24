@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Heading from "../components/Heading";
 import Scheduler from "./Scheduler";
 import "./Scheduler.css";
 
@@ -7,18 +8,19 @@ function Day() {
 
   return (
     <>
+      <Heading title="SCHEDULE" />
       <div className="day-button">
         <button
           className={day === "day1" ? "item-active" : "day1"}
           onClick={() => setDay("day1")}
         >
-          Day First
+          1st Day
         </button>
         <button
           className={day === "day2" ? "item-active" : "day2"}
           onClick={() => setDay("day2")}
         >
-          Day 2nd
+          2nd Day
         </button>
       </div>
       <div>

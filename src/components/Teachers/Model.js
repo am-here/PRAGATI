@@ -1,7 +1,7 @@
 const Data = [
   {
     id: 1,
-    name: "Surojit Bhattacharya",
+    name: "Harsh Baid",
     bio: "Developer",
     phone: 9163979038,
     wapp: 9163979038,

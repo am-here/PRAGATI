@@ -1,10 +1,13 @@
 .heading {
     background-color: rgb(38, 39, 40);
+    position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 
 .front-heading {
+    /* font-family: 'Sono', sans-serif; */
     color: #fff;
-    font-size: 7vw;
+    font-size: 8vw;
     font-weight: bold;
     margin: auto;
     text-align: center;
@@ -15,7 +18,7 @@
 }
 
 .bg-heading {
-    color: rgb(94, 94, 94);
+    color: rgba(94, 94, 94, 0.679);
     font-size: 16vw;
     font-weight: bold;
     margin: auto;

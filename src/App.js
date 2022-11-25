@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Teachers from "./components/Teachers/Teachers";
-
+import Venue from "./components/Venue";
 import "./App.css";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <>
       <HeroSection />
       <Teachers />
+      <Venue />
       <Footer />
     </>
   );

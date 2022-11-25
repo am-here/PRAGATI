@@ -1,11 +1,10 @@
-.heading {
-    background-color: rgb(38, 39, 40);
+.F_heading {
+    background-color: var(--bg-color);
     position: relative;
-    font-family: 'Poppins', sans-serif;
 }
 
 .front-heading {
-    /* font-family: 'Sono', sans-serif; */
+    /* font-family: 'Sono', sans-serif;     */
     color: #fff;
     font-size: 8vw;
     font-weight: bold;

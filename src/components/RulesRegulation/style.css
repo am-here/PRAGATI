@@ -1,0 +1,13 @@
+.section{
+    height: 100vh;
+    background-color: var(--bg-color);
+    color: #fff;
+}
+.center{
+    text-align: center;
+}
+.lol{
+    /* display: flex; */
+    padding-left: 30px;
+    padding-top: 30px;
+}

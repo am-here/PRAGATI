@@ -11,8 +11,8 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
-      <Teachers />
       <Venue />
+      <Teachers />
       <Footer />
       {/* <Rules/> */}
     </>

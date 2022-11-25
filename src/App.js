@@ -1,8 +1,8 @@
 import Footer from "./components/Footer";
-// import HeroSection from "./components/HeroSection";
+import HeroSection from "./components/HeroSection/HeroSection";
 import Teachers from "./components/Teachers/Teachers";
 import Venue from "./components/Venue";
-import Rules from "./components/RulesRegulation";
+// import Rules from "./components/RulesRegulation";
 // import Day from "./Scheduler/Day";
 // import HeroSections from "./components/Home/HeroSections";
 import "./App.css";
@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <HeroSection />
+      <Venue />
       <Teachers />
       <Footer />
       {/* <Rules/> */}

@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <HeroSection />
-      <Teachers />
       <Venue />
+      <Teachers />
       <Footer />
       {/* <Rules/> */}
     </>

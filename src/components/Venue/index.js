@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../Heading";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
-
+import "./venue.css";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -10,7 +10,8 @@ function Venue() {
     return (
         <>
          <Heading title="VENUE"/>
-          <div className="flex flex-col items-center justify-center  bg-gray-800">
+         <div className="bg-gray-mod" >
+          <div className="flex flex-col items-center justify-center">
             <div className="relative">
               {/* <h1 className="text-[13vw] font-bold text-center text-grey-secondary">
                 VENUE
@@ -93,7 +94,7 @@ function Venue() {
                   src="https://img.icons8.com/color/48/000000/marker--v1.png"
                   className="lg:w-10 w-[6vw]"
                 />
-                 <p className="text-black lg:text-2xl font-semibold pl-2">
+                 <p className="text-white  lg:text-2xl font-semibold pl-2">
                  MCKV Institute of Engineering,Howrah
 
             </p>
@@ -111,6 +112,7 @@ function Venue() {
             tabindex="0"
           ></iframe>
         </div>
+      </div>
       </div>
     </>
   );

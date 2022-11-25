@@ -1,21 +1,22 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./Pages/Home";
 import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection/HeroSection";
-import Teachers from "./components/Teachers/Teachers";
-import Venue from "./components/Venue";
-// import Rules from "./components/RulesRegulation";
-// import Day from "./Scheduler/Day";
-// import HeroSections from "./components/Home/HeroSections";
+import Day from "./components/Scheduler/Day";
+
 import "./App.css";
-// import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <HeroSection />
-      <Venue />
-      <Teachers />
-      <Footer />
-      {/* <Rules/> */}
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/schedule" element={<Day />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

@@ -7,10 +7,11 @@ import "./venue.css";
 import "swiper/css";
 import "swiper/css/autoplay";
 function Venue() {
-    return (
-        <>
-         <Heading title="VENUE"/>
-         <div className="bg-gray-mod" >
+  return (
+    <>
+      <div id="venue">
+        <Heading title="VENUE" />
+        <div className="bg-gray-mod">
           <div className="flex flex-col items-center justify-center">
             <div className="relative">
               {/* <h1 className="text-[13vw] font-bold text-center text-grey-secondary">
@@ -19,7 +20,7 @@ function Venue() {
               <h1 className="text-white text-[5vw] font-bold text-center absolute top-[6vw] left-0 right-0 mx-auto">
                 VENUE
               </h1> */}
-             
+
               {/* <div>Venue</div> */}
             </div>
           </div>
@@ -29,10 +30,10 @@ function Venue() {
                 slidesPerView={1}
                 spaceBetween={30}
                 loop={true}
-                pagination={{ clickable: true}}
-                modules={[Pagination,Autoplay]}
+                pagination={{ clickable: true }}
+                modules={[Pagination, Autoplay]}
                 // className={`mySwiper ${styledClasses}`}
-                autoplay={{ delay: 2000}}
+                autoplay={{ delay: 2000 }}
               >
                 <SwiperSlide>
                   <img
@@ -94,28 +95,27 @@ function Venue() {
                   src="https://img.icons8.com/color/48/000000/marker--v1.png"
                   className="lg:w-10 w-[6vw]"
                 />
-                 <p className="text-white  lg:text-2xl font-semibold pl-2">
-                 MCKV Institute of Engineering,Howrah
+                <p className="text-white  lg:text-2xl font-semibold pl-2">
+                  MCKV Institute of Engineering,Howrah
+                </p>
+              </div>
 
-            </p>
+              <iframe
+                className="rounded-xl lg:w-full w-[80vw] lg:h-full h-[30vw]"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.9151916279384!2d88.34551381399842!3d22.619641936944895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89d65da7b3775%3A0x30915f7e98f1b0d5!2sMCKV%20Institute%20of%20Engineering!5e0!3m2!1sen!2sin!4v1669300666177!5m2!1sen!2sin"
+                width="100%"
+                height="300"
+                frameBorder="0"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                aria-hidden="false"
+                tabIndex="0"
+              ></iframe>
+            </div>
           </div>
-
-          <iframe
-            className="rounded-xl lg:w-full w-[80vw] lg:h-full h-[30vw]"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.9151916279384!2d88.34551381399842!3d22.619641936944895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89d65da7b3775%3A0x30915f7e98f1b0d5!2sMCKV%20Institute%20of%20Engineering!5e0!3m2!1sen!2sin!4v1669300666177!5m2!1sen!2sin"
-            width="100%"
-            height="300"
-            frameborder="0"
-            style={{ border: 0 }}
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-          ></iframe>
         </div>
-      </div>
       </div>
     </>
   );
-
 }
 export default Venue;

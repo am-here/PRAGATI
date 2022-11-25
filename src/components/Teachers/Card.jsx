@@ -16,10 +16,10 @@ function Card({ teacher }) {
         <span className="bio">{teacher.bio}</span>
         <div className="social">
           <a href={`tel:${teacher.phone}`} className="link">
-            <i class="fa-solid fa-phone"></i>
+            <i className="fa-solid fa-phone"></i>
           </a>
           <a href={`https://wa.me/91${teacher.wapp}`} className="link">
-            <i class="fa-brands fa-whatsapp"></i>
+            <i className="fa-brands fa-whatsapp"></i>
           </a>
         </div>
       </div>

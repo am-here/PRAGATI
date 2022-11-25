@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Heading from "../components/Heading";
+import Heading from "../Heading/index";
 import Scheduler from "./Scheduler";
 import "./Scheduler.css";
 
@@ -8,7 +8,7 @@ function Day() {
 
   return (
     <>
-      <Heading title="SCHEDULE" />
+      {/* <Heading title="SCHEDULE" /> */}
       <div className="day-button">
         <button
           className={day === "day1" ? "item-active" : "day1"}

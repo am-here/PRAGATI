@@ -4,9 +4,9 @@ import "./heading.css";
 function Heading(props) {
   return (
     <>
-      <div class="F_heading">
-        <h1 class="bg-heading">{props.title}</h1>
-        <h1 class="front-heading">{props.title}</h1>
+      <div className="F_heading">
+        <h1 className="bg-heading">{props.title}</h1>
+        <h1 className="front-heading">{props.title}</h1>
       </div>
     </>
   );

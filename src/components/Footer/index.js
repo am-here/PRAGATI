@@ -1,10 +1,8 @@
 import React from 'react'
-import Heading from "../Heading";
 import "./footer.css"
 function Footer() {
   return (
     <>
-    <Heading title="CONTACT"/>
     <footer className='footer'>
       <div className="row">
         <div className="col">
@@ -12,7 +10,7 @@ function Footer() {
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem rerum veniam, atque esse dignissimos et officia reprehenderit possimus facere aliquam accusantium</p>
         </div>
         <div className="col colf">
-          <h3>Address <div className="underline"><span></span></div> </h3>
+          <h3>Address <div className="underline"><span className="uspan"></span></div> </h3>
           <p>243, G T Road North,</p>
           <p>Liluah, Howrah,</p>
           <p>West Bengal, India, 711204</p>
@@ -20,7 +18,7 @@ function Footer() {
           <h4>+91 89106 31623</h4>
         </div>
         <div className="col colf">
-          <h3>Links <div className="underline"><span></span></div> </h3>
+          <h3>Links <div className="underline"><span className="uspan"></span></div> </h3>
           <ul>
             <li className='li'><a className='ali' href="/">Home</a></li>
             <li className='li'><a className='ali' href="/">Schedule</a></li>

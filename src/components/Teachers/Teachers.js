@@ -36,7 +36,7 @@ function Teachers() {
   };
   return (
     <>
-      <Heading title="TEACHERS" />
+      <Heading title="CONTACT" />
       <div className="carousel-container">
         <Carousel
           additionalTransfrom={0}

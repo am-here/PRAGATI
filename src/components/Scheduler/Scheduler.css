@@ -1,0 +1,148 @@
+body{
+    /* background-color: rgb(17, 17, 17); */
+    background-color: rgb(38, 39, 40);
+    
+}
+.vertical-timeline-element-title{
+    padding-top: 0.25em;
+    font-size: 2em!important;
+}
+.vertical-timeline-element-content{
+    /* box-shadow: ; */
+    box-shadow: rgba(252, 252, 252, 0.35) 0px 5px 15px!important;
+    /* background-color: rgb(211, 238, 7) !important; */
+    padding: 2em 3em;
+}
+.date{
+    color: aliceblue;
+    font-size: 2rem !important;
+    font-weight: 100 !important;
+}
+#description{
+    margin: 1.5em 0 2em 0;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+.btn-rule{
+    color: rgb(4, 193, 4);
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+    transition: 6ms;
+    margin-right: 1rem;
+}
+.btn-register{
+    color: rgb(41, 41, 238);
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+    margin: 0 9px;
+    transition: 6ms;
+    margin-right: 1rem;
+
+}
+.btn-contact{
+   
+    color: red;
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+    transition: 6ms;
+}
+.btn-rule:hover{
+    color: green;
+}
+.btn-register:hover{
+    color: rgb(6, 6, 158);
+}
+.btn-contact:hover{
+    color: rgb(120, 5, 5);
+}
+.day-button{
+
+display: flex;
+margin: auto;
+margin-left: 1rem;
+align-items: center;
+justify-content: center;
+width: 100%;
+flex-direction: row;
+justify-content: center;
+border-radius: 0.5rem;
+padding: 0.5rem 0;
+/* box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px ; */
+
+}
+.day1, .day2{
+    outline: none;
+    border: none;
+    padding: 0.3rem 3rem;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    background-color: rgb(38, 39, 40);
+    /* margin: 0 15px; */
+    border-radius: 0.5rem;
+
+}
+.item-active{
+outline: none;
+border: none;
+padding: 0.3rem 3rem;
+color: #fff;
+font-size: 3rem;
+font-weight: 500;
+background-color: rgb(141, 104, 13);
+border-radius: 0.5rem;
+margin: 0 7px;
+box-shadow: rgba(190, 190, 190, 0.1) 0px 4px 12px;
+}
+
+
+
+
+@media only screen and (max-width:1170px) {
+    .vertical-timeline-element-date{
+        display: block;
+        float: none;
+        color: rgb(86, 85, 85);
+        margin-top: 1.5em;
+    }
+
+        .day1,
+        .day2 {
+           
+            padding: 0.3rem 1rem;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 500;
+            background-color: rgb(38, 39, 40);
+            margin: 0 7px;
+            border-radius: 2rem;
+    
+        }
+    
+        .item-active {
+            outline: none;
+            border: none;
+            padding: 0.3rem 1rem;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 500;
+            background-color: rgb(141, 104, 13);
+            border-radius: 2rem;
+            margin: 0 7px;
+            box-shadow: rgba(190, 190, 190, 0.1) 0px 4px 12px;
+        }
+
+                .day-button {
+        
+                    
+                    width: 45%;
+        
+                }
+    
+}

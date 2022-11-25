@@ -14,6 +14,7 @@ function Scheduler() {
   return (
     <>
       {/* // <Heading /> */}
+
       <VerticalTimeline animate={Boolean}>
         {timelineElements.map((element) => {
           return (

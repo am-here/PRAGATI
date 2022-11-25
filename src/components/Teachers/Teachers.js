@@ -36,43 +36,45 @@ function Teachers() {
   };
   return (
     <>
-      <Heading title="CONTACT" />
-      <div className="carousel-container">
-        <Carousel
-          additionalTransfrom={0}
-          arrows={false}
-          autoPlay
-          autoPlaySpeed={1000}
-          centerMode={false}
-          className=""
-          containerClass="container-with-dots"
-          customTransition="all 0.5s linear"
-          dotListClass=""
-          draggable
-          focusOnSelect={false}
-          infinite
-          itemClass=""
-          keyBoardControl
-          minimumTouchDrag={80}
-          pauseOnHover
-          renderArrowsWhenDisabled={false}
-          renderButtonGroupOutside={false}
-          renderDotsOutside={false}
-          responsive={responsive}
-          rewind={false}
-          rewindWithAnimation={false}
-          rtl={false}
-          shouldResetAutoplay
-          showDots={false}
-          sliderClass=""
-          slidesToSlide={3}
-          swipeable
-          transitionDuration={1000}
-        >
-          {data.map((teacher) => (
-            <Card key={teacher.id} teacher={teacher} />
-          ))}
-        </Carousel>
+      <div id="contact">
+        <Heading title="CONTACT" />
+        <div className="carousel-container">
+          <Carousel
+            additionalTransfrom={0}
+            arrows={false}
+            autoPlay
+            autoPlaySpeed={1000}
+            centerMode={false}
+            className=""
+            containerClass="container-with-dots"
+            customTransition="all 0.5s linear"
+            dotListClass=""
+            draggable
+            focusOnSelect={false}
+            infinite
+            itemClass=""
+            keyBoardControl
+            minimumTouchDrag={80}
+            pauseOnHover
+            renderArrowsWhenDisabled={false}
+            renderButtonGroupOutside={false}
+            renderDotsOutside={false}
+            responsive={responsive}
+            rewind={false}
+            rewindWithAnimation={false}
+            rtl={false}
+            shouldResetAutoplay
+            showDots={false}
+            sliderClass=""
+            slidesToSlide={3}
+            swipeable
+            transitionDuration={1000}
+          >
+            {data.map((teacher) => (
+              <Card key={teacher.id} teacher={teacher} />
+            ))}
+          </Carousel>
+        </div>
       </div>
     </>
   );

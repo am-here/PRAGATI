@@ -16,7 +16,7 @@ const timelineElements = [
     icon: "work",
   },
   {
-    id: 1,
+    id: 2,
     title: "Utkarsh Kr. Singh",
     location: "MCKV Institute of Engineering",
     description:
@@ -32,7 +32,7 @@ const timelineElements = [
     icon: "work",
   },
   {
-    id: 1,
+    id: 3,
     title: "Utkarsh Kr. Singh",
     location: "MCKV Institute of Engineering",
     description:
@@ -48,7 +48,7 @@ const timelineElements = [
     icon: "work",
   },
   {
-    id: 1,
+    id: 4,
     title: "Utkarsh Kr. Singh",
     location: "MCKV Institute of Engineering",
     description:
@@ -64,7 +64,7 @@ const timelineElements = [
     icon: "work",
   },
   {
-    id: 1,
+    id: 5,
     title: "Utkarsh Kr. Singh",
     location: "MCKV Institute of Engineering",
     description:
@@ -80,7 +80,7 @@ const timelineElements = [
     icon: "work",
   },
   {
-    id: 1,
+    id: 6,
     title: "Utkarsh Kr. Singh",
     location: "MCKV Institute of Engineering",
     description:

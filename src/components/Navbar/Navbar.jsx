@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
+import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
-// import logo from "../../resources/demo_logo.png";
 import "./Navbar.css";
 
 function Navbar() {
   const [show, setShow] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 80) {
         setShow(true);
       } else {
         setShow(false);
@@ -20,35 +21,35 @@ function Navbar() {
   return (
     <div className={`nav ${show && "nav_black"}`}>
       <div className="nav-container">
-        <a href="/" className="logo">
+        <Link to="/" className="logo">
           {/* <img src={logo} alt="LOGO" className="nav-logo" /> */}
           Pragati
-        </a>
+        </Link>
         <div className="items">
           <span className="nav-items">
-            <a href="/" className="nav-links">
+            <Link to="/" className="nav-links">
               HOME
-            </a>
+            </Link>
           </span>
           <span className="nav-items">
-            <a href="/" className="nav-links">
+            <Link to="/schedule" className="nav-links">
               Events
-            </a>
+            </Link>
           </span>
           <span className="nav-items">
-            <a href="/" className="nav-links">
+            <HashLink to="/#contact" className="nav-links">
               Contact
-            </a>
+            </HashLink>
           </span>
           <span className="nav-items">
-            <a href="/" className="nav-links">
+            <HashLink to="/#venue" className="nav-links">
               Venue
-            </a>
+            </HashLink>
           </span>
           <span className="nav-items">
-            <a href="/" className="nav-links">
+            <HashLink to="/#faq" className="nav-links">
               FAQ
-            </a>
+            </HashLink>
           </span>
         </div>
       </div>

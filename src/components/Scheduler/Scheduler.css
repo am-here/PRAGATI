@@ -1,6 +1,7 @@
 body{
     /* background-color: rgb(17, 17, 17); */
     background-color: rgb(38, 39, 40);
+   
     
 }
 .vertical-timeline-element-title{
@@ -73,6 +74,8 @@ flex-direction: row;
 justify-content: center;
 border-radius: 0.5rem;
 padding: 0.5rem 0;
+margin-top: 80px;
+overflow: hidden;
 /* box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px ; */
 
 }

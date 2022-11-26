@@ -37,42 +37,55 @@ function Venue() {
               >
                 <SwiperSlide>
                   <img
-                    className="rounded-xl"
-                    src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%204.jpg"
+                    className="rounded-xl h-4/5"
+                  // src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%204.jpg"
+                //  src="https://i.ibb.co/Jsjjpft/My-project.jpg"
+                 // src="https://i.ibb.co/hYQb1f6/mckv3.jpg"
+                 src="https://cdn.statically.io/gh/U220053/DSA-Practice/main/My%20project.jpg"
                     width="100%"
-                    alt="Taal Kutir Convention Centre"
+                    //height="100%"
+                   // display="block"
+                    alt="MCKVIE"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="rounded-xl"
-                    src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%205.jpg"
+                  // src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%205.jpg"
+                   //src="https://i.ibb.co/hYQb1f6/mckv3.jpg"
+                   src="https://cdn.statically.io/gh/U220053/DSA-Practice/main/mckv3.jpg"
                     width="100%"
-                    alt="Taal Kutir Convention Centre"
+                    alt="MCKVIE"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="rounded-xl"
-                    src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%201.jpg"
+                    //src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%201.jpg"
+                   src="https://i.ibb.co/W6YD25C/mckv4.jpg"
+                 // src="https://i.ibb.co/hYQb1f6/mckv3.jpg"
+                // src="https://cdn.statically.io/gh/U220053/DSA-Practice/main/mckv3.jpg"
                     width="100%"
-                    alt="Taal Kutir Convention Centre"
+                    alt="MCKVIE"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="rounded-xl"
-                    src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%202.jpg"
+                  // src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%202.jpg"
+                   src="https://i.ibb.co/TbnFZpx/mckv5.jpg"
+                 // src="https://i.ibb.co/hYQb1f6/mckv3.jpg"
+                // src="https://cdn.statically.io/gh/U220053/DSA-Practice/main/mckv3.jpg"
                     width="100%"
-                    alt="Taal Kutir Convention Centre"
+                    alt="MCKVIE"
                   />
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                   <img
                     className="rounded-xl"
                     src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%203.jpg"
                     width="100%"
-                    alt="Taal Kutir Convention Centre"
+                    alt="MCKVIE"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -80,9 +93,9 @@ function Venue() {
                     className="rounded-xl"
                     src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%206.jpg"
                     width="100%"
-                    alt="Taal Kutir Convention Centre"
+                    alt="MCKVIE"
                   />
-                </SwiperSlide>
+                </SwiperSlide> */}
               </Swiper>
               {/* <img 
             className="rounded-xl"
@@ -102,11 +115,17 @@ function Venue() {
               </div>
 
               <iframe
+               // className="rounded-xl lg:w-full w-[80vw] lg:h-2/6  " 
+               //clasNmae="w-[80vw] h-[30vw] "
+                //className="m"
+                
                 title="mckv map"
-                className="rounded-xl lg:w-full w-[80vw] lg:h-full h-[30vw]"
+                className=" m rounded-xl lg:w-full w-[80vw] lg:h-full h-[30vw]"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.9151916279384!2d88.34551381399842!3d22.619641936944895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89d65da7b3775%3A0x30915f7e98f1b0d5!2sMCKV%20Institute%20of%20Engineering!5e0!3m2!1sen!2sin!4v1669300666177!5m2!1sen!2sin"
                 width="100%"
-                height="300"
+                height="200px"
+                top="-10px"
+                
                 frameBorder="0"
                 style={{ border: 0 }}
                 allowFullScreen=""

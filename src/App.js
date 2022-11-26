@@ -4,6 +4,9 @@ import Home from "./Pages/Home";
 import Footer from "./components/Footer";
 import Day from "./components/Scheduler/Day";
 
+// import React from "react";
+// import EventCard from "./components/Ongoing_Event/EventCard";
+
 import "./App.css";
 
 function App() {
@@ -17,6 +20,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+      {/* <EventCard /> */}
     </>
   );
 }

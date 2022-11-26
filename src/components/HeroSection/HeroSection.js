@@ -77,11 +77,11 @@ function HeroSection() {
           </ul>
           <p
             style={{
-              fontSize: "1.5rem",
+              fontSize: "2rem",
               fontWeight: " 700",
               padding: "0",
               letterSpacing: "0.1rem",
-              marginTop: "5px",
+              marginTop: "12px",
               color: "rgb(206, 175, 3)",
             }}
           >

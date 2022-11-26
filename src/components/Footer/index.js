@@ -41,9 +41,9 @@ function Footer() {
             </h3>
             <ul>
               <li className="li">
-                <Link className="ali" to="/">
+                <HashLink className="ali" to="/#home">
                   Home
-                </Link>
+                </HashLink>
               </li>
               <li className="li">
                 <Link className="ali" to="/schedule">
@@ -56,14 +56,14 @@ function Footer() {
                 </HashLink>
               </li>
               <li className="li">
-                <HashLink className="ali" to="/#faq">
-                  Faq
+                <HashLink className="ali" to="/#events">
+                  Events
                 </HashLink>
               </li>
               <li className="li">
-                <HashLink className="ali" to="/#contact">
+                <Link className="ali" to="/contact">
                   Contact
-                </HashLink>
+                </Link>
               </li>
             </ul>
           </div>

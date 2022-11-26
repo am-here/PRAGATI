@@ -28,18 +28,18 @@ function Navbar() {
        
         <div className="items">
           <span className="nav-items">
-            <Link to="/" className="nav-links">
-              HOME
-            </Link>
+            <HashLink to="/#home" className="nav-links">
+              Home
+            </HashLink>
           </span>
           <span className="nav-items">
-            <Link to="/schedule" className="nav-links">
+            <Link to="/#events" className="nav-links">
               Events
             </Link>
           </span>
           <span className="nav-items">
-            <HashLink to="/#contact" className="nav-links">
-              Contact
+            <HashLink to="/schedule" className="nav-links">
+              Schedule
             </HashLink>
           </span>
           <span className="nav-items">

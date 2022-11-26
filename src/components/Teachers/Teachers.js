@@ -1,44 +1,48 @@
-import Carousel from "react-multi-carousel";
+// import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import "./Teachers.css";
 import Heading from "./../Heading/index";
-import Data from "./Model.js";
-import Card from "./Card";
+import GoToTop from "./../GoToTop";
+
+// import Data from "./Model.js";
+// import Card from "./Card";
+import UnderCunstruction from "../../resources/UnderCunstruction";
 
 function Teachers() {
-  const [data, setData] = useState(Data);
-  const responsive = {
-    desktop: {
-      breakpoint: {
-        max: 3000,
-        min: 1024,
-      },
-      items: 5,
-      partialVisibilityGutter: 40,
-    },
-    mobile: {
-      breakpoint: {
-        max: 464,
-        min: 0,
-      },
-      items: 1,
-      partialVisibilityGutter: 0,
-    },
-    tablet: {
-      breakpoint: {
-        max: 1024,
-        min: 464,
-      },
-      items: 3,
-      partialVisibilityGutter: 30,
-    },
-  };
+  // const [data, setData] = useState(Data);
+  // const responsive = {
+  //   desktop: {
+  //     breakpoint: {
+  //       max: 3000,
+  //       min: 1024,
+  //     },
+  //     items: 5,
+  //     partialVisibilityGutter: 40,
+  //   },
+  //   mobile: {
+  //     breakpoint: {
+  //       max: 464,
+  //       min: 0,
+  //     },
+  //     items: 1,
+  //     partialVisibilityGutter: 0,
+  //   },
+  //   tablet: {
+  //     breakpoint: {
+  //       max: 1024,
+  //       min: 464,
+  //     },
+  //     items: 3,
+  //     partialVisibilityGutter: 30,
+  //   },
+  // };
   return (
     <>
       <div id="contact">
         <Heading title="CONTACT" />
-        <div className="carousel-container">
+        <UnderCunstruction />
+        {/* <div className="carousel-container">
           <Carousel
             additionalTransfrom={0}
             arrows={false}
@@ -74,7 +78,8 @@ function Teachers() {
               <Card key={teacher.id} teacher={teacher} />
             ))}
           </Carousel>
-        </div>
+        </div> */}
+        <GoToTop />
       </div>
     </>
   );

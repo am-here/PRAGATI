@@ -1,9 +1,9 @@
-import React from 'react'
-import Heading from "../Heading/index"
-import './event.css'
+import React from "react";
+import Heading from "../Heading/index";
+import "./event.css";
+import GoToTop from "../GoToTop";
 
-var event_name = "LOGO COMPETITION";
-
+// var event_name = "LOGO COMPETITION";
 
 function Event() {
   return (
@@ -19,8 +19,12 @@ function Event() {
         </div>
         <div className="content_col2">
           <p>Hello MCKVIANS ✨</p>
-          <p>🎓MCKV Institute of Engineering is back with the most awaited event of the year, Pragati 2K23, its annual tech fest.
-            This year there would be a logo design contest for PRAGATI 2023. The winner would be recognized and, the winning logo will be chosen as the official logo for PRAGATI 2023.
+          <p>
+            🎓MCKV Institute of Engineering is back with the most awaited event
+            of the year, Pragati 2K23, its annual tech fest. This year there
+            would be a logo design contest for PRAGATI 2023. The winner would be
+            recognized and, the winning logo will be chosen as the official logo
+            for PRAGATI 2023.
           </p>
           <p>🗓️Submission Date - 30th November,2022</p>
           <p>✅Open to all staff members and students of MCKVIE.</p>
@@ -31,14 +35,21 @@ function Event() {
         <div className="rules_points">
           <span className="numbering">①</span>
           {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; The contest is open to all members of the staff and students of MCKV Institute of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering.</span> */}
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; The contest is open to all members of the staff and students of MCKV Institute of Engineering.</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; The contest is open to all members of the staff
+            and students of MCKV Institute of Engineering.
+          </span>
         </div>
         <div className="rules_points">
           <span className="numbering">②</span>
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; Themes for the contest are</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; Themes for the contest are
+          </span>
           <div className="sub_rules_points">
             <span className="sub_numbering">&nbsp;&nbsp;&nbsp;&nbsp;ⓐ</span>
-            <span className="sub_rule_point">&nbsp;&nbsp;&nbsp; Technology</span>
+            <span className="sub_rule_point">
+              &nbsp;&nbsp;&nbsp; Technology
+            </span>
           </div>
           <div className="sub_rules_points">
             <span className="sub_numbering">&nbsp;&nbsp;&nbsp;&nbsp;ⓑ</span>
@@ -46,23 +57,33 @@ function Event() {
           </div>
           <div className="sub_rules_points">
             <span className="sub_numbering">&nbsp;&nbsp;&nbsp;&nbsp;ⓒ</span>
-            <span className="sub_rule_point">&nbsp;&nbsp;&nbsp; Innovation</span>
+            <span className="sub_rule_point">
+              &nbsp;&nbsp;&nbsp; Innovation
+            </span>
           </div>
-
         </div>
         <div className="rules_points">
           <span className="numbering">③</span>
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; Participants can provide maximum one entry per theme and can take part in maximum of 2 themes.</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; Participants can provide maximum one entry per
+            theme and can take part in maximum of 2 themes.
+          </span>
           {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; Participants can provide maximum one entry per theme and can take part in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maximum of 2 themes.</span> */}
         </div>
         <div className="rules_points">
           <span className="numbering">④</span>
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; The winning logo will be the property of MCKV INSTITUTE OF ENGINEERING from the date theyare received and will be used in all mediums required.</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; The winning logo will be the property of MCKV
+            INSTITUTE OF ENGINEERING from the date theyare received and will be
+            used in all mediums required.
+          </span>
           {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; The winning logo will be the property of MCKV INSTITUTE OF ENGINEERING from the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date theyare received and will be used in all mediums required.</span> */}
         </div>
         <div className="rules_points">
           <span className="numbering">⑤</span>
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; Last Date for submission is 30th November, 2022.</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; Last Date for submission is 30th November, 2022.
+          </span>
         </div>
       </div>
       <Heading title="GUIDELINES" />
@@ -70,42 +91,61 @@ function Event() {
         <div className="rules_points">
           <span className="numbering">①</span>
           {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; The contest is open to all members of the staff and students of MCKV Institute of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering.</span> */}
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; Logo must include the word "PRAGATI 2k23".</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; Logo must include the word "PRAGATI 2k23".
+          </span>
         </div>
         <div className="rules_points">
           <span className="numbering">③</span>
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; Logo must be an original work of the entrant.</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; Logo must be an original work of the entrant.
+          </span>
           {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; Participants can provide maximum one entry per theme and can take part in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maximum of 2 themes.</span> */}
         </div>
         <div className="rules_points">
           <span className="numbering">④</span>
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; Logo may include any colour shapes or format.</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; Logo may include any colour shapes or format.
+          </span>
           {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; The winning logo will be the property of MCKV INSTITUTE OF ENGINEERING from the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date theyare received and will be used in all mediums required.</span> */}
         </div>
         <div className="rules_points">
           <span className="numbering">⑤</span>
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; Logo artwork should be at least 2 inches x 2 inches.</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; Logo artwork should be at least 2 inches x 2
+            inches.
+          </span>
         </div>
         <div className="rules_points">
           <span className="numbering">⑥</span>
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; File should be of high resolution (over 300dpi) and should look clean (not pixelated or bit-mapped)
-when viewed on screen at 100%.</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; File should be of high resolution (over 300dpi)
+            and should look clean (not pixelated or bit-mapped) when viewed on
+            screen at 100%.
+          </span>
         </div>
         <div className="rules_points">
           <span className="numbering">⑦</span>
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; The design can be submitted in any format. JPEG, .PNG, .PDF but the participant(s) will also be
-required to submit the source file EPS/CDR/SVG/PNG/PSD of the original file (The winner might
-belater asked to submit in Vector Format).</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; The design can be submitted in any format. JPEG,
+            .PNG, .PDF but the participant(s) will also be required to submit
+            the source file EPS/CDR/SVG/PNG/PSD of the original file (The winner
+            might belater asked to submit in Vector Format).
+          </span>
         </div>
         <div className="rules_points">
           <span className="numbering">⑧</span>
-          <span className="rule_point">&nbsp;&nbsp;&nbsp; All logo design must be adaptable onto any form/surface of MCKV INSTITUTE OF
-ENGINEERING-PRAGATI publicity materials, including but not limited to, websites, banners,
-letterheads, flyers, poster, etc.</span>
+          <span className="rule_point">
+            &nbsp;&nbsp;&nbsp; All logo design must be adaptable onto any
+            form/surface of MCKV INSTITUTE OF ENGINEERING-PRAGATI publicity
+            materials, including but not limited to, websites, banners,
+            letterheads, flyers, poster, etc.
+          </span>
         </div>
       </div>
+      <GoToTop />
     </section>
-  )
+  );
 }
 
-export default Event
+export default Event;

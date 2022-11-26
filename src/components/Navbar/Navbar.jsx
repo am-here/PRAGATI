@@ -48,8 +48,8 @@ function Navbar() {
             </HashLink>
           </span>
           <span className="nav-items">
-            <HashLink to="/#faq" className="nav-links">
-              FAQ
+            <HashLink to="/contact" className="nav-links">
+              Contacts
             </HashLink>
           </span>
         </div>

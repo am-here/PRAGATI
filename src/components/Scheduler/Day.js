@@ -2,6 +2,8 @@
 import React from "react";
 import UnderCunstruction from "../../resources/UnderCunstruction";
 import Heading from "../Heading/index";
+import GoToTop from "./../GoToTop";
+
 // import Scheduler from "./Scheduler";
 import "./Scheduler.css";
 
@@ -30,6 +32,7 @@ function Day() {
         {day === "day1" && <Scheduler />}
         {day === "day2" && <Scheduler />}
       </div> */}
+      <GoToTop />
     </>
   );
 }

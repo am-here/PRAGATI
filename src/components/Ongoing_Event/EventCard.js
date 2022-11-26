@@ -12,7 +12,6 @@ function Ongoing() {
           <div className="EventCardRow">
             {EventData.map((element) => {
               return (
-                
                   <div className="EventCardCol">
                     <Link to="/schedule" className="">
                     <img

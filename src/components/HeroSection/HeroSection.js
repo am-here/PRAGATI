@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import Header_img from "../../resources/PRAGATI.png";
+import Header_img from "../../resources/t2.gif";
 import "./HeroSection.css";
 
 import TextScrambler from "react-scramble-text";
@@ -50,7 +50,7 @@ function HeroSection() {
 
   return (
     <>
-      <div className="hero-container">
+      <div className="hero-container" id="home">
         <img className="HeroSectionimg" src={Header_img} alt="header_img" />
         <h1 className="HeroSectionHeading">
           PRAGATI <span className="HeroSectionHeadingSpan">2K23</span>

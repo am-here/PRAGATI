@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
 
 .HeroSectionimg {
     object-fit: cover;
@@ -7,6 +9,7 @@
     position: fixed;
     z-index: -2;
     background-attachment: fixed;
+    filter: brightness(50%);
 
 }
 
@@ -22,15 +25,9 @@
     align-items: center;
      object-fit: contain;
 }
-/* .fadeBottom{
-    width: 100%;
-    position: absolute;
-    bottom: 10px;
-    height: 8rem;
-    background: rgb(206, 175, 3);
-} */
+
 .HeroSectionHeading {
-    font-family: 'Koh Santepheap', cursive;
+    font-family: 'Koh Santepheap', cursive;    
     color: #fff;
     font-size: 90px;
     margin-top: -40px;
@@ -40,6 +37,7 @@
         -1px -1px 0 #000;
 }
 .HeroSectionHeadingSpan{
+    font-family: 'Rubik Marker Hatch', cursive;
     color: rgb(206, 175, 3);
 }
 
@@ -47,9 +45,10 @@
 
     margin-top: 8px;
     color: #fff;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 400;
     letter-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
     
 
 }

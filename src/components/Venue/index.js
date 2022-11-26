@@ -107,6 +107,7 @@ function Venue() {
                 <img
                   src="https://img.icons8.com/color/48/000000/marker--v1.png"
                   className="lg:w-10 w-[6vw]"
+                  alt="icon"
                 />
                 <p className="text-white  lg:text-2xl font-semibold pl-2">
                   MCKV Institute of Engineering,Howrah
@@ -116,8 +117,10 @@ function Venue() {
               <iframe
                // className="rounded-xl lg:w-full w-[80vw] lg:h-2/6  " 
                //clasNmae="w-[80vw] h-[30vw] "
-                className="m"
+                //className="m"
                 
+                title="mckv map"
+                className=" m rounded-xl lg:w-full w-[80vw] lg:h-full h-[30vw]"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.9151916279384!2d88.34551381399842!3d22.619641936944895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89d65da7b3775%3A0x30915f7e98f1b0d5!2sMCKV%20Institute%20of%20Engineering!5e0!3m2!1sen!2sin!4v1669300666177!5m2!1sen!2sin"
                 width="100%"
                 height="200px"

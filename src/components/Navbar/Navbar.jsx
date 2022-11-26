@@ -25,6 +25,7 @@ function Navbar() {
           {/* <img src={logo} alt="LOGO" className="nav-logo" /> */}
           Pragati
         </Link>
+       
         <div className="items">
           <span className="nav-items">
             <Link to="/" className="nav-links">

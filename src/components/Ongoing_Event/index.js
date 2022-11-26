@@ -1,25 +1,26 @@
-import React from 'react'
+import React from "react";
 import Heading from "../Heading";
 function Ongoing() {
   return (
     <>
-    <Heading title="EVENTS"/>
-    <footer className="footer">
-        <div className="row">
-          <div className="col">
-            <img
-              src={require(`../../resources/logo_comp.png`)}
-              alt="Comp1"
-              className="card"
-            />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-              rerum veniam, atque esse dignissimos et officia reprehenderit
-              possimus facere aliquam accusantium
-            </p>
-          </div>
-          <div className="col colf">
-            {/* <h3>
+      <div id="events" style={{ paddingTop: "50px" }}>
+        <Heading title="EVENTS" />
+        <footer className="footer">
+          <div className="row">
+            <div className="col">
+              <img
+                src={require(`../../resources/logo_comp.png`)}
+                alt="Comp1"
+                className="card"
+              />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
+                rerum veniam, atque esse dignissimos et officia reprehenderit
+                possimus facere aliquam accusantium
+              </p>
+            </div>
+            <div className="col colf">
+              {/* <h3>
               Address{" "}
               <div className="underline">
                 <span className="uspan"></span>
@@ -30,9 +31,9 @@ function Ongoing() {
             <p>West Bengal, India, 711204</p>
             <p className="email-id">mckvie@gmail.com</p>
             <h4>+91 89106 31623</h4> */}
-          </div>
-          <div className="col colf">
-            {/* <h3>
+            </div>
+            <div className="col colf">
+              {/* <h3>
               Links{" "}
               <div className="underline">
                 <span className="uspan"></span>
@@ -65,9 +66,9 @@ function Ongoing() {
                 </HashLink>
               </li>
             </ul> */}
-          </div>
-          <div className="col">
-            {/* <h3>
+            </div>
+            <div className="col">
+              {/* <h3>
               Register{" "}
               <div className="underline">
                 <span className="uspan"></span>
@@ -114,15 +115,16 @@ function Ongoing() {
                 <i className="fa-brands fa-linkedin"></i>
               </Link>
             </div> */}
+            </div>
           </div>
-        </div>
-        {/* <hr className="hr" />
+          {/* <hr className="hr" />
         <h3 className="copyright">
           Made by Coders Club with <span className="span">&#9829;</span>{" "}
         </h3> */}
-      </footer>
+        </footer>
+      </div>
     </>
-  )
+  );
 }
 
-export default Ongoing
+export default Ongoing;

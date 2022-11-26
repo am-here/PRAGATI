@@ -34,4 +34,8 @@
     border-radius: 20px;
      width: 80vw; 
     max-width: 100%;
+  }
+#venue{
+    padding-top: 50px;
+    background-color: rgb(38, 39, 40);
 }

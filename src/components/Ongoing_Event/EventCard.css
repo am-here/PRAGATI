@@ -33,7 +33,7 @@
     margin-top: 1em;
     text-align: justify;
     color: rgb(196, 195, 195);
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 @media only screen and (max-width:1170px) {

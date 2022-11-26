@@ -12,16 +12,17 @@ function Ongoing() {
           <div className="EventCardRow">
             {EventData.map((element) => {
               return (
-                <Link to="/rules" className="">
                   <div className="EventCardCol">
+                    <Link to="/schedule" className="">
                     <img
                       src={require(`../../resources/${element.image}`)}
                       alt="Comp1"
                       className="EventCardImg"
                     />
+                    </Link>
                     <p className="EventCardPara">{element.description}</p>
                   </div>
-                </Link>
+                
               );
             })}
           </div>

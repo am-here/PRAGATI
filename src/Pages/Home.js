@@ -9,7 +9,7 @@ function Home() {
     <>
       <HeroSection />
       <EventCard />
-      <Ongoing />
+      {/* <EventCard /> */}
       <Venue />
     </>
   );

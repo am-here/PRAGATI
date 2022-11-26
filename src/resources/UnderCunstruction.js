@@ -1,6 +1,6 @@
 import React from "react";
-import "./Under_Cunstruction.css";
-function Under_Cunstruction() {
+import "./UnderCunstruction.css";
+function UnderCunstruction() {
   return (
     <>
       <h1 className="underCunstruction">This Page is Under Cunstruction!</h1>
@@ -8,4 +8,4 @@ function Under_Cunstruction() {
   );
 }
 
-export default Under_Cunstruction;
+export default UnderCunstruction;

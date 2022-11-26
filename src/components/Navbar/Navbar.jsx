@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
-// import EventData from "../Ongoing_Event/EventData";
 
 import "./Navbar.css";
 
@@ -34,21 +33,13 @@ function Navbar() {
             </HashLink>
           </span>
           <span className="nav-items">
-            <Link to="/schedule" className="nav-links">
-              Schedule
-            </Link>
             <HashLink to="/#events" className="nav-links">
               Events
             </HashLink>
           </span>
           <span className="nav-items">
-            <HashLink to="/#event" className="nav-links">
-              Event
-            </HashLink>
-          </span>
-          <span className="nav-items">
-            <HashLink to="/#contact" className="nav-links">
-              Contact
+            <HashLink to="/schedule" className="nav-links">
+              Schedule
             </HashLink>
           </span>
           <span className="nav-items">

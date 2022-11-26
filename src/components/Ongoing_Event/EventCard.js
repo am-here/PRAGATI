@@ -6,7 +6,7 @@ import "./EventCard.css";
 function Ongoing() {
   return (
     <>
-      <div id="event">
+      <div id="events">
         <Heading title="EVENTS" />
         <footer className="EventCard">
           <div className="EventCardRow">

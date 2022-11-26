@@ -15,15 +15,17 @@ body{
     /* box-shadow: ; */
     box-shadow: rgba(252, 252, 252, 0.35) 0px 5px 15px!important;
     /* background-color: rgb(211, 238, 7) !important; */
-    padding: 2em 3em;
+    padding: 1em 2em !important;
 }
 .date{
     color: aliceblue;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     font-weight: 100 !important;
 }
 #description{
-    margin: 1.5em 0 2em 0;
+    margin: 2em 0 2em 0;
+    color: rgb(97, 97, 97);
+    font-size: 5px;
 }
 
 img{
@@ -31,63 +33,44 @@ img{
     width: 100%;
 }
 .btn-rule{
-    color: rgb(4, 193, 4);
+    
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1.5em;
+    padding: 1px 1em;
+    border-radius: 4px;
     text-decoration: none;
-    transition: 6ms;
-    margin-right: 1rem;
+    transition: 0.2s;
+    /* margin-right: 1rem; */
+    color: rgb(141, 104, 13);
+        border: 1px solid rgb(141, 104, 13);
+        background-color: #fff;
 }
-.btn-register{
-    color: rgb(41, 41, 238);
-    font-weight: 500;
-    font-size: 1em;
-    text-decoration: none;
-    margin: 0 9px;
-    transition: 6ms;
-    margin-right: 1rem;
 
-}
-.btn-contact{
-   
-    color: red;
-    font-weight: 500;
-    font-size: 1em;
-    text-decoration: none;
-    transition: 6ms;
-}
 .btn-rule:hover{
-    color: green;
+    color: #fff;
+        background-color: rgb(141, 104, 13);
 }
-.btn-register:hover{
-    color: rgb(6, 6, 158);
-}
-.btn-contact:hover{
-    color: rgb(120, 5, 5);
-}
+
 .day-button{
 
-display: flex;
-margin: auto;
-/* margin-left: 1rem; */
-align-items: center;
-justify-content: center;
-width: 100%;
-flex-direction: row;
-justify-content: center;
-border-radius: 0.5rem;
-padding: 0.5rem 0;
-margin-top: 80px;
-overflow: hidden;
-/* box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px ; */
-
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    margin-top: 80px;
+    overflow: hidden;
 }
 .day1, .day2{
     outline: none;
     border: none;
     padding: 0.3rem 3rem;
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     background-color: rgb(38, 39, 40);
     /* margin: 0 15px; */
@@ -95,16 +78,16 @@ overflow: hidden;
 
 }
 .item-active{
-outline: none;
-border: none;
-padding: 0.3rem 3rem;
-color: #fff;
-font-size: 3rem;
-font-weight: 500;
-background-color: rgb(141, 104, 13);
-border-radius: 0.5rem;
-margin: 0 7px;
-box-shadow: rgba(190, 190, 190, 0.1) 0px 4px 12px;
+    outline: none;
+    border: none;
+    padding: 0.3rem 3rem;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 500;
+    background-color: rgb(141, 104, 13);
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    box-shadow: rgba(190, 190, 190, 0.1) 0px 4px 12px;
 }
 
 
@@ -145,10 +128,19 @@ box-shadow: rgba(190, 190, 190, 0.1) 0px 4px 12px;
         }
 
                 .day-button {
-        
-                    
                     width: 45%;
-        
                 }
     
+}
+
+@media only screen and (max-width:600px) {
+    .vertical-timeline-element-title {
+            padding-top: 0.25em;
+            font-size: 1em !important;
+        }
+    #description {
+            margin: 2em 0 2em 0;
+            color: rgb(97, 97, 97);
+            font-size: 2px;
+        }
 }

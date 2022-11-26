@@ -3,6 +3,8 @@ import "react-multi-carousel/lib/styles.css";
 // import React, { useState } from "react";
 import "./Teachers.css";
 import Heading from "./../Heading/index";
+import GoToTop from "./../GoToTop";
+
 // import Data from "./Model.js";
 // import Card from "./Card";
 import UnderCunstruction from "../../resources/UnderCunstruction";
@@ -77,6 +79,7 @@ function Teachers() {
             ))}
           </Carousel>
         </div> */}
+        <GoToTop />
       </div>
     </>
   );

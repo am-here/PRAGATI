@@ -7,10 +7,13 @@ import TextScrambler from "react-scramble-text";
 import "react-scramble-text/dist/index.css";
 function HeroSection() {
   const phrases = [
-    "THE MOST SECURE,",
-    "THE MOST PRIVATE,",
-    "YET THE SIMPLEST ONLINE MESSAGING APP",
-    "EVER BUILT.",
+    "MCKVIE TECHNICAL FESTIVAL",
+    "INNOVATION TECHNOLOGY ROBOTICS",
+    "CONNECTING MINDS",
+    "LARGEST SCIENCE AND TECHNOLOGY FESTIVAL",
+    "CREATING FUTURE",
+    "GATHERING OF INNOVATION AND IDEAS",
+    "LEARN BY DOING",
   ];
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
@@ -53,7 +56,7 @@ function HeroSection() {
       <div className="hero-container" id="home">
         <img className="HeroSectionimg" src={Header_img} alt="header_img" />
         <h1 className="HeroSectionHeading">
-          PRAGATI <span className="HeroSectionHeadingSpan">2K23</span>
+          pragati <span className="HeroSectionHeadingSpan">2023</span>
         </h1>
         <TextScrambler phrases={phrases} speed={20} pauseTime={800} />
         <section className="countDays">

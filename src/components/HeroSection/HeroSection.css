@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 
 .HeroSectionimg {
     object-fit: cover;
@@ -27,9 +31,9 @@
 }
 
 .HeroSectionHeading {
-    font-family: 'Koh Santepheap', cursive;    
+    font-family: 'Handlee', cursive;    
     color: #fff;
-    font-size: 90px;
+    font-size: 9rem;
     margin-top: -40px;
     text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -37,7 +41,8 @@
         -1px -1px 0 #000;
 }
 .HeroSectionHeadingSpan{
-    font-family: 'Rubik Marker Hatch', cursive;
+    font-family: 'Dosis', cursive;
+    font-weight: 100;
     color: rgb(206, 175, 3);
 }
 

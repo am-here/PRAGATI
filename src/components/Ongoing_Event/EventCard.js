@@ -13,7 +13,7 @@ function Ongoing() {
             {EventData.map((element) => {
               return (
                   <div className="EventCardCol">
-                    <Link to="/schedule" className="">
+                    <Link to="/rules" className="">
                     <img
                       src={require(`../../resources/${element.image}`)}
                       alt="Comp1"

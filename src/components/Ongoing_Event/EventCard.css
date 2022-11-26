@@ -1,3 +1,6 @@
+#events{
+    padding-top: 50px;
+}
 .EventCard{
     background-color: var(--bg-color);
 }

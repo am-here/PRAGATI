@@ -77,7 +77,8 @@ function Footer() {
               <input
                 className="input"
                 type="email"
-                placeholder="Enter your email id"
+                placeholder="Under Construction"
+                disabled
                 required
               />
               <button className="button" type="submit">

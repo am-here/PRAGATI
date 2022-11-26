@@ -11,6 +11,7 @@
 }
 .content_img{
     width: 500px;
+    border-radius: 1em;
 }
 .content_col1{
     flex-basis: 40%;

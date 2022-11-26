@@ -1,12 +1,13 @@
 import React from "react";
 import "./Scheduler.css";
-import timelineElements from "./Event_data";
+import timelineElements from "./Schedule_data";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import demo_logo from "./demo_logo.png";
+import { Link } from "react-router-dom";
 
 function Scheduler() {
   const isIcon = { background: "#fff" };
@@ -36,15 +37,15 @@ function Scheduler() {
               </h4>
               <p id="description">{element.description}</p>
 
-              <a href={element.button1Url} className="btn-rule">
+              <Link href={element.button1Url} className="btn-rule">
                 {element.button1Text}
-              </a>
-              <a href={element.button2Url} className="btn-register">
+              </Link>
+              {/* <a href={element.button2Url} className="btn-register">
                 {element.button2Text}
               </a>
               <a href={element.button3Url} className="btn-contact">
                 {element.button3Text}
-              </a>
+              </a> */}
             </VerticalTimelineElement>
           );
         })}

@@ -94,6 +94,7 @@ function Venue() {
                 <img
                   src="https://img.icons8.com/color/48/000000/marker--v1.png"
                   className="lg:w-10 w-[6vw]"
+                  alt="bdhhhd"
                 />
                 <p className="text-white  lg:text-2xl font-semibold pl-2">
                   MCKV Institute of Engineering,Howrah

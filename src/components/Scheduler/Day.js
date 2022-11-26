@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Under_Cunstruction from "../../resources/Under_Cunstruction";
 import Heading from "../Heading/index";
 import Scheduler from "./Scheduler";
 import "./Scheduler.css";
@@ -8,8 +9,9 @@ function Day() {
 
   return (
     <>
-      <Heading title="SCHEDULE"/>
-      <div className="day-button">
+      <Heading title="SCHEDULE" />
+      <Under_Cunstruction />
+      {/* <div className="day-button">
         <button
           className={day === "day1" ? "item-active" : "day1"}
           onClick={() => setDay("day1")}
@@ -26,7 +28,7 @@ function Day() {
       <div>
         {day === "day1" && <Scheduler />}
         {day === "day2" && <Scheduler />}
-      </div>
+      </div> */}
     </>
   );
 }

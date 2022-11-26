@@ -1,6 +1,8 @@
 .F_heading {
     background-color: var(--bg-color);
     position: relative;
+    margin-top: 50px;
+    margin-bottom: -50px;
 }
 
 .front-heading {

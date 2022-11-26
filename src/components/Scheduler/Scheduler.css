@@ -4,6 +4,9 @@ body{
    
     
 }
+.Days{
+    padding-top: 50px;
+}
 .vertical-timeline-element-title{
     padding-top: 0.25em;
     font-size: 2em !important;

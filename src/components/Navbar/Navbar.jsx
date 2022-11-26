@@ -26,16 +26,20 @@ function Navbar() {
           {/* <img src={logo} alt="LOGO" className="nav-logo" /> */}
           Pragati
         </Link>
+
         <div className="items">
           <span className="nav-items">
-            <Link to="/" className="nav-links">
-              HOME
-            </Link>
+            <HashLink to="/#home" className="nav-links">
+              Home
+            </HashLink>
           </span>
           <span className="nav-items">
             <Link to="/schedule" className="nav-links">
               Schedule
             </Link>
+            <HashLink to="/#events" className="nav-links">
+              Events
+            </HashLink>
           </span>
           <span className="nav-items">
             <HashLink to="/#event" className="nav-links">

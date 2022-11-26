@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 
-import Header_img from "../../resources/PRAGATI.png";
+import Header_img from "../../resources/t2.gif";
 import "./HeroSection.css";
 
 import TextScrambler from "react-scramble-text";
@@ -12,10 +12,45 @@ function HeroSection() {
     "YET THE SIMPLEST ONLINE MESSAGING APP",
     "EVER BUILT.",
   ];
+  const [timerDays, setTimerDays] = useState("00");
+  const [timerHours, setTimerHours] = useState("00");
+  const [timerMinutes, setTimerMinutes] = useState("00");
+  const [timerSeconds, setTimerSeconds] = useState("00");
+
+  let interval = useRef();
+
+  const setTimer = () => {
+    const countDownDate = new Date("Jan 16, 2023 09:00:00").getTime();
+    interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countDownDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance < 0) {
+        clearInterval(interval.current);
+      } else {
+        setTimerDays(days);
+        setTimerHours(hours);
+        setTimerMinutes(minutes);
+        setTimerSeconds(seconds);
+      }
+    }, 1000);
+  };
+  useEffect(() => {
+    setTimer();
+    let x = interval.current;
+    return () => clearInterval(x);
+  });
 
   return (
     <>
-      <div className="hero-container">
+      <div className="hero-container" id="home">
         <img className="HeroSectionimg" src={Header_img} alt="header_img" />
         <h1 className="HeroSectionHeading">
           PRAGATI <span className="HeroSectionHeadingSpan">2K23</span>
@@ -24,20 +59,20 @@ function HeroSection() {
         <section className="countDays">
           <ul className="countDown">
             <li>
-              <span className="timeNumbers">167</span>
+              <span className="timeNumbers">{timerDays}</span>
               <p className="time-description">Days</p>
             </li>
             <li>
-              <span className="timeNumbers">167</span>
-              <p className="time-description">Days</p>
+              <span className="timeNumbers">{timerHours}</span>
+              <p className="time-description">Hours</p>
             </li>
             <li>
-              <span className="timeNumbers">167</span>
-              <p className="time-description">Days</p>
+              <span className="timeNumbers">{timerMinutes}</span>
+              <p className="time-description">Minutes</p>
             </li>
             <li>
-              <span className="timeNumbers">167</span>
-              <p className="time-description">Days</p>
+              <span className="timeNumbers">{timerSeconds}</span>
+              <p className="time-description">Seconds</p>
             </li>
           </ul>
           <p

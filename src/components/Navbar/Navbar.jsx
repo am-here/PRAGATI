@@ -25,7 +25,7 @@ function Navbar() {
           {/* <img src={logo} alt="LOGO" className="nav-logo" /> */}
           Pragati
         </Link>
-       
+
         <div className="items">
           <span className="nav-items">
             <HashLink to="/#home" className="nav-links">
@@ -33,9 +33,9 @@ function Navbar() {
             </HashLink>
           </span>
           <span className="nav-items">
-            <Link to="/#events" className="nav-links">
+            <HashLink to="/#events" className="nav-links">
               Events
-            </Link>
+            </HashLink>
           </span>
           <span className="nav-items">
             <HashLink to="/schedule" className="nav-links">

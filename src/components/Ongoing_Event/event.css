@@ -1,0 +1,36 @@
+.event_page{
+    color: #fff;
+}
+.content_row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.content_img{
+    width: 500px;
+}
+.content_col1{
+    flex-basis: 40%;
+    padding: 10px 0;
+}
+.content_col2{
+    flex-basis: 60%;
+    padding: 10px 30px;
+    padding-left: 5rem;
+    font-size: 1.8rem;
+}
+.rules{
+    padding: 50px 70px;
+    font-size: 2rem;
+    /* list-style: square; */
+}
+.sub_rules_points{
+    padding-left: 30px;
+    margin-top: 4px;
+}
+.rules_points{
+    margin-bottom: 7px;
+}

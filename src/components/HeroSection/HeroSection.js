@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import TextScramble from "./TextScramble";
-// import { Link } from "react-router-dom";
-// import Header_img from "./Header_img.png";
+import React from "react";
+
 import Header_img from "../../resources/PRAGATI.png";
 import "./HeroSection.css";
 
+import TextScrambler from "react-scramble-text";
+import "react-scramble-text/dist/index.css";
 function HeroSection() {
   const phrases = [
     "THE MOST SECURE,",
@@ -12,20 +12,6 @@ function HeroSection() {
     "YET THE SIMPLEST ONLINE MESSAGING APP",
     "EVER BUILT.",
   ];
-  useEffect(() => {
-    const el = document.getElementById("text");
-    const fx = new TextScramble(el);
-
-    let counter = 0;
-    const next = () => {
-      fx.setText(phrases[counter]).then(() => {
-        setTimeout(next, 1000);
-      });
-      counter = (counter + 1) % phrases.length;
-    };
-
-    next();
-  }, [phrases]);
 
   return (
     <>
@@ -34,7 +20,7 @@ function HeroSection() {
         <h1 className="HeroSectionHeading">
           PRAGATI <span className="HeroSectionHeadingSpan">2K23</span>
         </h1>
-        <p id="text"></p>
+        <TextScrambler phrases={phrases} speed={20} pauseTime={800} />
         <section className="countDays">
           <ul className="countDown">
             <li>
@@ -67,20 +53,7 @@ function HeroSection() {
             Coming Soon
           </p>
         </section>
-        {/* <div className="hero-btns">
-        <button className="btn--primary">
-          <a to="/blogs" className="btn-link">
-            Get Started
-            <i className="fas fa-suitcase-rolling" />
-          </a>
-        </button>
-        <button className="btn--primary">
-          <a to="/map" className="btn-link">
-            Explore
-            <i className="far fa-snowflake" />
-          </a>
-        </button>
-      </div> */}
+
         <div className="fadeBottom"></div>
       </div>
     </>

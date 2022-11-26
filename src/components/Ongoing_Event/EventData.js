@@ -2,7 +2,7 @@ const EventData = [
   {
     image: "logo_comp.png",
     description:
-      "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "A self explanatory logo of prescribed dimensions is invited for our techfest PRAGATI.",
   },
 ];
 

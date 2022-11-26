@@ -14,9 +14,7 @@ function Footer() {
               className="logo"
             />
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-              rerum veniam, atque esse dignissimos et officia reprehenderit
-              possimus facere aliquam accusantium
+            Pragati gives young minds an opportunity to showcase their skills and compete with other likeminded individuals and the best talent will emerge as the winner. Come join us in this expedition!
             </p>
           </div>
           <div className="col colf">

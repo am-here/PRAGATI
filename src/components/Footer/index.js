@@ -12,9 +12,12 @@ function Footer() {
               src={require(`../../resources/demo_logo.png`)}
               alt="Logo"
               className="logo"
+              draggable={false}
             />
             <p>
-            Pragati gives young minds an opportunity to showcase their skills and compete with other likeminded individuals and the best talent will emerge as the winner. Come join us in this expedition!
+              Pragati gives young minds an opportunity to showcase their skills
+              and compete with other likeminded individuals and the best talent
+              will emerge as the winner. Come join us in this expedition!
             </p>
           </div>
           <div className="col colf">

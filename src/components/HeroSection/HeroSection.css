@@ -33,7 +33,7 @@
 .HeroSectionHeading {
     font-family: 'Handlee', cursive;    
     color: #fff;
-    font-size: 9rem;
+    font-size: 8rem;
     margin-top: -40px;
     text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -57,42 +57,6 @@
     
 
 }
-
-.hero-btns {
-    display: flex;
-    margin: 12px 12px;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.hero-btns .btn--primary {
-    background: transparent;
-    border: 2px solid white;
-    border: 1px;
-    margin: 17px 30px;
-    text-align: center;
-}
-
-.hero-btns .btn--primary .btn-link {
-
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    border: 2px solid white;
-    border-radius: 1px;
-    padding: 10px 12px;
-}
-
-.hero-btns .btn--primary .btn-link>i {
-    padding-left: 10px;
-}
-
-.hero-btns .btn--primary .btn-link:hover {
-    background: white;
-    color: black;
-    transition: 0.2s;
-}
 .countDays{
     color: #fff;
     margin: 0px auto;
@@ -107,6 +71,7 @@
     list-style-type: none;
     margin-bottom: 10px;
     margin-left: 0;
+    padding-left: 2rem;
 }
 .countDown>li{
     display: inline-block;
@@ -130,31 +95,80 @@
     text-align: center;
     position: relative;
     top: 0px;
-}    
+} 
+.coming-soon{
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 0;
+        letter-spacing: 0.1rem;
+        margin-top: 12px;
+        color: rgb(206, 175, 3);
+    }
 @media screen and (max-width: 960px) {
     .hero-container>h1 {
         font-size: 60px;
-        margin-top: -150px;
+        margin-top: 50px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .hero-container>h1 {
-        font-size: 30px;
-        margin-top: -100px;
+         margin-top: 100px;
     }
 
-    .hero-container>p {
+    .hero-container>div>span{
         font-size: 22px;
     }
 
-    .hero-btns {
-        display: flex;
-        flex-direction: column;
+}
+@media screen and (max-width: 550px){
+    .hero-container>h1 {
+            font-size: 60px;
+        }
+    .hero-container>div>span {
+            font-size: 15px;
+        }
+    .countDays{
+            margin-top: 30px;
+        }
+    .coming-soon{
+        margin-top: 10px;
+        font-size: 1rem;
+        }
+    .countDown>li{
+        margin-right: 1rem;
+        width: 4rem;
+     }
+    .timeNumbers{
+        font-size: 1.5rem;
+        margin-bottom: 2px;
+    }
+        .time-description{
+            font-weight: 200;
+        }
+}
+@media screen and (max-width: 300px){
+.hero-container>h1 {
+        font-size: 40px;
     }
 
-    .hero-btns .btn--primary .btn-link {
-        font-size: 15px;
-        font-weight: 200;
+    .hero-container>div>span {
+        font-size: 8px;
     }
+    .countDown{
+        padding-left: 0px;
+    }
+    .countDays {
+        margin-top: 20px;
+        
+    }
+        .countDown>li {
+            margin-right: 0.2rem;
+            width: 4rem;
+        }
+        .timeNumbers {
+            font-size: 1rem;
+            margin-bottom: 2px;
+        }
+        
 }

@@ -12,6 +12,11 @@
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    -moz-user-select: none;
+    -webkit-user-select: none;       
+    -ms-user-select: none;
+    user-select: none;
+       
 }
 @keyframes fadeInAnimation {
     0% {

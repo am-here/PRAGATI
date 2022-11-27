@@ -30,8 +30,8 @@ function Footer() {
             <p>243, G T Road North,</p>
             <p>Liluah, Howrah,</p>
             <p>West Bengal, India, 711204</p>
-            <p className="email-id">mckvie@gmail.com</p>
-            <h4>+91 89106 31623</h4>
+            {/* <p className="email-id">mckvie@gmail.com</p>
+            <h4>+91 89106 31623</h4> */}
           </div>
           <div className="col colf">
             <h3>

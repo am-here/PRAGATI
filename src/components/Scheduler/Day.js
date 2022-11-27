@@ -12,6 +12,7 @@ function Day() {
 
   return (
     <>
+      <div className="mar_add"></div>
       <Heading title="SCHEDULE" />
       <UnderCunstruction />
       {/* <div className="day-button">

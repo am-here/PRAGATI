@@ -3,7 +3,7 @@ import "./UnderCunstruction.css";
 function UnderCunstruction() {
   return (
     <>
-      <h1 className="underCunstruction">This Page is Under Cunstruction!</h1>
+      <h1 className="underCunstruction">This Page is Under Construction!</h1>
     </>
   );
 }

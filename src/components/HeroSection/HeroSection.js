@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
+import TextScrambler from "react-scramble-text";
+import "react-scramble-text/dist/index.css";
 
 import Header_img from "../../resources/t2.gif";
 import "./HeroSection.css";
 
-import TextScrambler from "react-scramble-text";
-import "react-scramble-text/dist/index.css";
 function HeroSection() {
   const phrases = [
     "MCKVIE TECHNICAL FESTIVAL",
@@ -54,7 +54,12 @@ function HeroSection() {
   return (
     <>
       <div className="hero-container" id="home">
-        <img className="HeroSectionimg" src={Header_img} alt="header_img" />
+        <img
+          className="HeroSectionimg"
+          src={Header_img}
+          alt="header_img"
+          draggable={false}
+        />
         <h1 className="HeroSectionHeading">
           pragati <span className="HeroSectionHeadingSpan">2023</span>
         </h1>
@@ -78,21 +83,8 @@ function HeroSection() {
               <p className="time-description">Seconds</p>
             </li>
           </ul>
-          <p
-            style={{
-              fontSize: "2rem",
-              fontWeight: " 700",
-              padding: "0",
-              letterSpacing: "0.1rem",
-              marginTop: "12px",
-              color: "rgb(206, 175, 3)",
-            }}
-          >
-            Coming Soon
-          </p>
+          <p className="coming-soon">Coming Soon</p>
         </section>
-
-        <div className="fadeBottom"></div>
       </div>
     </>
   );

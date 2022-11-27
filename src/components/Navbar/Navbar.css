@@ -59,3 +59,50 @@
 .nav-links:hover::after{
     width: 100%;
 }
+.menu-btn{
+    display: none;
+}
+.logo-menu{
+    display: flex;
+}
+@media screen and (max-width: 1020px){
+    .nav-container{
+        padding: 0px 30px;
+        flex-direction: column;
+    }
+    .menu-btn {
+            display: block;
+        }
+        .items{
+            width: 100%;
+            margin-right: 0px;
+            height: 100vh;
+            position: fixed;
+            top: 80px;
+            right: 0%;
+            text-align: center;
+            background: var(--bg-color);
+            transition: all 1s ease;
+        }
+        .hide{
+            right: -100%;
+        }
+        .nav-items{
+            display: block;
+        }
+        .logo{
+            font-size: 30px;
+        }
+        .navbar{
+            width: 100%;
+        }
+        .logo-menu{
+            width: 100%;
+            justify-content: space-between;
+        }
+        .nav-items{
+            margin: 30px;
+            padding: 20px;
+        }
+                
+}

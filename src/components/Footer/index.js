@@ -88,7 +88,7 @@ function Footer() {
                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
               </button>
             </form>
-            <div className="social-icons">
+            {/* <div className="social-icons">
               <Link
                 target="_blank"
                 to="https://www.facebook.com/mckvieoriginal/"
@@ -116,7 +116,7 @@ function Footer() {
               >
                 <i className="fa-brands fa-linkedin"></i>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
         <hr className="hr" />

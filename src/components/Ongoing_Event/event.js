@@ -6,8 +6,10 @@ import GoToTop from "../GoToTop";
 // var event_name = "LOGO COMPETITION";
 
 function Event() {
+  var reg_link = 'https://docs.google.com/forms/d/e/1FAIpQLSfOOXUYLHLcfZeoX4BJ5o2rna3LHuRxqnOYdCYhNcCa0NaYlw/viewform'
   return (
     <section className="event_page">
+      <div className="mar_add_event"></div>
       <Heading title="EVENT" />
       <div className="content_row">
         <div className="content_col1">
@@ -28,6 +30,7 @@ function Event() {
           </p>
           <p>🗓️Submission Date - 30th November,2022</p>
           <p>✅Open to all staff members and students of MCKVIE.</p>
+          <div className="reg"><a target="_blank" rel="noopener noreferrer" href={reg_link}>REGISTER</a></div>
         </div>
       </div>
       <Heading title="RULES" />

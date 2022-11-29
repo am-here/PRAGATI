@@ -8,6 +8,7 @@ import GoToTop from "../GoToTop";
 function Event() {
   return (
     <section className="event_page">
+      <div className="mar_add_event"></div>
       <Heading title="EVENT" />
       <div className="content_row">
         <div className="content_col1">

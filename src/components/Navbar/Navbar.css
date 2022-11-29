@@ -43,6 +43,7 @@
 }
 .nav-links {
   color: white;
+  /* color: rgb(206, 175, 3); */
   text-decoration: none;
   font-size: 20px;
   padding: 10px;
@@ -55,11 +56,15 @@
   bottom: 3px;
   width: 0%;
   height: 2px;
-  background-color: white;
+  background-color: rgb(206, 175, 3);
   transition: all 0.5s ease;
 }
 .nav-links:hover::after {
+  color: rgb(206, 175, 3);
   width: 100%;
+}
+.nav-links:hover {
+  color: rgb(206, 175, 3);
 }
 .menu-btn {
   display: none;

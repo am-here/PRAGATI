@@ -2,6 +2,17 @@
   color: #fff;
   margin-top: 2rem;
 }
+.reg {
+  margin-top: 1rem;
+  padding: 0.5em 1em;
+  width: fit-content;
+  background-color: #4c4c4d;
+  border-radius: 0.5rem;
+  transition: 0.7s;
+}
+.reg:hover {
+  color: rgb(206, 175, 3);
+}
 .content_row {
   width: 85%;
   margin: auto;
@@ -22,7 +33,7 @@
   flex-basis: 60%;
   padding: 10px 30px;
   padding-left: 5rem;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 .rules {
   padding: 50px 70px;

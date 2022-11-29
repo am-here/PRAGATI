@@ -88,35 +88,36 @@ function Footer() {
                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
               </button>
             </form>
-            {/* <div className="social-icons">
-              <Link
+            <div className="social-icons">
+              <a
                 target="_blank"
-                to="https://www.facebook.com/mckvieoriginal/"
+                href="https://www.facebook.com/mckvieoriginal/"
+                rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-square-facebook"></i>
-              </Link>
-              <Link
+              </a>
+              <a
                 target="_blank"
-                to="https://www.instagram.com/mckvieofficial/"
+                href="https://www.instagram.com/mckvieofficial/"
                 rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-square-instagram"></i>
-              </Link>
-              <Link
+              </a>
+              <a
                 target="_blank"
-                to="https://wa.me/918910631623/"
+                href="https://wa.me/918910631623/"
                 rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-square-whatsapp"></i>
-              </Link>
-              <Link
+              </a>
+              <a
                 target="_blank"
-                to="https://www.linkedin.com/company/mckvie/"
+                href="https://www.linkedin.com/company/mckvie/"
                 rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-linkedin"></i>
-              </Link>
-            </div> */}
+              </a>
+            </div>
           </div>
         </div>
         <hr className="hr" />

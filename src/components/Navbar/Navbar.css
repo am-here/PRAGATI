@@ -49,6 +49,9 @@
   padding: 10px;
   position: relative;
 }
+.active{
+  color: rgb(206, 175, 3);
+}
 .nav-links::after {
   content: "";
   position: absolute;

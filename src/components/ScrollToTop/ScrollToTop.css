@@ -1,0 +1,41 @@
+.scroll-up-button {
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    background-color: rgb(206, 175, 3);
+    color: white;
+    bottom: 30px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    line-height: 45px;
+    z-index: 9999;
+    opacity: 0;
+    animation: up 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes up {
+    0% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.scroll-up-button.show {
+    opacity: 1;
+}
+
+.scroll-up-button a {
+    text-decoration: none;
+    color: white;
+}

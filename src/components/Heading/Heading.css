@@ -12,6 +12,7 @@
 }
 .front-heading:hover {
   color: rgb(206, 175, 3);
+  color: var(--primary);
 }
 
 .front-heading {
@@ -34,4 +35,9 @@
   font-weight: bold;
   margin: auto;
   text-align: center;
+}
+@media screen and (max-width: 400px) {
+  .front-heading {
+    display: none;
+  }
 }

@@ -13,7 +13,7 @@
   transition: all 0.5s ease-in;
 }
 .nav_black {
-  background: rgb(30, 31, 32);
+  background: var(--bg-color);
 }
 .nav-container {
   width: 100%;
@@ -49,6 +49,10 @@
   padding: 10px;
   position: relative;
 }
+.active {
+  color: rgb(206, 175, 3);
+  color: var(--primary);
+}
 .nav-links::after {
   content: "";
   position: absolute;
@@ -57,14 +61,17 @@
   width: 0%;
   height: 2px;
   background-color: rgb(206, 175, 3);
+  background-color: var(--primary);
   transition: all 0.5s ease;
 }
 .nav-links:hover::after {
   color: rgb(206, 175, 3);
+  color: var(--primary);
   width: 100%;
 }
 .nav-links:hover {
   color: rgb(206, 175, 3);
+  color: var(--primary);
 }
 .menu-btn {
   display: none;

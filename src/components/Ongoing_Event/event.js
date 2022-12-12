@@ -6,59 +6,47 @@ import GoToTop from "../GoToTop";
 // var event_name = "LOGO COMPETITION";
 
 function Event() {
-  var reg_link = 'https://docs.google.com/forms/d/e/1FAIpQLSfOOXUYLHLcfZeoX4BJ5o2rna3LHuRxqnOYdCYhNcCa0NaYlw/viewform'
+  // var reg_link =
+  //   "https://docs.google.com/forms/d/e/1FAIpQLSfOOXUYLHLcfZeoX4BJ5o2rna3LHuRxqnOYdCYhNcCa0NaYlw/viewform";
   return (
     <section className="event_page">
       <div className="mar_add_event"></div>
       <Heading title="EVENTS" />
       <div className="content_row">
-        Category 1: Coding and Design
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;a)	Circuit Design
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;b)	Code-fiesta
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;c)	ML Mania
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;d)	CATIA
-        <br />
-        <br />
-        Category 2: Innovation
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;a)	Innovative Idea Contest
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;b)	Innovative Model Contest
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;c)	Technical poster
-        <br />
-        <br />
-        Category 3: Quiz and Mathematics
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;a)	Math Mania
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;b)	Quiz-o-mania
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;c)	Treasure Hunt
-        <br />
-        <br />
-        Category 4: Gaming
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;a)	NFS Most Wanted
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;b)	FIFA
-        <br />
-        <br />
-        Category 5: Robotics
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;a)	Robo FIFA
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;b)	Robo war
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;c)	Chase the maze
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;d)	Line follower
-        <br />
-        <br />
+        <ul>
+          <li className="heading-list">Category 1: Coding and Design</li>
+          <ol>
+            <li>a) Circuit Design</li>
+            <li>b) Code-fiesta</li>
+            <li>c) ML Mania</li>
+          </ol>
+          <li className="heading-list">Category 2: Innovation</li>
+          <ol>
+            <li>a) Innovative Idea Contest </li>
+            <li>b) Innovative Model Contest</li>
+            <li>c) Technical poster </li>
+          </ol>
+          <li className="heading-list">Category 3: Quiz and Mathematics</li>
+          <ol>
+            <li>a) Math Mania</li>
+
+            <li>b) Quiz-o-mania </li>
+            <li>c) Treasure Hunt</li>
+          </ol>
+          <li className="heading-list">Category 4: Gaming</li>
+          <ol>
+            <li>a) NFS Most Wanted</li>
+            <li>b) FIFA</li>
+            {/* <li>c) ML Mania</li> */}
+          </ol>
+          <li className="heading-list">Category 5: Robotics</li>
+          <ol>
+            <li>a) Robo FIFA </li>
+            <li>b) Robo war</li>
+            <li>c) Chase the maze</li>
+            <li id="last-line">d) Line follower</li>
+          </ol>
+        </ul>
       </div>
       {/* <div className="content_row">
         <div className="content_col1">
@@ -190,6 +178,7 @@ function Event() {
         </div>
       </div>
       <GoToTop /> */}
+      <GoToTop />
     </section>
   );
 }

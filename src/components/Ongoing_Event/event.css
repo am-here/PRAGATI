@@ -14,6 +14,7 @@
   color: rgb(206, 175, 3);
 }
 .content_row {
+  font-size: 2rem;
   width: 85%;
   margin: auto;
   display: flex;
@@ -22,14 +23,13 @@
   justify-content: space-between;
   font-weight: 100;
 }
-.heading-list{
+.heading-list {
   font-weight: 500;
   color: #fff;
   margin-top: 2em;
   margin-bottom: 1em;
 }
-#last-line{
-  
+#last-line {
   padding-bottom: 4em;
 }
 .content_img {

@@ -88,7 +88,9 @@ img {
   margin-left: 2rem;
   box-shadow: rgba(190, 190, 190, 0.1) 0px 4px 12px;
 }
-
+.mar_add_event {
+  margin-top: 2rem;
+}
 @media only screen and (max-width: 1170px) {
   .vertical-timeline-element-date {
     display: block;

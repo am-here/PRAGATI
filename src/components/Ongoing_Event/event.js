@@ -10,8 +10,57 @@ function Event() {
   return (
     <section className="event_page">
       <div className="mar_add_event"></div>
-      <Heading title="EVENT" />
+      <Heading title="EVENTS" />
       <div className="content_row">
+        Category 1: Coding and Design
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;a)	Circuit Design
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;b)	Code-fiesta
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;c)	ML Mania
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;d)	CATIA
+        <br />
+        <br />
+        Category 2: Innovation
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;a)	Innovative Idea Contest
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;b)	Innovative Model Contest
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;c)	Technical poster
+        <br />
+        <br />
+        Category 3: Quiz and Mathematics
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;a)	Math Mania
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;b)	Quiz-o-mania
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;c)	Treasure Hunt
+        <br />
+        <br />
+        Category 4: Gaming
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;a)	NFS Most Wanted
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;b)	FIFA
+        <br />
+        <br />
+        Category 5: Robotics
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;a)	Robo FIFA
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;b)	Robo war
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;c)	Chase the maze
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;d)	Line follower
+        <br />
+        <br />
+      </div>
+      {/* <div className="content_row">
         <div className="content_col1">
           <img
             src={require(`../../resources/logo_comp.png`)}
@@ -37,7 +86,6 @@ function Event() {
       <div className="rules">
         <div className="rules_points">
           <span className="numbering">①</span>
-          {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; The contest is open to all members of the staff and students of MCKV Institute of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering.</span> */}
           <span className="rule_point">
             &nbsp;&nbsp;&nbsp; The contest is open to all members of the staff
             and students of MCKV Institute of Engineering.
@@ -71,7 +119,6 @@ function Event() {
             &nbsp;&nbsp;&nbsp; Participants can provide maximum one entry per
             theme and can take part in maximum of 2 themes.
           </span>
-          {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; Participants can provide maximum one entry per theme and can take part in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maximum of 2 themes.</span> */}
         </div>
         <div className="rules_points">
           <span className="numbering">④</span>
@@ -80,7 +127,6 @@ function Event() {
             INSTITUTE OF ENGINEERING from the date theyare received and will be
             used in all mediums required.
           </span>
-          {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; The winning logo will be the property of MCKV INSTITUTE OF ENGINEERING from the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date theyare received and will be used in all mediums required.</span> */}
         </div>
         <div className="rules_points">
           <span className="numbering">⑤</span>
@@ -93,7 +139,6 @@ function Event() {
       <div className="rules">
         <div className="rules_points">
           <span className="numbering">①</span>
-          {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; The contest is open to all members of the staff and students of MCKV Institute of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering.</span> */}
           <span className="rule_point">
             &nbsp;&nbsp;&nbsp; Logo must include the word "PRAGATI 2k23".
           </span>
@@ -103,14 +148,12 @@ function Event() {
           <span className="rule_point">
             &nbsp;&nbsp;&nbsp; Logo must be an original work of the entrant.
           </span>
-          {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; Participants can provide maximum one entry per theme and can take part in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maximum of 2 themes.</span> */}
         </div>
         <div className="rules_points">
           <span className="numbering">③</span>
           <span className="rule_point">
             &nbsp;&nbsp;&nbsp; Logo may include any colour shapes or format.
           </span>
-          {/* <span className="rule_point">&nbsp;&nbsp;&nbsp; The winning logo will be the property of MCKV INSTITUTE OF ENGINEERING from the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date theyare received and will be used in all mediums required.</span> */}
         </div>
         <div className="rules_points">
           <span className="numbering">④</span>
@@ -146,7 +189,7 @@ function Event() {
           </span>
         </div>
       </div>
-      <GoToTop />
+      <GoToTop /> */}
     </section>
   );
 }

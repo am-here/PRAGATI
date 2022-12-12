@@ -1,21 +1,21 @@
-// import React, { useState } from "react";
-import React from "react";
+import React, { useState } from "react";
+// import React from "react";
 import UnderCunstruction from "../../resources/UnderCunstruction";
 import Heading from "../Heading/index";
 import GoToTop from "./../GoToTop";
 
-// import Scheduler from "./Scheduler";
+import Scheduler from "./Scheduler";
 import "./Scheduler.css";
 
 function Day() {
-  // const [day, setDay] = useState("day1");
+  const [day, setDay] = useState("day1");
 
   return (
     <>
       <div className="mar_add"></div>
       <Heading title="SCHEDULE" />
-      <UnderCunstruction />
-      {/* <div className="day-button">
+      {/* <UnderCunstruction /> */}
+      <div className="day-button">
         <button
           className={day === "day1" ? "item-active" : "day1"}
           onClick={() => setDay("day1")}
@@ -32,7 +32,7 @@ function Day() {
       <div>
         {day === "day1" && <Scheduler />}
         {day === "day2" && <Scheduler />}
-      </div> */}
+      </div>
       <GoToTop />
     </>
   );

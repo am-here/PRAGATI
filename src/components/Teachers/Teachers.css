@@ -1,8 +1,8 @@
-.carousel-container{
-    background-color: rgb(38, 39, 40);
-    padding: 20px 50px;
+.carousel-container {
+  background-color: var(--bg-color);
+  padding: 20px 50px;
 }
-#contact{
-    background-color: rgb(38, 39, 40);
-    padding-top: 50px;
+#contact {
+  background-color: var(--bg-color);
+  padding-top: 50px;
 }

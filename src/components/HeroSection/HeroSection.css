@@ -1,174 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 
 .HeroSectionimg {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: -2;
-    background-attachment: fixed;
-    filter: brightness(50%);
-
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -2;
+  background-attachment: fixed;
+  filter: brightness(70%);
 }
 
 .hero-container {
-    background: rgb(38, 39, 40);
-    position: relative;
-    overflow: hidden;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-     object-fit: contain;
+  background: var(--bg-color);
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
 }
 
 .HeroSectionHeading {
-    font-family: 'Handlee', cursive;    
-    color: #fff;
-    font-size: 8rem;
-    margin-top: -40px;
-    text-shadow: -1px 1px 0 #000,
-        1px 1px 0 #000,
-        1px -1px 0 #000,
-        -1px -1px 0 #000;
+  font-family: "Handlee", cursive;
+  color: #fff;
+  font-size: 8rem;
+  margin-top: -40px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
-.HeroSectionHeadingSpan{
-    font-family: 'Dosis', cursive;
-    font-weight: 100;
-    color: rgb(206, 175, 3);
+.HeroSectionHeadingSpan {
+  font-family: "Dosis", cursive;
+  font-weight: 100;
+  color: rgb(206, 175, 3);
+  color: var(--primary);
 }
 
-.hero-container>div>span {
+.hero-container > div > span {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-family: "Quicksand", sans-serif;
+}
+.countDays {
+  color: #fff;
+  margin: 0px auto;
+  margin-top: 50px;
+  line-height: 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.countDown {
+  display: inline-flex;
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-left: 0;
+  padding-left: 2rem;
+}
+.countDown > li {
+  display: inline-block;
+  margin-right: 2rem;
+  width: 6rem;
+}
+.timeNumbers {
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  text-align: center;
+}
 
-    margin-top: 8px;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-family: 'Quicksand', sans-serif;
-    
-
+.time-description {
+  font-size: 1rem;
+  font-variant: small-caps;
+  line-height: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 0px;
 }
-.countDays{
-    color: #fff;
-    margin: 0px auto;
-    margin-top: 50px;
-    line-height: 24px;
-    font-size: 1rem;
-    font-weight: 700;
-    text-align: center;
+.coming-soon {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0;
+  letter-spacing: 0.1rem;
+  margin-top: 12px;
+  color: rgb(206, 175, 3);
+  color: var(--primary);
 }
-.countDown{
-    display: inline-flex;
-    list-style-type: none;
-    margin-bottom: 10px;
-    margin-left: 0;
-    padding-left: 2rem;
-}
-.countDown>li{
-    display: inline-block;
-    margin-right: 2rem;
-    width: 6rem;
-}
-.timeNumbers{
-    display: block;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    margin: 0 auto;
-    margin-bottom: 5px;
-    text-align: center;}
-
-.time-description{
-    font-size: 1rem;
-    font-variant: small-caps;
-    line-height: 1.5rem;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    top: 0px;
-} 
-.coming-soon{
-        font-size: 2rem;
-        font-weight: 700;
-        padding: 0;
-        letter-spacing: 0.1rem;
-        margin-top: 12px;
-        color: rgb(206, 175, 3);
-    }
 @media screen and (max-width: 960px) {
-    .hero-container>h1 {
-        font-size: 60px;
-        margin-top: 50px;
-    }
+  .hero-container > h1 {
+    font-size: 60px;
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .hero-container>h1 {
-         margin-top: 100px;
-    }
+  .hero-container > h1 {
+    margin-top: 100px;
+  }
 
-    .hero-container>div>span{
-        font-size: 22px;
-    }
-
+  .hero-container > div > span {
+    font-size: 22px;
+  }
 }
-@media screen and (max-width: 550px){
-    .hero-container>h1 {
-            font-size: 60px;
-        }
-    .hero-container>div>span {
-            font-size: 12px;
-        }
-    .countDays{
-            margin-top: 30px;
-        }
-    .coming-soon{
-        margin-top: 10px;
-        font-size: 1rem;
-        }
-    .countDown>li{
-        margin-right: 1rem;
-        width: 4rem;
-     }
-    .timeNumbers{
-        font-size: 1.5rem;
-        margin-bottom: 2px;
-    }
-        .time-description{
-            font-weight: 200;
-        }
+@media screen and (max-width: 550px) {
+  .hero-container > h1 {
+    font-size: 60px;
+  }
+  .hero-container > div > span {
+    font-size: 12px;
+  }
+  .countDays {
+    margin-top: 30px;
+  }
+  .coming-soon {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .countDown > li {
+    margin-right: 1rem;
+    width: 4rem;
+  }
+  .timeNumbers {
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+  }
+  .time-description {
+    font-weight: 200;
+  }
 }
-@media screen and (max-width: 300px){
-.hero-container>h1 {
-        font-size: 40px;
-    }
+@media screen and (max-width: 300px) {
+  .hero-container > h1 {
+    font-size: 40px;
+  }
 
-    .hero-container>div>span {
-        font-size: 8px;
-    }
-    .countDown{
-        padding-left: 0px;
-    }
-    .countDays {
-        margin-top: 20px;
-        
-    }
-        .countDown>li {
-            margin-right: 0.2rem;
-            width: 4rem;
-        }
-        .timeNumbers {
-            font-size: 1rem;
-            margin-bottom: 2px;
-        }
-        
+  .hero-container > div > span {
+    font-size: 8px;
+  }
+  .countDown {
+    padding-left: 0px;
+  }
+  .countDays {
+    margin-top: 20px;
+  }
+  .countDown > li {
+    margin-right: 0.2rem;
+    width: 4rem;
+  }
+  .timeNumbers {
+    font-size: 1rem;
+    margin-bottom: 2px;
+  }
 }

@@ -20,6 +20,17 @@
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
+  font-weight: 100;
+}
+.heading-list{
+  font-weight: 500;
+  color: #fff;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+#last-line{
+  
+  padding-bottom: 4em;
 }
 .content_img {
   width: 500px;

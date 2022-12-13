@@ -36,8 +36,8 @@
   margin: auto;
   text-align: center;
 }
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .front-heading {
     display: none;
   }
-}
+} */

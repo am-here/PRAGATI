@@ -2,6 +2,9 @@
   color: #fff;
   margin-top: 2rem;
 }
+.mar_add_event {
+  margin-top: 5rem;
+}
 .reg {
   margin-top: 1rem;
   padding: 0.5em 1em;
@@ -59,8 +62,11 @@
 }
 
 @media (max-width: 768px) {
+  .content_row {
+    font-size: 1.5rem;
+  }
   .mar_add_event {
-    margin-top: 50px;
+    margin-top: 5rem;
   }
   .content_col1 {
     flex-basis: 100%;

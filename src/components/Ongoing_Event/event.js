@@ -14,7 +14,7 @@ function Event() {
       <Heading title="EVENTS" />
       <div className="content_row">
         <ul>
-          <li className="heading-list">Category 1: Coding and Design</li>
+          <li className="heading-list" >Category 1: Coding and Design</li>
           <ol>
             <li>a) Circuit Design</li>
             <li>b) Code-fiesta</li>

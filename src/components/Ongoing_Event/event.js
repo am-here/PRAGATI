@@ -19,6 +19,7 @@ function Event() {
             <li>a) Circuit Design</li>
             <li>b) Code-fiesta</li>
             <li>c) ML Mania</li>
+            <li>d) CATIA</li>
           </ol>
           <li className="heading-list">Category 2: Innovation</li>
           <ol>

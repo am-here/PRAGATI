@@ -1,5 +1,6 @@
 import "./EventContact.css";
 import Card from "./Card";
+import GoToTop from "./../GoToTop";
 function EventContact({ contact }) {
   const { incharge, SubCommittee, StudentMembers } = contact;
   return (
@@ -26,6 +27,7 @@ function EventContact({ contact }) {
           ))}
         </div>
       </div>
+      <GoToTop />
     </>
   );
 }

@@ -1,6 +1,6 @@
 #event {
   background-color: var(--bg-color);
-  margin: 70px 50px;
+  margin: 50px 50px;
 }
 .event_container {
   color: #fff;
@@ -9,7 +9,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .event_name {
   font-size: 4rem;
@@ -20,6 +19,7 @@
 .event_details {
   margin-left: 40px;
   font-size: 2rem;
+  margin-bottom: 5rem;
 }
 .fa-solid {
   margin-right: 10px;
@@ -27,9 +27,11 @@
 .event_buttons {
   margin-top: 20px;
   display: flex;
+  flex-wrap: wrap;
 }
 .event_rules,
-.event_contacts {
+.event_contacts,
+.event_register {
   background-color: #fff;
   color: var(--bg-color);
   padding: 5px 10px;
@@ -37,9 +39,47 @@
   margin-right: 20px;
 }
 .event_rules:hover,
-.event_contacts:hover {
+.event_contacts:hover,
+.event_register:hover {
   background-color: var(--bg-color);
   padding: 4px 9px;
   border: #fff 1px solid;
   color: #fff;
+}
+@media (max-width: 768px) {
+  #event {
+    background-color: var(--bg-color);
+    margin: 7px 5px;
+    margin-top: 70px;
+  }
+  .event_image {
+    display: none;
+  }
+  .event_details {
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-left: 5px;
+    margin-bottom: 9rem;
+  }
+  .event_name {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .event_closing_date,
+  .event_team_size,
+  .event_fees {
+    font-size: 1rem;
+  }
+  .event_closing_date,
+  .event_name {
+    margin-top: 20px;
+  }
+  .event_rules,
+  .event_contacts,
+  .event_register {
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
 }

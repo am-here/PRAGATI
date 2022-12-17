@@ -9,6 +9,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/10KZFcStsTGRRCnM5HJirJJChz7G8nzvJ/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
       SubCommittee: [
@@ -34,6 +35,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/14jo8d6ts7BUQ325CjTny9PX_rwdg5Gok/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 21, name: "Ms. Nabamita Majumder" },
@@ -70,6 +72,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/16JbRipSaEunAaS-ZpsWezPy5hs9Jo1TX/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 31, name: "Mr. Puspen Lahiri" },
@@ -97,6 +100,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/1ik51cXNPFOS-xtGUg_zz5tW4lkP1Zgi6/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 41, name: "Mr. Swagata Shanigrihi," },
@@ -125,6 +129,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/co64X9ixbpViitgV6",
     rules:
       "https://drive.google.com/file/d/1X8FZCyvZt8wUaEnE5WUlt-OZVfy0huuq/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 51, name: "Dr. Pubali Mukherjee" },
@@ -151,6 +156,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/N8Yp4VkrRMZyGjpT6",
     rules:
       "https://drive.google.com/file/d/1pxwoWbMbcVzUPAg9WcT1PYQ12fHCTh8l/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 61, name: "Dr. Debopama Kar Ray (Basak)" },
@@ -176,6 +182,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/v2yqUHwkHzQmNhdn6",
     rules:
       "https://drive.google.com/file/d/1Qv_HddwMhaf9j0SDxYpUtzNKSjBl0KDf/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [{ id: 71, name: "Dr. Shampa Sengupta" }],
       SubCommittee: [
@@ -199,6 +206,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/1KZFZfcbUT942b34b9vuP198mtI1NCQOO/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 41, name: "Mr. Milan Chakraborty," },
@@ -222,6 +230,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/1s_aAPUBuSxXSOJ1z93xQWcZqe1WsKGie/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [{ id: 91, name: "Dr. Juin Ghosh Sarkar" }],
       SubCommittee: [
@@ -244,6 +253,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/1L34GxcA7Ch84c6-fOTHz1TZOI05OLFVd/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 101, name: "Mr. Milan Chakraborty" },
@@ -275,6 +285,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/1YOd9Tkl3pyqLRqGEdkP5oqNQU_-SAy5h/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 111, name: "Ms Jayanti Mahata" },
@@ -300,6 +311,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/19qjROzzuFbOkUChABWnzlPenQYzl3mMP/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 121, name: "Mr. Santanu Maity" },
@@ -335,6 +347,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/1Z5SnKAF-bdSSDMSgsBjt25SVVIC0tQKS/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 131, name: "Dr. Abhijit Dutta" },
@@ -369,6 +382,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/14yW_SZ948crKGSAGNyfpdokdmMgGOYCb/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         { id: 141, name: "Dr. Abhijit Dutta" },
@@ -408,6 +422,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/1OWII5jyDFKt3dySlE0BUcb-LcTiDny43/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
 
     contacts: {
       incharge: [
@@ -448,6 +463,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
       "https://drive.google.com/file/d/1e-NuYNxDU3yJWW0ez5ma_qA29rXaVIX1/view?usp=share_link",
+    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
 
     contacts: {
       incharge: [

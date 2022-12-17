@@ -1,5 +1,6 @@
 #event {
   background-color: var(--bg-color);
+  margin: 70px 50px;
 }
 .event_container {
   color: #fff;
@@ -8,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  
 }
 .event_name {
   font-size: 4rem;

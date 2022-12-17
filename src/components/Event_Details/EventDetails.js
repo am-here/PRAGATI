@@ -1,9 +1,10 @@
-import "./details.css";
-import Heading from "../Heading";
 import { QRCodeCanvas } from "qrcode.react";
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import GoToTop from "../GoToTop";
+
+import Heading from "../Heading";
+import "./details.css";
 
 function EventDetails({ setId, details }) {
   const { id } = useParams();
@@ -57,13 +58,7 @@ function EventDetails({ setId, details }) {
                   </a>
                 </div>
                 <div className="event_contacts">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={details.contacts}
-                  >
-                    CONTACT
-                  </a>
+                  <Link to="contact">CONTACT</Link>
                 </div>
               </div>
             </div>

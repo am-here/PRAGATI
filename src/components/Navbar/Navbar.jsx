@@ -23,7 +23,6 @@ function Navbar({ menu, setMenu }) {
   const handleClick = (menu1) => {
     setHide(!hide);
     setMenu(menu1);
-    console.log(menu1);
   };
   return (
     <div className={`nav ${show && "nav_black"}`}>

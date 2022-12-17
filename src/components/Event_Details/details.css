@@ -3,9 +3,10 @@
 }
 .event_container {
   color: #fff;
-  width: 70%;
+  width: 75%;
   margin: auto;
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-bottom: 50px;
 }

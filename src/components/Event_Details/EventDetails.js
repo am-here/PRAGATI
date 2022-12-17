@@ -60,6 +60,15 @@ function EventDetails({ setId, details }) {
                 <div className="event_contacts">
                   <Link to="contact">CONTACT</Link>
                 </div>
+                <div className="event_register">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={details.rules}
+                  >
+                    REGISTER
+                  </a>
+                </div>
               </div>
             </div>
           </div>

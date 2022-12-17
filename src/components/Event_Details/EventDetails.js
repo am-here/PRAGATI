@@ -64,7 +64,7 @@ function EventDetails({ setId, details }) {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={details.rules}
+                    href={details.reg_link}
                   >
                     REGISTER
                   </a>

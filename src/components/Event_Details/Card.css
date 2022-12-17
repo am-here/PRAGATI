@@ -1,72 +1,68 @@
-.card-container{
-    background: transparent;
-    height: 200px;
-    width: 250px;
-    margin: 15px;
-    display: flex;   
-    flex-direction: column;
-    padding: 5px;
-    align-items: center;
+.card-container {
+  background: transparent;
+  height: 200px;
+  width: 250px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
 }
-.image-div{
-    flex-basis: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    padding: 7px;
-    border: 1px solid white;
-    border-radius: 50%;
+.image-div {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 7px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
-.image{
-    display: block;
-    width: 8rem;
-    height: 8rem;    
-    border-radius: 50%;
-    object-fit: contain;
-    
-   
+.image {
+  display: block;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: contain;
 }
-.about-div{
-    text-align: center;
-    color: rgb(200, 207, 213);
+.about-div {
+  text-align: center;
+  color: rgb(200, 207, 213);
 }
-.name{
-    font-size: 14px;
-    margin-bottom: 3px;
-    letter-spacing: 2px;
-    font-weight: 400;
+.name {
+  font-size: 14px;
+  margin-bottom: 3px;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
-.bio{
-    font-size:10px;
-    letter-spacing: 1px;
-    font-weight: 200;
+.bio {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 200;
 }
-.social{
-    margin-top: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* justify-content: space-evenly; */
+.social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-evenly; */
 }
-.link{
-    text-decoration: none;
-    color: rgb(36, 34, 34);
-    background-color: white;
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2px 8px;
+.link {
+  text-decoration: none;
+  color: rgb(36, 34, 34);
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  padding: 5px 62px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 8px;
 }
-.link>i{
-    
-    font-size: 20px;
-  
+.link > i {
+  font-size: 20px;
 }
-.link>.fa-brands{
-    font-size: 23px;
+.link > .fa-brands {
+  font-size: 23px;
 }

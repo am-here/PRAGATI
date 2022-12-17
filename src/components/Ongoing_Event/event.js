@@ -17,50 +17,50 @@ function Event() {
         <ul>
           <li className="heading-list">Category 1: Coding and Design</li>
           <ol>
-            <Link to="/rules/1">
+            <Link to="/events/1">
               <li>a) Circuit Design</li>
             </Link>
-            <Link to="/rules/2">
+            <Link to="/events/2">
               <li>b) Code-fiesta</li>
             </Link>
-            <Link to="/rules/3">
+            <Link to="/events/3">
               <li>c) ML Mania</li>
             </Link>
-            <Link to="/rules/4">
+            <Link to="/events/4">
               <li>d) CATIA</li>
             </Link>
           </ol>
           <li className="heading-list">Category 2: Innovation</li>
           <ol>
-            <Link to="/rules/5">
+            <Link to="/events/5">
               <li>a) Innovative Idea Contest </li>
             </Link>
-            <Link to="/rules/6">
+            <Link to="/events/6">
               <li>b) Innovative Model Contest</li>
             </Link>
-            <Link to="/rules/7">
+            <Link to="/events/7">
               <li>c) Technical poster </li>
             </Link>
           </ol>
           <li className="heading-list">Category 3: Quiz and Mathematics</li>
           <ol>
-            <Link to="/rules/8">
+            <Link to="/events/8">
               <li>a) Math Mania</li>
             </Link>
 
-            <Link to="/rules/9">
+            <Link to="/events/9">
               <li>b) Quiz-o-mania </li>
             </Link>
-            <Link to="/rules/10">
+            <Link to="/events/10">
               <li>c) Treasure Hunt</li>
             </Link>
           </ol>
           <li className="heading-list">Category 4: Gaming</li>
           <ol>
-            <Link to="/rules/11">
+            <Link to="/events/11">
               <li>a) NFS Most Wanted</li>
             </Link>
-            <Link to="/rules/12">
+            <Link to="/events/12">
               <li>b) FIFA</li>
             </Link>
 
@@ -68,17 +68,17 @@ function Event() {
           </ol>
           <li className="heading-list">Category 5: Robotics</li>
           <ol>
-            <Link to="/rules/13">
+            <Link to="/events/13">
               <li>a) Robo FIFA </li>
             </Link>
-            <Link to="/rules/14">
+            <Link to="/events/14">
               <li>b) Robo war</li>
             </Link>
 
-            <Link to="/rules/15">
+            <Link to="/events/15">
               <li>c) Chase the maze</li>
             </Link>
-            <Link to="/rules/16">
+            <Link to="/events/16">
             <li id="last-line">d) Line follower</li>
             </Link>
           </ol>

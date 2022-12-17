@@ -43,15 +43,15 @@ function App() {
           <Route path="/schedule" element={<Day />} />
           <Route path="/contact" element={<Teachers />} />
           <Route
-            path="/rules/:id"
+            path="/events/:id"
             element={<EventDetails setId={setId} details={details} />}
           />
           <Route
-            path="/rules/:id/contact"
+            path="/events/:id/contact"
             element={<EventContact contact={details && details.contacts} />}
           />
 
-          <Route path="/rules" element={<Event />} />
+          <Route path="/events" element={<Event />} />
         </Routes>
         <ScrollToTop show={top} />
         <Footer />

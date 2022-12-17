@@ -8,7 +8,7 @@ const eventDetails = [
     size: "1 to 3 members",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/10KZFcStsTGRRCnM5HJirJJChz7G8nzvJ/view?usp=share_link",
+      "https://drive.google.com/file/d/1wbHkTbxonMzzwENULDr21Dtc-kOjctjk/view?usp=share_link",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
@@ -65,8 +65,8 @@ const eventDetails = [
     id: 3,
     name: "ML Mania",
     date: "5th January 2023",
-    amtin: "FREE",
-    amtout: "FREE",
+    amtin: "₹50",
+    amtout: "₹100",
 
     size: "2 members",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
@@ -108,14 +108,14 @@ const eventDetails = [
       ],
 
       SubCommittee: [
-        { id: 43, name: "   Mr. Swarup Ch. Giri" },
-        { id: 44, name: " Mr. Shyam Sundar Dutta" },
-        { id: 45, name: " Mr. Ashim Chakraborty" },
+        { id: 43, name: "Mr. Swarup Ch. Giri" },
+        { id: 44, name: "Mr. Shyam Sundar Dutta" },
+        { id: 45, name: "Mr. Ashim Chakraborty" },
       ],
       StudentMembers: [
-        { id: 46, name: "  Swati Gupta", phone: "9748694311", bio: "ME" },
+        { id: 46, name: "Swati Gupta", phone: "9748694311", bio: "ME" },
 
-        { id: 47, name: " Souhardik Kundu", phone: "8101284655", bio: "AUE" },
+        { id: 47, name: "Souhardik Kundu", phone: "8101284655", bio: "AUE" },
       ],
     },
   },
@@ -128,7 +128,7 @@ const eventDetails = [
     size: "4 members",
     googlr_Form: "https://forms.gle/co64X9ixbpViitgV6",
     rules:
-      "https://drive.google.com/file/d/1X8FZCyvZt8wUaEnE5WUlt-OZVfy0huuq/view?usp=share_link",
+      "https://drive.google.com/file/d/1Yy1S8yU6KHv3rPGiWiy1a5HNbMzvxiZ2/view?usp=share_link",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
@@ -155,7 +155,7 @@ const eventDetails = [
     size: "4 members",
     googlr_Form: "https://forms.gle/N8Yp4VkrRMZyGjpT6",
     rules:
-      "https://drive.google.com/file/d/1pxwoWbMbcVzUPAg9WcT1PYQ12fHCTh8l/view?usp=share_link",
+      "https://drive.google.com/file/d/1hA7TwOypmZgoA5SALT7WEKe-w6yHSo-V/view?usp=share_link",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [

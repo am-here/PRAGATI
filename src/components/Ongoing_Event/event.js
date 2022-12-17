@@ -13,6 +13,15 @@ function Event() {
     <section className="event_page">
       <div className="mar_add_event"></div>
       <Heading title="EVENTS" />
+      <div className="special_link">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://drive.google.com/file/d/1dIORZdgrXnje4EsnBBz7DviGaIDqnLwY/view?usp=share_link"
+        >
+          Click here to check general rules!!
+        </a>
+      </div>
       <div className="content_row">
         <ul>
           <li className="heading-list">Category 1: Coding and Design</li>
@@ -39,7 +48,7 @@ function Event() {
               <li>b) Innovative Model Contest</li>
             </Link>
             <Link to="/events/7">
-              <li>c) Technical poster </li>
+              <li>c) Technical Poster Presentation</li>
             </Link>
           </ol>
           <li className="heading-list">Category 3: Quiz and Mathematics</li>
@@ -52,7 +61,7 @@ function Event() {
               <li>b) Quiz-o-mania </li>
             </Link>
             <Link to="/events/10">
-              <li>c) Treasure Hunt</li>
+              <li>c) ENIGMA</li>
             </Link>
           </ol>
           <li className="heading-list">Category 4: Gaming</li>
@@ -79,7 +88,7 @@ function Event() {
               <li>c) Chase the maze</li>
             </Link>
             <Link to="/events/16">
-            <li id="last-line">d) Line follower</li>
+              <li id="last-line">d) Line follower</li>
             </Link>
           </ol>
         </ul>

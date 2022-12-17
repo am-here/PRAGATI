@@ -108,7 +108,7 @@ function Footer() {
               </a>
               <a
                 target="_blank"
-                href="https://wa.me/918910631623/"
+                href="https://wa.me/919874734389/"
                 rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-square-whatsapp"></i>

@@ -78,8 +78,9 @@ function Event() {
             <Link to="/rules/15">
               <li>c) Chase the maze</li>
             </Link>
-
+            <Link to="/rules/16">
             <li id="last-line">d) Line follower</li>
+            </Link>
           </ol>
         </ul>
       </div>

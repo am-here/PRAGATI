@@ -2,6 +2,7 @@ import React from "react";
 import Heading from "../Heading/index";
 import "./event.css";
 import GoToTop from "../GoToTop";
+import { Link } from "react-router-dom";
 
 // var event_name = "LOGO COMPETITION";
 
@@ -14,37 +15,70 @@ function Event() {
       <Heading title="EVENTS" />
       <div className="content_row">
         <ul>
-          <li className="heading-list" >Category 1: Coding and Design</li>
+          <li className="heading-list">Category 1: Coding and Design</li>
           <ol>
-            <li>a) Circuit Design</li>
-            <li>b) Code-fiesta</li>
-            <li>c) ML Mania</li>
-            <li>d) CATIA</li>
+            <Link to="/rules/1">
+              <li>a) Circuit Design</li>
+            </Link>
+            <Link to="/rules/2">
+              <li>b) Code-fiesta</li>
+            </Link>
+            <Link to="/rules/3">
+              <li>c) ML Mania</li>
+            </Link>
+            <Link to="/rules/4">
+              <li>d) CATIA</li>
+            </Link>
           </ol>
           <li className="heading-list">Category 2: Innovation</li>
           <ol>
-            <li>a) Innovative Idea Contest </li>
-            <li>b) Innovative Model Contest</li>
-            <li>c) Technical poster </li>
+            <Link to="/rules/5">
+              <li>a) Innovative Idea Contest </li>
+            </Link>
+            <Link to="/rules/6">
+              <li>b) Innovative Model Contest</li>
+            </Link>
+            <Link to="/rules/7">
+              <li>c) Technical poster </li>
+            </Link>
           </ol>
           <li className="heading-list">Category 3: Quiz and Mathematics</li>
           <ol>
-            <li>a) Math Mania</li>
+            <Link to="/rules/8">
+              <li>a) Math Mania</li>
+            </Link>
 
-            <li>b) Quiz-o-mania </li>
-            <li>c) Treasure Hunt</li>
+            <Link to="/rules/9">
+              <li>b) Quiz-o-mania </li>
+            </Link>
+            <Link to="/rules/10">
+              <li>c) Treasure Hunt</li>
+            </Link>
           </ol>
           <li className="heading-list">Category 4: Gaming</li>
           <ol>
-            <li>a) NFS Most Wanted</li>
-            <li>b) FIFA</li>
+            <Link to="/rules/11">
+              <li>a) NFS Most Wanted</li>
+            </Link>
+            <Link to="/rules/12">
+              <li>b) FIFA</li>
+            </Link>
+
             {/* <li>c) ML Mania</li> */}
           </ol>
           <li className="heading-list">Category 5: Robotics</li>
           <ol>
-            <li>a) Robo FIFA </li>
-            <li>b) Robo war</li>
-            <li>c) Chase the maze</li>
+            <Link to="/rules/13">
+              <li>a) Robo FIFA </li>
+            </Link>
+            <Link to="/rules/14">
+              <li>b) Robo war</li>
+            </Link>
+
+            <Link to="/rules/15">
+              <li>c) Chase the maze</li>
+            </Link>
+
             <li id="last-line">d) Line follower</li>
           </ol>
         </ul>

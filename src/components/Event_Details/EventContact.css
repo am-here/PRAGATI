@@ -22,3 +22,22 @@
   font-size: 40px;
   font-weight: 600;
 }
+@media screen and (max-width: 1020px){
+  .carousel-container{
+    grid-template-columns: repeat(2,50%);
+  }
+    .eventContact_container{
+      margin-top: 100px;
+    }
+}
+@media screen and (max-width: 650px){
+  .carousel-container {
+      grid-template-columns: repeat(1, 100%);
+    }
+  .committeeHead{
+          font-size: 20px;
+        }
+    .eventContact_container{
+      margin-top: 90px;
+    }
+}

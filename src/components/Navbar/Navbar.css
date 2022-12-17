@@ -114,8 +114,9 @@
     display: block;
   }
   .nav-logo {
-    width: 40%;
-    padding-bottom: 1rem;
+    width: 60%;
+    height: 50%;
+    
   }
   .navbar {
     width: 100%;
@@ -127,5 +128,12 @@
   .nav-items {
     margin: 30px;
     padding: 20px;
+  }
+}
+@media screen and (max-width: 700px){
+.nav-logo {
+    width: 60%;
+    height: 100%;
+
   }
 }

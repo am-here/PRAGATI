@@ -60,9 +60,18 @@
   align-items: center;
   margin: 2px 8px;
 }
-.link > i {
-  font-size: 20px;
+.link>i{
+    
+    font-size: 20px;
+  
 }
 .link > .fa-brands {
   font-size: 23px;
+}
+
+@media screen and (max-width: 650px){
+    .card-container{
+        width: 87%;
+        margin-bottom: 60px;
+    }
 }

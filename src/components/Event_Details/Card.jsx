@@ -1,7 +1,6 @@
 import React from "react";
 import "./Card.css";
 function Card({ details }) {
-  console.log(details);
   return (
     <div className="card-container">
       <div className="image-div">

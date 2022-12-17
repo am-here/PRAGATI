@@ -3,6 +3,7 @@ import TextScrambler from "react-scramble-text";
 import "react-scramble-text/dist/index.css";
 
 import Header_img from "../../resources/p.gif";
+// import logoPragati from "../../resources/pragati-bg.png";
 import "./HeroSection.css";
 
 function HeroSection() {
@@ -63,6 +64,9 @@ function HeroSection() {
         <h1 className="HeroSectionHeading">
           pragati <span className="HeroSectionHeadingSpan">2023</span>
         </h1>
+        {/* <h1 className="HeroSectionHeading">
+          <img src={logoPragati} alt="LOGO" className="nav-logo" />
+        </h1> */}
         <TextScrambler phrases={phrases} speed={20} pauseTime={800} />
         <section className="countDays">
           <ul className="countDown">

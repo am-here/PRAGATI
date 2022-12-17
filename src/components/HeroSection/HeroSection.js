@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import TextScrambler from "react-scramble-text";
 import "react-scramble-text/dist/index.css";
 
-import Header_img from "../../resources/t2.gif";
+import Header_img from "../../resources/p.gif";
 import "./HeroSection.css";
 
 function HeroSection() {

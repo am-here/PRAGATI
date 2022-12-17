@@ -8,12 +8,12 @@
   background: linear-gradient(
     to top,
     transparent 0%,
-    rgba(30, 29, 29, 0.636) 50%
+    #022c35 50%
   );
   transition: all 0.5s ease-in;
 }
 .nav_black {
-  background: var(--bg-color);
+  background: var(--secondary);
 }
 .nav-container {
   width: 100%;
@@ -96,7 +96,7 @@
     top: 3.5rem;
     right: 0%;
     text-align: center;
-    background: var(--bg-color);
+    background: var(--secondary);
     transition: all 1s ease;
   }
   .hide {

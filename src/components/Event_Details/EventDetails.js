@@ -40,7 +40,12 @@ function EventDetails({ setId, details }) {
                 {details.size}
               </div>
               <div className="event_fees">
-                <i class="fa-solid fa-money-check-dollar"></i>₹{details.amt}
+                <i class="fa-solid fa-money-check-dollar"></i>{details.amtin}(only for MCKVIE students)
+              </div>
+              <div className="event_fees">
+                <i class="fa-solid fa-money-check-dollar"></i>{details.amtout}
+                  
+                
               </div>
               <div className="event_buttons">
                 <div className="event_rules">

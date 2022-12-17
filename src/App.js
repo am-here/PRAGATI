@@ -9,6 +9,7 @@ import Event from "./components/Ongoing_Event/event";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import EventDetails from "./components/Event_Details/EventDetails";
 import eventDetails from "./components/Event_Details/Data";
+import EventContact from "./components/Event_Details/EventContact";
 import "./App.css";
 
 function App() {
@@ -45,6 +46,11 @@ function App() {
             path="/rules/:id"
             element={<EventDetails setId={setId} details={details} />}
           />
+          <Route
+            path="/rules/:id/contact"
+            element={<EventContact contact={details && details.contacts} />}
+          />
+
           <Route path="/rules" element={<Event />} />
         </Routes>
         <ScrollToTop show={top} />

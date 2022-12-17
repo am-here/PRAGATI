@@ -7,7 +7,22 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 2,
@@ -17,7 +32,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 3,
@@ -27,7 +55,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 4,
@@ -37,7 +78,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 5,
@@ -47,7 +101,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 6,
@@ -57,7 +124,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 7,
@@ -67,7 +147,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 8,
@@ -77,7 +170,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 9,
@@ -87,7 +193,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 10,
@@ -97,7 +216,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 11,
@@ -107,7 +239,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 12,
@@ -117,7 +262,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 13,
@@ -127,7 +285,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 14,
@@ -137,7 +308,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 15,
@@ -147,7 +331,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
   {
     id: 16,
@@ -157,7 +354,20 @@ const eventDetails = [
     size: "1 to 3",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules: "https://meet.google.com/zua-gmya-vyf",
-    contacts: "https://meet.google.com/zua-gmya-vyf",
+    contacts: {
+      incharge: [{ id: 11, name: "Ms. Sushmita Dey" }],
+      SubCommittee: [
+        { id: 12, name: "Mr. Sekhar Rana" },
+        { id: 13, name: "Mr. Sekhar Rana" },
+        { id: 14, name: "Mr. Sekhar Rana" },
+        { id: 15, name: "Mr. Sekhar Rana" },
+        { id: 16, name: "Mr. Sekhar Rana" },
+      ],
+      StudentMembers: [
+        { id: 17, name: "Ishika Sen ECE", phone: "6289649452", bio: "ECE" },
+        { id: 18, name: "Shailee Sharma", phone: "9123709838", bio: "ECE" },
+      ],
+    },
   },
 ];
 export default eventDetails;

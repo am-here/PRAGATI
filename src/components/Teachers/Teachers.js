@@ -1,7 +1,7 @@
 // import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 // import React, { useState } from "react";
-import "./Teachers.css";
+// import "./Teachers.css";
 import Heading from "./../Heading/index";
 import GoToTop from "./../GoToTop";
 

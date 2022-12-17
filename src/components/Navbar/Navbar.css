@@ -24,17 +24,25 @@
   height: 80px;
 }
 .nav-logo {
-  width: 40px;
+  width: 100%;
+  /* width: 20rem; */
+  height: auto;
   object-fit: contain;
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  border-radius: 1rem;
+  font-size: large;
+  /* max-width: 100%; */
+
+  
 }
-.logo {
-  font-size: 50px;
+/* .logo {
+  /* width: 100%; 
+  font-size: 5rem;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  /* color: rgb(206, 175, 3); */
-}
+  /* color: rgb(206, 175, 3); 
+} */
 .nav-items {
   margin-right: 30px;
 }
@@ -105,8 +113,9 @@
   .nav-items {
     display: block;
   }
-  .logo {
-    font-size: 30px;
+  .nav-logo {
+    width: 40%;
+    padding-bottom: 1rem;
   }
   .navbar {
     width: 100%;

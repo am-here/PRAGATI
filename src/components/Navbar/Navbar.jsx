@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
+import logoPragati from "../../resources/pragati-bg.png";
 
 import "./Navbar.css";
 import "./Hambarger.css";
@@ -29,8 +30,8 @@ function Navbar({ menu, setMenu }) {
       <div className="nav-container">
         <div className="logo-menu">
           <Link to="/" className="logo">
-            {/* <img src={logo} alt="LOGO" className="nav-logo" /> */}
-            Pragati
+            <img src={logoPragati} alt="LOGO" className="nav-logo" />
+            {/* Pragati */}
           </Link>
           <div className="menu-btn" onClick={() => handleClick("Home")}>
             <button

@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import logoPragati from "../../resources/pragati-bg.png";
+
 import "./footer.css";
 function Footer() {
   return (
@@ -8,12 +10,13 @@ function Footer() {
       <footer className="footer">
         <div className="row">
           <div className="col">
-            <img
+            {/* <img
               src={require(`../../resources/demo_logo.png`)}
               alt="Logo"
               className="logo"
               draggable={false}
-            />
+            /> */}
+            <img src={logoPragati} alt="LOGO" className="logo" />
             <p>
               Pragati gives young minds an opportunity to showcase their skills
               and compete with other likeminded individuals and the best talent

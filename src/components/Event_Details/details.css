@@ -1,0 +1,42 @@
+#event {
+  background-color: var(--bg-color);
+}
+.event_container {
+  color: #fff;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.event_name {
+  font-size: 4rem;
+}
+.event_image {
+  width: 400px;
+}
+.event_details {
+  margin-left: 40px;
+  font-size: 2rem;
+}
+.fa-solid {
+  margin-right: 10px;
+}
+.event_buttons {
+  margin-top: 20px;
+  display: flex;
+}
+.event_rules,
+.event_contacts {
+  background-color: #fff;
+  color: var(--bg-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.event_rules:hover,
+.event_contacts:hover {
+  background-color: var(--bg-color);
+  padding: 4px 9px;
+  border: #fff 1px solid;
+  color: #fff;
+}

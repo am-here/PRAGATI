@@ -346,7 +346,7 @@ const eventDetails = [
     size: "2 to 4",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/1Z5SnKAF-bdSSDMSgsBjt25SVVIC0tQKS/view?usp=share_link",
+      "https://drive.google.com/file/d/1ObxAX_OlfTgX32iYL6XoZyWzsDoQmBSo/view",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
@@ -381,7 +381,7 @@ const eventDetails = [
     size: "2 to 4 members",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/14yW_SZ948crKGSAGNyfpdokdmMgGOYCb/view?usp=share_link",
+      "https://drive.google.com/file/d/1ikmF3C8S4zsdHabdpwwFDBsw2GPiegiL/view",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
@@ -421,7 +421,7 @@ const eventDetails = [
     size: "2 members",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/1OWII5jyDFKt3dySlE0BUcb-LcTiDny43/view?usp=share_link",
+      "https://drive.google.com/file/d/1s0VGqNoJUgyN4e4hW9wxi8nkLFcqWkCM/view",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
 
     contacts: {
@@ -462,48 +462,8 @@ const eventDetails = [
     size: "2 to 4 members",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/1e-NuYNxDU3yJWW0ez5ma_qA29rXaVIX1/view?usp=share_link",
+      "https://drive.google.com/file/d/1qIvJ0VE1fTkoTTCFKwT3YZHv4OCp5_md/view",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
-
-    contacts: {
-      incharge: [
-        { id: 141, name: "Dr. Abhijit Dutta" },
-        { id: 142, name: "Mr. Tapas Kumar Biswas" },
-        { id: 143, name: "Mr. Nabankur Mandal" },
-      ],
-
-      SubCommittee: [
-        { id: 164, name: " Mr. Bimal Makhal" },
-        { id: 165, name: "Mr. Drupad Roy" },
-        { id: 166, name: "Mr. Dhiman Bhattacharjee" },
-        { id: 167, name: "Mr. Rajib Majhi" },
-        { id: 168, name: "Mr. Samrat Purkait " },
-        { id: 169, name: "Mr. Om Prakash" },
-        { id: 1610, name: "Mr. Arijit Ghosh" },
-        { id: 1611, name: "Mr. Joydeb Karmakar" },
-        { id: 1612, name: "Mr. Ashis Taru Roy" },
-      ],
-      StudentMembers: [
-        { id: 1613, name: "Ayan Palit", phone: "6295389311", bio: "EE" },
-        {
-          id: 1614,
-          name: " Nageswar Rao Enduga",
-          phone: "8420559756",
-          bio: "ME",
-        },
-        { id: 1615, name: " Abhishek Kumar", phone: "6207902850", bio: "EE" },
-      ],
-    },
-  },
-  {
-    id: 17,
-    name: "Line Follower",
-    date: "5th January 2023",
-    amtin: "₹100",
-    amtout: "₹400",
-    size: "2 to 4 members",
-    googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
-    rules: "https://meet.google.com/zua-gmya-vyf",
 
     contacts: {
       incharge: [

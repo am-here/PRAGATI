@@ -181,7 +181,7 @@ const eventDetails = [
     size: "3 members",
     googlr_Form: "https://forms.gle/v2yqUHwkHzQmNhdn6",
     rules:
-      "https://drive.google.com/file/d/1Qv_HddwMhaf9j0SDxYpUtzNKSjBl0KDf/view?usp=share_link",
+      "https://drive.google.com/file/d/1-4o_jexI2lGs65gFcm9U-9cZsW3y10pK/view?usp=share_link",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [{ id: 71, name: "Dr. Shampa Sengupta" }],

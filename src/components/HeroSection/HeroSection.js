@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import TextScrambler from "react-scramble-text";
 import "react-scramble-text/dist/index.css";
 
-import Header_img from "../../resources/p.gif";
+// import Header_img from "../../resources/p.gif";
+import Header_img from "../../resources/hero_3.gif";
 // import logoPragati from "../../resources/pragati-bg.png";
 import "./HeroSection.css";
 
@@ -87,7 +88,6 @@ function HeroSection() {
               <p className="time-description">Seconds</p>
             </li>
           </ul>
-          <p className="coming-soon">Coming Soon</p>
         </section>
       </div>
     </>

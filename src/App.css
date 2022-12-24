@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 * {
-  
-  --bg-color: #02343f;
+  --bg-color: #020d26;
   --primary: #f0edcc;
-  --secondary:#022c35;
+  --secondary: #020d26;
   /* background-color: var(--bg-color); */
   /* color: #fff; */
   margin: 0;

@@ -60,7 +60,7 @@ function Footer() {
                 </HashLink>
               </li>
               <li className="li">
-                <HashLink className="ali" to="/#events">
+                <HashLink className="ali" to="/events">
                   Events
                 </HashLink>
               </li>

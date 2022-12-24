@@ -83,6 +83,13 @@
 }
 
 @media (max-width: 768px) {
+  .special_link {
+    font-size: 1.5rem;
+  }
+  .heading-list {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
   .content_row {
     font-size: 1.5rem;
   }

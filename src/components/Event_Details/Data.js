@@ -140,7 +140,7 @@ const eventDetails = [
         { id: 54, name: "Mr. Debanka De" },
       ],
       StudentMembers: [
-        { id: 55, name: "Rit Prasad Dhar", phone: "9830037938", bio: "AUE" },
+        { id: 55, name: "Rit Prasad Dhar", phone: "8017077624", bio: "AUE" },
         { id: 56, name: "Sayan Paul", phone: "7003813146", bio: "CSE" },
         { id: 57, name: "Kriti Ganeriwal", phone: "9831798205", bio: "ECE" },
       ],
@@ -192,7 +192,7 @@ const eventDetails = [
       StudentMembers: [
         { id: 74, name: "Sunetra Majumder", phone: "6289984395", bio: "ECE" },
         { id: 75, name: "Tiasa Deshmukh ", phone: "9007049807", bio: "ECE" },
-        { id: 76, name: "Rit Prasad Dhar ", phone: "9830037938", bio: "AUE" },
+        { id: 76, name: "Rit Prasad Dhar ", phone: "8017077624", bio: "AUE" },
       ],
     },
   },

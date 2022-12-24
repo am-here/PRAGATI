@@ -60,7 +60,7 @@ function Navbar({ menu, setMenu }) {
           </span>
           <span className="nav-items" onClick={() => handleClick("Events")}>
             <HashLink
-              to="/#events"
+              to="/events"
               className={menu === "Events" ? "nav-links active" : "nav-links"}
             >
               Events

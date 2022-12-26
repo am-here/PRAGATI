@@ -79,7 +79,7 @@ function Footer() {
               </div>{" "}
             </h3>
             <form className="form">
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
               <input
                 className="input"
                 type="email"
@@ -88,7 +88,7 @@ function Footer() {
                 required
               />
               <button className="button" type="submit">
-                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                <i className="fa-solid fa-arrow-right-to-bracket"></i>
               </button>
             </form>
             <div className="social-icons">

@@ -32,18 +32,20 @@ function EventDetails({ setId, details }) {
             <div className="event_details">
               <div className="event_name">{details.name}</div>
               <div className="event_closing_date">
-                <i class="fa-solid fa-calendar-days fa-lg"></i>
+                <i className="fa-solid fa-calendar-days fa-lg"></i>
                 {details.date} (last date to register)
               </div>
               <div className="event_team_size">
-                <i class="fa-solid fa-user-group"></i>
+                <i className="fa-solid fa-user-group"></i>
                 {details.size}
               </div>
               <div className="event_fees">
-                <i class="fa-solid fa-money-check-dollar"></i>{details.amtin}(for MCKVIE students)
+                <i className="fa-solid fa-money-check-dollar"></i>
+                {details.amtin}(for MCKVIE students)
               </div>
               <div className="event_fees">
-                <i class="fa-solid fa-money-check-dollar"></i>{details.amtout}(for externals)
+                <i className="fa-solid fa-money-check-dollar"></i>
+                {details.amtout}(for externals)
               </div>
               <div className="event_buttons">
                 <div className="event_rules">

@@ -87,7 +87,7 @@ function Navbar({ menu, setMenu }) {
               to="/contact"
               className={menu === "Contact" ? "nav-links active" : "nav-links"}
             >
-              Contacts
+              Contact
             </HashLink>
           </span>
         </div>

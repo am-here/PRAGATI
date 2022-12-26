@@ -1,13 +1,13 @@
 // import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 // import React, { useState } from "react";
-// import "./Teachers.css";
+import "./Teachers.css";
 import Heading from "./../Heading/index";
 import GoToTop from "./../GoToTop";
-
-// import Data from "./Model.js";
+import Card from "../Event_Details/Card";
+import contact_data from "./Model.js";
 // import Card from "./Card";
-import UnderCunstruction from "../../resources/UnderCunstruction";
+// import UnderCunstruction from "../../resources/UnderCunstruction";
 
 function Teachers() {
   // const [data, setData] = useState(Data);
@@ -41,7 +41,15 @@ function Teachers() {
     <>
       <div id="contact">
         <Heading title="CONTACT" />
-        <UnderCunstruction />
+        <div className="eventContact_container_T">
+          <div className="contact-container">
+            {contact_data.map((m, i) => (
+              <Card key={i} details={m} />
+            ))}
+          </div>
+        </div>
+
+        {/* <UnderCunstruction /> */}
         {/* <div className="carousel-container">
           <Carousel
             additionalTransfrom={0}
@@ -79,8 +87,8 @@ function Teachers() {
             ))}
           </Carousel>
         </div> */}
-        <GoToTop />
       </div>
+        <GoToTop />
     </>
   );
 }

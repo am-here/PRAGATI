@@ -5,7 +5,7 @@ function Card({ details }) {
     <div className="card-container">
       <div className="image-div">
         <img
-          src={require(`../../resources/photo.jpeg`)}
+          src={details.image}
           alt="details"
           className="image"
         />
@@ -22,7 +22,15 @@ function Card({ details }) {
           {details.phone && (
             <a href={`https://wa.me/+91${details.phone}`} target="_blank"
               rel="noopener noreferrer" className="link">
-              <i className="fa-brands fa-whatsapp"></i>&nbsp;&nbsp;Whatsapp
+              <i className="fa-brands fa-whatsapp"></i>
+              {details.whatsapp && (
+                <span>&nbsp;&nbsp;{details.whatsapp}</span>)}
+            </a>
+          )}
+          {details.linkedin && (
+            <a href={`${details.linkedin}`} target="_blank"
+              rel="noopener noreferrer" className="link linked">
+              <i className="fa-brands fa-linkedin"></i>
             </a>
           )}
         </div>

@@ -20,29 +20,32 @@
 }
 .image {
   display: block;
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   object-fit: contain;
 }
 .about-div {
+  width: 80%;
   text-align: center;
   color: rgb(200, 207, 213);
 }
 .name {
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 3px;
   letter-spacing: 2px;
   font-weight: 400;
 }
 .bio {
-  font-size: 10px;
+  font-size: 15px;
   letter-spacing: 1px;
   font-weight: 200;
 }
 .social {
   margin-top: 12px;
   display: flex;
+  /* flex-direction: column; */
+  /* width: 100px; */
   align-items: center;
   justify-content: center;
   /* justify-content: space-evenly; */
@@ -51,27 +54,25 @@
   text-decoration: none;
   color: rgb(36, 34, 34);
   background-color: white;
-  width: 30px;
-  height: 30px;
-  padding: 5px 62px;
+  /* width: 30px;
+  height: 30px; */
+  padding: 5px 5px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 2px 8px;
 }
-.link>i{
-    
-    font-size: 20px;
-  
+.link > i {
+  font-size: 20px;
 }
 .link > .fa-brands {
   font-size: 23px;
 }
 
-@media screen and (max-width: 650px){
-    .card-container{
-        width: 87%;
-        margin-bottom: 60px;
-    }
+@media screen and (max-width: 650px) {
+  .card-container {
+    width: 87%;
+    margin-bottom: 60px;
+  }
 }

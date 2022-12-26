@@ -3,7 +3,7 @@ import TextScrambler from "react-scramble-text";
 import "react-scramble-text/dist/index.css";
 
 // import Header_img from "../../resources/p.gif";
-import Header_img from "../../resources/hero_3.gif";
+import Header_img from "../../resources/hero_2.gif";
 // import logoPragati from "../../resources/pragati-bg.png";
 import "./HeroSection.css";
 

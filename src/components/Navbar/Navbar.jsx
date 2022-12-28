@@ -30,7 +30,7 @@ function Navbar({ menu, setMenu }) {
       <div className="nav-container">
         <div className="logo-menu">
           <Link to="/" className="logo">
-            <img src={logoPragati} alt="LOGO" className="nav-logo" />
+            <img src={logoPragati} alt="LOGO" className="nav-logo" draggable={false}/>
             {/* Pragati */}
           </Link>
           <div className="menu-btn" onClick={() => handleClick("Home")}>

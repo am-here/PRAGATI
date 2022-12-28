@@ -725,14 +725,18 @@ const eventDetails = [
       StudentMembers: [
         {
           id: 124,
+          image: "default.jpg",
           name: "Archisman Chatterjee",
+          whatsapp: "Whatsapp",
           phone: "7619460342",
           bio: "CSE",
         },
 
         {
           id: 125,
+          image: "default.jpg",
           name: "Lytza Chatterjee",
+          whatsapp: "Whatsapp",
           phone: "8240864191",
           bio: "AUE",
         },

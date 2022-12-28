@@ -8,6 +8,7 @@ function Card({ details }) {
           src={require(`../../resources/${details.image}`)}
           alt="details"
           className="image"
+          draggable={false}
         />
       </div>
       <div className="about-div">

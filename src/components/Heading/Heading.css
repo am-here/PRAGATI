@@ -18,22 +18,24 @@
   /* font-family: 'Sono', sans-serif;     */
   color: #fff;
   /* color: rgb(206, 175, 3); */
-  font-size: 8vw;
-  font-weight: bold;
+  font-size: 5vw;
+
+  font-weight: 700;
   margin: auto;
   text-align: center;
   position: absolute;
-  top: 3vw;
+  top: 6vw;
   right: 0;
   left: 0;
 }
 
 .bg-heading {
   color: rgba(94, 94, 94, 0.679);
-  font-size: 12vw;
-  font-weight: bold;
+  font-size: 13vw;
+  font-weight: 700;
   margin: auto;
   text-align: center;
+  /* letter-spacing: 0.1em; */
 }
 /* @media screen and (max-width: 400px) {
   .front-heading {

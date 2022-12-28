@@ -14,48 +14,41 @@ const eventDetails = [
       incharge: [
         {
           id: 11,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ms. Sushmita Dey",
         },
       ],
       SubCommittee: [
         {
           id: 12,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Sekhar Rana",
         },
         {
           id: 13,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Ajoy Ghosal",
         },
         {
           id: 14,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Chandan Das",
         },
         {
           id: 15,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ms. Priyanka Nath",
         },
         {
           id: 16,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Arijit Sen",
         },
       ],
       StudentMembers: [
         {
           id: 17,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ishika Sen",
           whatsapp: "Whatsapp",
           phone: "6289649452",
@@ -63,8 +56,7 @@ const eventDetails = [
         },
         {
           id: 18,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Shailee Sharma",
           whatsapp: "Whatsapp",
           phone: "9123709838",
@@ -88,14 +80,12 @@ const eventDetails = [
       incharge: [
         {
           id: 21,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ms. Nabamita Majumder",
         },
         {
           id: 22,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Basudev Ghatak",
         },
       ],
@@ -103,20 +93,17 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 23,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Ms. Sasmita S Choudhury",
         },
         {
           id: 24,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Mr. Kailash Chandra Mahatab",
         },
         {
           id: 25,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Ms. Aditi Bandyopadhyay",
         },
       ],
@@ -124,8 +111,7 @@ const eventDetails = [
       StudentMembers: [
         {
           id: 26,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "  Debarshi Roy",
           whatsapp: "Whatsapp",
           phone: "9002189996",
@@ -133,8 +119,7 @@ const eventDetails = [
         },
         {
           id: 27,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Arpan Saha Hazra",
           whatsapp: "Whatsapp",
           phone: "7003988236",
@@ -166,42 +151,36 @@ const eventDetails = [
       incharge: [
         {
           id: 31,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Puspen Lahiri",
         },
         {
           id: 32,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Basudev Ghatak",
         },
       ],
       SubCommittee: [
         {
           id: 33,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "  Mr. Prasenjit Das",
         },
         {
           id: 34,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Ms. Moumita Goswami",
         },
         {
           id: 35,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Mr. Rajib Chatterjee",
         },
       ],
       StudentMembers: [
         {
           id: 36,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "   Baishali Ghosh",
           whatsapp: "Whatsapp",
           phone: "9330184233",
@@ -210,8 +189,7 @@ const eventDetails = [
 
         {
           id: 37,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "  Aindrila Dutta",
           whatsapp: "Whatsapp",
           phone: "7003647277",
@@ -235,14 +213,12 @@ const eventDetails = [
       incharge: [
         {
           id: 41,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Swagata Shanigrihi,",
         },
         {
           id: 42,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Basudev Ghatak",
         },
       ],
@@ -250,28 +226,24 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 43,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Swarup Ch. Giri",
         },
         {
           id: 44,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Shyam Sundar Dutta",
         },
         {
           id: 45,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Ashim Chakraborty",
         },
       ],
       StudentMembers: [
         {
           id: 46,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Swati Gupta",
           whatsapp: "Whatsapp",
           phone: "9748694311",
@@ -280,8 +252,7 @@ const eventDetails = [
 
         {
           id: 47,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Souhardik Kundu",
           whatsapp: "Whatsapp",
           phone: "8101284655",
@@ -305,36 +276,31 @@ const eventDetails = [
       incharge: [
         {
           id: 51,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Pubali Mukherjee",
         },
         {
           id: 52,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Tanmoy Roy Chowdhury",
         },
       ],
       SubCommittee: [
         {
           id: 53,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Brajendra Nath Dey",
         },
         {
           id: 54,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Debanka De",
         },
       ],
       StudentMembers: [
         {
           id: 55,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Rit Prasad Dhar",
           whatsapp: "Whatsapp",
           phone: "8017077624",
@@ -342,8 +308,7 @@ const eventDetails = [
         },
         {
           id: 56,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Sayan Paul",
           whatsapp: "Whatsapp",
           phone: "7003813146",
@@ -351,8 +316,7 @@ const eventDetails = [
         },
         {
           id: 57,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Kriti Ganeriwal",
           whatsapp: "Whatsapp",
           phone: "9831798205",
@@ -376,36 +340,31 @@ const eventDetails = [
       incharge: [
         {
           id: 61,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Debopama Kar Ray (Basak)",
         },
         {
           id: 62,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr Sudeep Samanta",
         },
       ],
       SubCommittee: [
         {
           id: 63,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Atanu Banerjee",
         },
         {
           id: 64,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Suchismita Ghosh Mukherjee",
         },
       ],
       StudentMembers: [
         {
           id: 65,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Arghya Pal",
           whatsapp: "Whatsapp",
           phone: "6289058933",
@@ -413,8 +372,7 @@ const eventDetails = [
         },
         {
           id: 66,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Akansha Tripathi",
           whatsapp: "Whatsapp",
           phone: "6290839047",
@@ -438,30 +396,26 @@ const eventDetails = [
       incharge: [
         {
           id: 71,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Shampa Sengupta",
         },
       ],
       SubCommittee: [
         {
           id: 72,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Joydeep Banerjee ",
         },
         {
           id: 73,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Priyanath Mahanti",
         },
       ],
       StudentMembers: [
         {
           id: 74,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Sunetra Majumder",
           whatsapp: "Whatsapp",
           phone: "6289984395",
@@ -469,8 +423,7 @@ const eventDetails = [
         },
         {
           id: 75,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Tiasa Deshmukh ",
           whatsapp: "Whatsapp",
           phone: "9007049807",
@@ -478,8 +431,7 @@ const eventDetails = [
         },
         {
           id: 76,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Rit Prasad Dhar ",
           whatsapp: "Whatsapp",
           phone: "8017077624",
@@ -503,14 +455,12 @@ const eventDetails = [
       incharge: [
         {
           id: 41,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Milan Chakraborty,",
         },
         {
           id: 42,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Sourav Ghorai",
         },
       ],
@@ -518,16 +468,14 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 43,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Dr. Abhijit Pramanik",
         },
       ],
       StudentMembers: [
         {
           id: 46,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "  Romit Ghosh",
           whatsapp: "Whatsapp",
           phone: "6297525110",
@@ -536,8 +484,7 @@ const eventDetails = [
 
         {
           id: 47,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Akansha Tripathi",
           whatsapp: "Whatsapp",
           phone: "6290839047",
@@ -560,30 +507,26 @@ const eventDetails = [
       incharge: [
         {
           id: 91,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Juin Ghosh Sarkar",
         },
       ],
       SubCommittee: [
         {
           id: 92,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Sumit Majumdar",
         },
         {
           id: 93,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ms. Sulagna Chakraborty",
         },
       ],
       StudentMembers: [
         {
           id: 94,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Rohit Samanta",
           whatsapp: "Whatsapp",
           phone: "7044719825",
@@ -591,8 +534,7 @@ const eventDetails = [
         },
         {
           id: 95,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Rikita Koley",
           whatsapp: "Whatsapp",
           phone: "8697558062",
@@ -616,60 +558,51 @@ const eventDetails = [
       incharge: [
         {
           id: 101,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Milan Chakraborty",
         },
         {
           id: 102,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ms. Debanjali Chowdhury",
         },
         {
           id: 103,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Santanu Maity",
         },
         {
           id: 104,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ms. Nabamita Majumder",
         },
       ],
       SubCommittee: [
         {
           id: 105,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ms. Sasmita S Choudhury",
         },
         {
           id: 106,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Kailash Chandra Mahatab",
         },
         {
           id: 107,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ms. Aditi Bandyopadhyay",
         },
         {
           id: 108,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Mangal Singh",
         },
       ],
       StudentMembers: [
         {
           id: 109,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Tiasa Deshmukh",
           whatsapp: "Whatsapp",
           phone: "9007049807",
@@ -677,8 +610,7 @@ const eventDetails = [
         },
         {
           id: 110,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Debarshi Roy",
           whatsapp: "Whatsapp",
           phone: "9002189996",
@@ -686,8 +618,7 @@ const eventDetails = [
         },
         {
           id: 110,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Kriti Ganeriwal",
           whatsapp: "Whatsapp",
           phone: "9831798205",
@@ -695,8 +626,7 @@ const eventDetails = [
         },
         {
           id: 110,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ishika Sen",
           whatsapp: "Whatsapp",
           phone: "6289649452",
@@ -720,14 +650,12 @@ const eventDetails = [
       incharge: [
         {
           id: 111,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ms Jayanti Mahata",
         },
         {
           id: 112,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Basudev Ghatak",
         },
       ],
@@ -735,8 +663,7 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 113,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Mr. Amlan Karmakar",
         },
       ],
@@ -744,8 +671,7 @@ const eventDetails = [
       StudentMembers: [
         {
           id: 114,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Aditya Lal Shah ",
           whatsapp: "Whatsapp",
           phone: "8981195810",
@@ -754,8 +680,7 @@ const eventDetails = [
 
         {
           id: 115,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Mrinmoy Sasmal",
           whatsapp: "Whatsapp",
           phone: "7890175823",
@@ -779,14 +704,12 @@ const eventDetails = [
       incharge: [
         {
           id: 121,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Santanu Maity",
         },
         {
           id: 122,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Basudev Ghatak",
         },
       ],
@@ -794,9 +717,8 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 123,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
-          name: " Mr. Sandip Chakraborty",
+          image: "default.jpg",
+          name: "Mr. Sandip Chakraborty",
         },
       ],
 
@@ -805,14 +727,14 @@ const eventDetails = [
           id: 124,
           name: "Archisman Chatterjee",
           phone: "7619460342",
-          bio: " CSE",
+          bio: "CSE",
         },
 
         {
           id: 125,
-          name: "    Lytza Chatterjee",
+          name: "Lytza Chatterjee",
           phone: "8240864191",
-          bio: " AUEE",
+          bio: "AUE",
         },
       ],
     },
@@ -832,76 +754,64 @@ const eventDetails = [
       incharge: [
         {
           id: 131,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Abhijit Dutta",
         },
         {
           id: 132,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Tapas Kumar Biswas",
         },
         {
           id: 133,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Nabankur Mandal",
         },
       ],
       SubCommittee: [
         {
           id: 134,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Mr. Bimal Makhal",
         },
         {
           id: 135,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Drupad Roy",
         },
         {
           id: 136,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Dhiman Bhattacharjee",
         },
         {
           id: 137,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Rajib Majhi",
         },
         {
           id: 138,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Samrat Purkait ",
         },
         {
           id: 139,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Om Prakash",
         },
         {
           id: 1310,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Arijit Ghosh",
         },
         {
           id: 1311,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Joydeb Karmakar",
         },
         {
           id: 1312,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Ashis Taru Roy",
         },
       ],
@@ -909,8 +819,7 @@ const eventDetails = [
       StudentMembers: [
         {
           id: 1313,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Nabamita Bakshi ",
           whatsapp: "Whatsapp",
           phone: "7044604970",
@@ -918,8 +827,7 @@ const eventDetails = [
         },
         {
           id: 1314,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Souhardik Kundu",
           whatsapp: "Whatsapp",
           phone: "8101284655",
@@ -943,84 +851,71 @@ const eventDetails = [
       incharge: [
         {
           id: 141,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Abhijit Dutta",
         },
         {
           id: 142,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Tapas Kumar Biswas",
         },
         {
           id: 143,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Nabankur Mandal",
         },
       ],
       SubCommittee: [
         {
           id: 144,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Mr. Bimal Makhal",
         },
         {
           id: 145,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Drupad Roy",
         },
         {
           id: 146,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Dhiman Bhattacharjee",
         },
         {
           id: 147,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Rajib Majhi",
         },
         {
           id: 148,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Samrat Purkait ",
         },
         {
           id: 149,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Om Prakash",
         },
         {
           id: 1410,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Arijit Ghosh",
         },
         {
           id: 1411,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Joydeb Karmakar",
         },
         {
           id: 1412,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Ashis Taru Roy",
         },
       ],
       StudentMembers: [
         {
           id: 1413,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Kaushik Shaw ",
           whatsapp: "Whatsapp",
           phone: "9875386612",
@@ -1034,8 +929,7 @@ const eventDetails = [
         },
         {
           id: 1415,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Akash Singh",
           whatsapp: "Whatsapp",
           phone: "9088801008",
@@ -1060,20 +954,17 @@ const eventDetails = [
       incharge: [
         {
           id: 141,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Abhijit Dutta",
         },
         {
           id: 142,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Tapas Kumar Biswas",
         },
         {
           id: 143,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Nabankur Mandal",
         },
       ],
@@ -1081,64 +972,54 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 154,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Mr. Bimal Makhal",
         },
         {
           id: 155,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Drupad Roy",
         },
         {
           id: 156,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Dhiman Bhattacharjee",
         },
         {
           id: 157,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Rajib Majhi",
         },
         {
           id: 158,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Samrat Purkait ",
         },
         {
           id: 159,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Om Prakash",
         },
         {
           id: 1510,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Arijit Ghosh",
         },
         {
           id: 1511,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Joydeb Karmakar",
         },
         {
           id: 1512,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Ashis Taru Roy",
         },
       ],
       StudentMembers: [
         {
           id: 1413,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Pratyay Ghosh",
           whatsapp: "Whatsapp",
           phone: "9051642232",
@@ -1169,20 +1050,17 @@ const eventDetails = [
       incharge: [
         {
           id: 141,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Dr. Abhijit Dutta",
         },
         {
           id: 142,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Tapas Kumar Biswas",
         },
         {
           id: 143,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Nabankur Mandal",
         },
       ],
@@ -1190,64 +1068,54 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 164,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Mr. Bimal Makhal",
         },
         {
           id: 165,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Drupad Roy",
         },
         {
           id: 166,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Dhiman Bhattacharjee",
         },
         {
           id: 167,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Rajib Majhi",
         },
         {
           id: 168,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Samrat Purkait ",
         },
         {
           id: 169,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Om Prakash",
         },
         {
           id: 1610,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Arijit Ghosh",
         },
         {
           id: 1611,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Joydeb Karmakar",
         },
         {
           id: 1612,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Mr. Ashis Taru Roy",
         },
       ],
       StudentMembers: [
         {
           id: 1613,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: "Ayan Palit",
           whatsapp: "Whatsapp",
           phone: "6295389311",
@@ -1261,8 +1129,7 @@ const eventDetails = [
         },
         {
           id: 1615,
-          image:
-            "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+          image: "default.jpg",
           name: " Abhishek Kumar",
           whatsapp: "Whatsapp",
           phone: "6207902850",

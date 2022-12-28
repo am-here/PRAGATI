@@ -5,7 +5,7 @@ function Card({ details }) {
     <div className="card-container">
       <div className="image-div">
         <img
-          src={details.image}
+          src={require(`../../resources/${details.image}`)}
           alt="details"
           className="image"
         />

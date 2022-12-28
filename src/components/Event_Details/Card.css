@@ -1,7 +1,8 @@
 .card-container {
   background: transparent;
   height: 200px;
-  width: 250px;
+  width: 350px;
+  /* width: 250px; */
   margin: 15px;
   display: flex;
   flex-direction: column;
@@ -78,6 +79,10 @@
 @media screen and (max-width: 650px) {
   .card-container {
     width: 87%;
-    height: max-content;
+   height: max-content; 
+  }
+  .image{
+    height: auto;
+    width: 100%;
   }
 }

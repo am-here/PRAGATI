@@ -16,7 +16,12 @@ function Footer() {
               className="logo"
               draggable={false}
             /> */}
-            <img src={logoPragati} alt="LOGO" className="logo" />
+            <img
+              src={logoPragati}
+              alt="LOGO"
+              className="logo"
+              draggable={false}
+            />
             <p>
               Pragati gives young minds an opportunity to showcase their skills
               and compete with other likeminded individuals and the best talent

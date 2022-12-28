@@ -1,9 +1,10 @@
 .footer{
+    /* margin-top: 1rem; */
     background-color: var(--bg-color);
     width: 100%;
     bottom: 0;
     color: #fff;
-    padding: 10px 0 30px;
+    padding: 5rem 0 30px;
     font-size: 13px;
     line-height: 20px;
 }
@@ -79,7 +80,8 @@
     height: 40px;
     text-align: center;
     font-size: 40px;
-    color: #fff;
+    /* color: #fff; */
+    color: var(--primary);
     margin-right: 15px;
     cursor: pointer;
 }
@@ -93,6 +95,7 @@
     font-size: 24px;
 }
 .copyright{
+    color: var(--primary);
     text-align: center;
 }
 .underline{

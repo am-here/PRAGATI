@@ -1,7 +1,7 @@
 .contact-container {
   background-color: var(--bg-color);
   display: grid;
-  grid-template-columns: repeat(5, 20%);
+  grid-template-columns: repeat(5, 19%);
   margin: 10px auto;
   align-items: center;
   height: auto;
@@ -13,7 +13,7 @@
 }
 .eventContact_container_T {
   margin-bottom: 190px;
-  margin-left: 70px;
+  /* margin-left: 70px; */
   margin-right: 70px;
 }
 @media screen and (max-width: 1020px) {
@@ -25,7 +25,7 @@
   .contact-container {
     grid-template-columns: repeat(1, 100%);
   }
-    .eventContact_container_T{
-      margin-bottom: 50px;
-    }
+  .eventContact_container_T {
+    margin-bottom: 50px;
+  }
 }

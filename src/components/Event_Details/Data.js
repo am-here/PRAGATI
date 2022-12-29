@@ -497,11 +497,12 @@ const eventDetails = [
     id: 9,
     name: "Quiz-o-mania",
     date: "5th January 2023",
-    amt: "Free",
+    amtin: "₹50",
+    amtout: "₹60",
     size: "3 members",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/1s_aAPUBuSxXSOJ1z93xQWcZqe1WsKGie/view?usp=share_link",
+      "https://drive.google.com/file/d/14sIjFadpPZT1qazZ_VX7en71gX_u8AAr/view",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
@@ -832,7 +833,7 @@ const eventDetails = [
         {
           id: 1314,
           image: "default.jpg",
-          name: " Souhardik Kundu",
+          name: "Souhardik Kundu",
           whatsapp: "Whatsapp",
           phone: "8101284655",
           bio: "AUE",
@@ -927,7 +928,9 @@ const eventDetails = [
         },
         {
           id: 1414,
+          image: "default.jpg",
           name: " Shrayam Banerjee",
+          whatsapp: "Whatsapp",
           phone: "9836482698",
           bio: "CSE",
         },
@@ -1031,7 +1034,9 @@ const eventDetails = [
         },
         {
           id: 1414,
+          image: "default.jpg",
           name: " Mohit Kumar Singh",
+          whatsapp: "Whatsapp",
           phone: "9051802430",
           bio: "EE",
         },
@@ -1127,7 +1132,9 @@ const eventDetails = [
         },
         {
           id: 1614,
+          image: "default.jpg",
           name: " Nageswar Rao Enduga",
+          whatsapp: "Whatsapp",
           phone: "8420559756",
           bio: "ME",
         },

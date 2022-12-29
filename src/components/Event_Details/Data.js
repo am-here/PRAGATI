@@ -271,7 +271,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/co64X9ixbpViitgV6",
     rules:
       "https://drive.google.com/file/d/1Yy1S8yU6KHv3rPGiWiy1a5HNbMzvxiZ2/view?usp=share_link",
-    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
+    reg_link: "https://forms.gle/co64X9ixbpViitgV6",
     contacts: {
       incharge: [
         {
@@ -335,7 +335,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/N8Yp4VkrRMZyGjpT6",
     rules:
       "https://drive.google.com/file/d/1hA7TwOypmZgoA5SALT7WEKe-w6yHSo-V/view?usp=share_link",
-    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
+    reg_link: "https://forms.gle/N8Yp4VkrRMZyGjpT6",
     contacts: {
       incharge: [
         {
@@ -391,7 +391,7 @@ const eventDetails = [
     googlr_Form: "https://forms.gle/v2yqUHwkHzQmNhdn6",
     rules:
       "https://drive.google.com/file/d/1-4o_jexI2lGs65gFcm9U-9cZsW3y10pK/view?usp=share_link",
-    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
+    reg_link: "https://forms.gle/v2yqUHwkHzQmNhdn6",
     contacts: {
       incharge: [
         {

@@ -10,6 +10,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import EventDetails from "./components/Event_Details/EventDetails";
 import eventDetails from "./components/Event_Details/Data";
 import EventContact from "./components/Event_Details/EventContact";
+import Spinner from "./components/Spinner/Spinner";
 import pragati_load from "./resources/pragati.gif";
 import "./App.css";
 
@@ -45,11 +46,7 @@ function App() {
   return (
     <>
       {loading ? (
-        <div className="loader-container">
-          <div className="spinner">
-            <img src={pragati_load} alt="loader" draggable={false} />
-          </div>
-        </div>
+        <Spinner gif={pragati_load} />
       ) : (
         <BrowserRouter>
           <Navbar menu={menu} setMenu={setMenu} />

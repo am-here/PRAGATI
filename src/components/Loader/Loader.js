@@ -1,6 +1,6 @@
 import React from "react";
-import "./spinner.css";
-function Spinner(props) {
+import "./loader.css";
+function Loader(props) {
   return (
     <div className="loader-container">
       <div className="spinner">
@@ -10,4 +10,4 @@ function Spinner(props) {
   );
 }
 
-export default Spinner;
+export default Loader;

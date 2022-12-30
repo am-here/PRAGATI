@@ -10,15 +10,17 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import EventDetails from "./components/Event_Details/EventDetails";
 import eventDetails from "./components/Event_Details/Data";
 import EventContact from "./components/Event_Details/EventContact";
-import Spinner from "./components/Spinner/Spinner";
+import Spinner from "./components/Loader/Loader";
 import pragati_load from "./resources/pragati.gif";
 import "./App.css";
+import Loader from "./components/Loader/Loader";
 
 function App() {
   const [menu, setMenu] = useState("Home");
   const [top, setTop] = useState(false);
   const [ID, setId] = useState("0");
   const [details, setDetails] = useState(null);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 300) {
@@ -36,7 +38,6 @@ function App() {
     setDetails(obj);
     console.log(obj);
   }, [ID]);
-  const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -46,7 +47,7 @@ function App() {
   return (
     <>
       {loading ? (
-        <Spinner gif={pragati_load} />
+        <Loader gif={pragati_load} />
       ) : (
         <BrowserRouter>
           <Navbar menu={menu} setMenu={setMenu} />

@@ -8,6 +8,7 @@
   flex-direction: column;
   padding: 5px;
   align-items: center;
+  justify-self: center;
 }
 .image-div {
   flex-basis: 50%;
@@ -70,18 +71,20 @@
 .link > .fa-brands {
   font-size: 23px;
 }
-@media screen and (max-width: 1050px){
-  .card-container{
+@media screen and (max-width: 1050px) {
+  .card-container {
     height: auto;
     width: auto;
+    justify-self: center;
   }
 }
 @media screen and (max-width: 650px) {
   .card-container {
     width: 87%;
-   height: max-content; 
+    height: max-content;
+    justify-self: center;
   }
-  .image{
+  .image {
     height: auto;
     width: 100%;
   }

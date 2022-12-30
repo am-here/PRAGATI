@@ -10,6 +10,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import EventDetails from "./components/Event_Details/EventDetails";
 import eventDetails from "./components/Event_Details/Data";
 import EventContact from "./components/Event_Details/EventContact";
+import pragati_load from "./resources/pragati.gif";
 import "./App.css";
 
 function App() {
@@ -34,28 +35,43 @@ function App() {
     setDetails(obj);
     console.log(obj);
   }, [ID]);
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 4800);
+  }, []);
   return (
     <>
-      <BrowserRouter>
-        <Navbar menu={menu} setMenu={setMenu} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/schedule" element={<Day />} />
-          <Route path="/contact" element={<Teachers />} />
-          <Route
-            path="/events/:id"
-            element={<EventDetails setId={setId} details={details} />}
-          />
-          <Route
-            path="/events/:id/contact"
-            element={<EventContact contact={details && details.contacts} />}
-          />
+      {loading ? (
+        <div className="loader-container">
+          <div className="spinner">
+            <img src={pragati_load} alt="loader" draggable={false} />
+          </div>
+        </div>
+      ) : (
+        <BrowserRouter>
+          <Navbar menu={menu} setMenu={setMenu} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/schedule" element={<Day />} />
+            <Route path="/contact" element={<Teachers />} />
+            <Route
+              path="/events/:id"
+              element={<EventDetails setId={setId} details={details} />}
+            />
+            <Route
+              path="/events/:id/contact"
+              element={<EventContact contact={details && details.contacts} />}
+            />
 
-          <Route path="/events" element={<Event />} />
-        </Routes>
-        <ScrollToTop show={top} />
-        <Footer />
-      </BrowserRouter>
+            <Route path="/events" element={<Event />} />
+          </Routes>
+          <ScrollToTop show={top} />
+          <Footer />
+        </BrowserRouter>
+      )}
       {/* <EventCard /> */}
     </>
   );

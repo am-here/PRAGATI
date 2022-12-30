@@ -13,7 +13,6 @@
 }
 .eventContact_container_T {
   margin-bottom: 190px;
-  /* margin-left: 70px; */
   margin-right: 70px;
 }
 @media screen and (max-width: 1020px) {
@@ -27,5 +26,6 @@
   }
   .eventContact_container_T {
     margin-bottom: 50px;
+    margin-right: 0px;
   }
 }

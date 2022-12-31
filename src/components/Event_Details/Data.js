@@ -418,7 +418,7 @@ const eventDetails = [
           image: "default.jpg",
           name: "Sunetra Majumder",
           whatsapp: "Whatsapp",
-          phone: "6289984395",
+          phone: "8902234465",
           bio: "ECE",
         },
         {

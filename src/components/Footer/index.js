@@ -92,7 +92,7 @@ function Footer() {
                 disabled
                 required
               />
-              <button className="button" type="submit">
+              <button className="button" type="submit" disabled>
                 <i className="fa-solid fa-arrow-right-to-bracket"></i>
               </button>
             </form>

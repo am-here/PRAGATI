@@ -1,3 +1,5 @@
+// deleted
+
 import React from "react";
 import "./Scheduler.css";
 import timelineElements from "./Schedule_data";

@@ -55,7 +55,7 @@ body {
 .schedule_body {
   /* width: 98%; */
   width: 90%;
-    margin: 5rem auto;
+  margin: 5rem auto;
   height: auto;
   padding: 2rem 3rem;
   border-radius: 0.5rem;
@@ -79,7 +79,7 @@ body {
 }
 .timeline button {
   color: var(--primary);
-  font-size: 1px !important;
+  font-size: 0.9rem !important;
   padding: 15px 0;
   text-align: center;
   transition: 0.3s;

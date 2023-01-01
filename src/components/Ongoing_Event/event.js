@@ -19,7 +19,16 @@ function Event() {
           rel="noopener noreferrer"
           href="https://drive.google.com/file/d/1dIORZdgrXnje4EsnBBz7DviGaIDqnLwY/view?usp=share_link"
         >
-          Click here to check general rules!!
+          General Rules
+        </a>
+      </div>
+      <div className="special_link">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://drive.google.com/file/d/1FhDPFIShvRMb28GfeP4JBWtnV6VUV-tB/view"
+        >
+          Consolidated Rules for every Event
         </a>
       </div>
       <div className="content_row">
@@ -27,50 +36,79 @@ function Event() {
           <li className="heading-list">Category 1: Coding and Design</li>
           <ol>
             <Link to="/events/1">
-              <li>a) Circuit Design <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                a) Circuit Design{" "}
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
             <Link to="/events/2">
-              <li>b) Code-fiesta <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                b) Code-fiesta <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
             <Link to="/events/3">
-              <li>c) ML Mania <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                c) ML Mania <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
             <Link to="/events/4">
-              <li>d) CATIA <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                d) CATIA <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
           </ol>
           <li className="heading-list">Category 2: Innovation</li>
           <ol>
             <Link to="/events/5">
-              <li>a) Innovative Idea Contest <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                a) Innovative Idea Contest{" "}
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
             <Link to="/events/6">
-              <li>b) Innovative Model Contest <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                b) Innovative Model Contest{" "}
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
             <Link to="/events/7">
-              <li>c) Technical Poster Presentation <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                c) Technical Poster Presentation{" "}
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
           </ol>
           <li className="heading-list">Category 3: Quiz and Mathematics</li>
           <ol>
             <Link to="/events/8">
-              <li>a) Math Mania <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                a) Math Mania <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
 
             <Link to="/events/9">
-              <li>b) Quiz-o-mania <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                b) Quiz-o-mania <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
             <Link to="/events/10">
-              <li>c) ENIGMA <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                c) ENIGMA <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
           </ol>
           <li className="heading-list">Category 4: Gaming</li>
           <ol>
             <Link to="/events/11">
-              <li>a) NFS Most Wanted <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                a) NFS Most Wanted{" "}
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
             <Link to="/events/12">
-              <li>b) FIFA <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                b) FIFA <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
 
             {/* <li>c) ML Mania</li> */}
@@ -78,17 +116,27 @@ function Event() {
           <li className="heading-list">Category 5: Robotics</li>
           <ol>
             <Link to="/events/13">
-              <li>a) Robo FIFA <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                a) Robo FIFA <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
             <Link to="/events/14">
-              <li>b) Robo war <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                b) Robo war <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
 
             <Link to="/events/15">
-              <li>c) Chase the maze <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li>
+                c) Chase the maze{" "}
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
             <Link to="/events/16">
-              <li id="last-line">d) Line follower <i class="fa-solid fa-up-right-from-square"></i></li>
+              <li id="last-line">
+                d) Line follower{" "}
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </li>
             </Link>
           </ol>
         </ul>

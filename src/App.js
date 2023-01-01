@@ -10,7 +10,6 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import EventDetails from "./components/Event_Details/EventDetails";
 import eventDetails from "./components/Event_Details/Data";
 import EventContact from "./components/Event_Details/EventContact";
-import Spinner from "./components/Loader/Loader";
 import pragati_load from "./resources/pragati.gif";
 import "./App.css";
 import Loader from "./components/Loader/Loader";

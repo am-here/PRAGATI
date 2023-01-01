@@ -11,7 +11,7 @@
   width: 85%;
   margin: auto;
   color: rgb(255, 217, 0);
-  animation: animate 1.5s linear infinite;
+  /* animation: animate 1.5s linear infinite; */
 }
 @keyframes animate {
   0% {

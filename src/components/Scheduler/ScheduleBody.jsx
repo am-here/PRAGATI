@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Day1 from './Day1'
 import Day2 from './Day2'
+import { Link } from 'react-router-dom'
 // import timelineElements from './Schedule_data'
 
 function ScheduleBody(props) {
@@ -35,10 +36,12 @@ function ScheduleBody(props) {
         <div className="ScheduleCardRow">
           {items.map((details) => {
             return (
-              <div className='ScheduleCardCol'>
-                <h1 className="ScheduleCardHeading">{details.heading}</h1>
-                <h2 className="ScheduleCardRound">{details.round}</h2>
-              </div>
+              <Link className={details.id === 0 ? 'ScheduleCardCol non-pointer' : 'ScheduleCardCol'} to={details.id === 0 ? `#` : `/events/${details.id}`}>
+                <div>
+                  <h1 className="ScheduleCardHeading">{details.heading}</h1>
+                  <h2 className="ScheduleCardRound">{details.round}</h2>
+                </div>
+              </Link>
             )
           })}
         </div>

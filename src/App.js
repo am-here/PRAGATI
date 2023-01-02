@@ -13,6 +13,7 @@ import EventContact from "./components/Event_Details/EventContact";
 import pragati_load from "./resources/pragati.gif";
 import "./App.css";
 import Loader from "./components/Loader/Loader";
+import Poster from "./components/Poster/Poster";
 
 function App() {
   const [menu, setMenu] = useState("Home");
@@ -49,6 +50,7 @@ function App() {
         <Loader gif={pragati_load} />
       ) : (
         <BrowserRouter>
+          <Poster />
           <Navbar menu={menu} setMenu={setMenu} />
           <Routes>
             <Route path="/" element={<Home />} />

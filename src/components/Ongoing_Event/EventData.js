@@ -1,7 +1,11 @@
 const EventData = [
   {
-    image: "upComing.jpeg",
-    description: "Click above to checkout the incoming events.",
+    image: "notice2.jpeg",
+    description: "",
+  },
+  {
+    image: "notice1.jpeg",
+    description: "",
   },
 ];
 

@@ -30,7 +30,7 @@ function Navbar({ menu, setMenu }) {
       <div className="nav-container">
         <div className="logo-menu">
           <Link to="/" className="logo">
-            <img src={logoPragati} alt="LOGO" className="nav-logo" draggable={false}/>
+            <img src={logoPragati} alt="LOGO" className="nav-logo" draggable={false} />
             {/* Pragati */}
           </Link>
           <div className="menu-btn" onClick={() => handleClick("Home")}>
@@ -72,6 +72,14 @@ function Navbar({ menu, setMenu }) {
               className={menu === "Schedule" ? "nav-links active" : "nav-links"}
             >
               Schedule
+            </HashLink>
+          </span>
+          <span className="nav-items" onClick={() => handleClick("Notices")}>
+            <HashLink
+              to="/#notices"
+              className={menu === "Notices" ? "nav-links active" : "nav-links"}
+            >
+              Notices
             </HashLink>
           </span>
           <span className="nav-items" onClick={() => handleClick("Venue")}>

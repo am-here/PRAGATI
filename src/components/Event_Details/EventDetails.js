@@ -47,6 +47,12 @@ function EventDetails({ setId, details }) {
                 <i className="fa-solid fa-money-check-dollar"></i>
                 {details.amtout}(for externals)
               </div>
+              {details.offer && (
+                <div className="event_fees">
+                  <i className="fa-solid fa-tag"></i>
+                  {details.offer}
+                </div>
+              )}
               <div className="event_buttons">
                 <div className="event_rules">
                   <a

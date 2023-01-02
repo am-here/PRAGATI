@@ -65,6 +65,11 @@ function Footer() {
                 </Link>
               </li>
               <li className="li">
+                <HashLink className="ali" to="/#notices">
+                  Notices
+                </HashLink>
+              </li>
+              <li className="li">
                 <HashLink className="ali" to="/#venue">
                   Venue
                 </HashLink>

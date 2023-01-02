@@ -7,7 +7,7 @@
 }
 .special_link {
   font-size: 2rem;
-
+  text-decoration: underline;
   width: 85%;
   margin: auto;
   color: rgb(255, 217, 0);

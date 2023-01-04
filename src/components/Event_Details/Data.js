@@ -275,7 +275,7 @@ const eventDetails = [
     size: "4 members",
     googlr_Form: "https://forms.gle/co64X9ixbpViitgV6",
     rules:
-      "https://drive.google.com/file/d/1Yy1S8yU6KHv3rPGiWiy1a5HNbMzvxiZ2/view?usp=share_link",
+      "https://drive.google.com/file/d/1PqPSovfoBz0130LRcZq5S4rPc5a78LgG/view?usp=share_link",
     reg_link: "https://forms.gle/co64X9ixbpViitgV6",
     contacts: {
       incharge: [
@@ -656,7 +656,7 @@ const eventDetails = [
     size: "1 member",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/1YOd9Tkl3pyqLRqGEdkP5oqNQU_-SAy5h/view?usp=share_link",
+      "https://drive.google.com/file/d/1sbWB3DVfeRDJJl7G6-10l_HFKGVlshU7/view?usp=share_link",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
@@ -766,7 +766,7 @@ const eventDetails = [
     size: "2 to 4",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/1ObxAX_OlfTgX32iYL6XoZyWzsDoQmBSo/view",
+      "https://drive.google.com/file/d/1UT9pYrvFFSztCVFjROS3KWrtokEJ-mP6/view?usp=share_link",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
@@ -864,7 +864,7 @@ const eventDetails = [
     size: "2 to 4 members",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/1ikmF3C8S4zsdHabdpwwFDBsw2GPiegiL/view",
+      "https://drive.google.com/file/d/1CouNs8tDR-AhqQd1P8gb7xCDtTJmMBtH/view?usp=share_link",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
@@ -969,7 +969,7 @@ const eventDetails = [
     size: "2 members",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/1s0VGqNoJUgyN4e4hW9wxi8nkLFcqWkCM/view",
+      "https://drive.google.com/file/d/11iY28Rw9NzWXUbQSNFiPy34ftuVfKVTU/view?usp=share_link",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
 
     contacts: {
@@ -1068,7 +1068,7 @@ const eventDetails = [
     size: "2 to 4 members",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/1qIvJ0VE1fTkoTTCFKwT3YZHv4OCp5_md/view",
+      "https://drive.google.com/file/d/1r0RyaBapTJw3iM9CpVKtsTQ1P54y3zAd/view?usp=share_link",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
 
     contacts: {

@@ -15,41 +15,41 @@ const eventDetails = [
       incharge: [
         {
           id: 11,
-          image: "default.jpg",
+          image: "",
           name: "Ms. Sushmita Dey",
         },
       ],
       SubCommittee: [
         {
           id: 12,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Sekhar Rana",
         },
         {
           id: 13,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Ajoy Ghosal",
         },
         {
           id: 14,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Chandan Das",
         },
         {
           id: 15,
-          image: "default.jpg",
+          image: "",
           name: "Ms. Priyanka Nath",
         },
         {
           id: 16,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Arijit Sen",
         },
       ],
       StudentMembers: [
         {
           id: 17,
-          image: "default.jpg",
+          image: "",
           name: "Ishika Sen",
           whatsapp: "Whatsapp",
           phone: "6289649452",
@@ -57,7 +57,7 @@ const eventDetails = [
         },
         {
           id: 18,
-          image: "default.jpg",
+          image: "",
           name: "Shailee Sharma",
           whatsapp: "Whatsapp",
           phone: "9123709838",
@@ -82,12 +82,12 @@ const eventDetails = [
       incharge: [
         {
           id: 21,
-          image: "default.jpg",
+          image: "",
           name: "Ms. Nabamita Majumder",
         },
         {
           id: 22,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Basudev Ghatak",
         },
       ],
@@ -95,17 +95,17 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 23,
-          image: "default.jpg",
+          image: "",
           name: " Ms. Sasmita S Choudhury",
         },
         {
           id: 24,
-          image: "default.jpg",
+          image: "",
           name: " Mr. Kailash Chandra Mahatab",
         },
         {
           id: 25,
-          image: "default.jpg",
+          image: "",
           name: " Ms. Aditi Bandyopadhyay",
         },
       ],
@@ -113,7 +113,7 @@ const eventDetails = [
       StudentMembers: [
         {
           id: 26,
-          image: "default.jpg",
+          image: "",
           name: "  Debarshi Roy",
           whatsapp: "Whatsapp",
           phone: "9002189996",
@@ -121,7 +121,7 @@ const eventDetails = [
         },
         {
           id: 27,
-          image: "default.jpg",
+          image: "",
           name: " Arpan Saha Hazra",
           whatsapp: "Whatsapp",
           phone: "7003988236",
@@ -154,36 +154,36 @@ const eventDetails = [
       incharge: [
         {
           id: 31,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Puspen Lahiri",
         },
         {
           id: 32,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Basudev Ghatak",
         },
       ],
       SubCommittee: [
         {
           id: 33,
-          image: "default.jpg",
+          image: "",
           name: "  Mr. Prasenjit Das",
         },
         {
           id: 34,
-          image: "default.jpg",
+          image: "",
           name: " Ms. Moumita Goswami",
         },
         {
           id: 35,
-          image: "default.jpg",
+          image: "",
           name: " Mr. Rajib Chatterjee",
         },
       ],
       StudentMembers: [
         {
           id: 36,
-          image: "default.jpg",
+          image: "",
           name: "   Baishali Ghosh",
           whatsapp: "Whatsapp",
           phone: "9330184233",
@@ -192,7 +192,7 @@ const eventDetails = [
 
         {
           id: 37,
-          image: "default.jpg",
+          image: "",
           name: "  Aindrila Dutta",
           whatsapp: "Whatsapp",
           phone: "7003647277",
@@ -217,12 +217,12 @@ const eventDetails = [
       incharge: [
         {
           id: 41,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Swagata Shanigrihi,",
         },
         {
           id: 42,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Basudev Ghatak",
         },
       ],
@@ -230,24 +230,24 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 43,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Swarup Ch. Giri",
         },
         {
           id: 44,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Shyam Sundar Dutta",
         },
         {
           id: 45,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Ashim Chakraborty",
         },
       ],
       StudentMembers: [
         {
           id: 46,
-          image: "default.jpg",
+          image: "",
           name: "Swati Gupta",
           whatsapp: "Whatsapp",
           phone: "9748694311",
@@ -256,7 +256,7 @@ const eventDetails = [
 
         {
           id: 47,
-          image: "default.jpg",
+          image: "",
           name: "Souhardik Kundu",
           whatsapp: "Whatsapp",
           phone: "8101284655",
@@ -281,31 +281,31 @@ const eventDetails = [
       incharge: [
         {
           id: 51,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Pubali Mukherjee",
         },
         {
           id: 52,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Tanmoy Roy Chowdhury",
         },
       ],
       SubCommittee: [
         {
           id: 53,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Brajendra Nath Dey",
         },
         {
           id: 54,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Debanka De",
         },
       ],
       StudentMembers: [
         {
           id: 55,
-          image: "default.jpg",
+          image: "",
           name: "Rit Prasad Dhar",
           whatsapp: "Whatsapp",
           phone: "8017077624",
@@ -313,7 +313,7 @@ const eventDetails = [
         },
         {
           id: 56,
-          image: "default.jpg",
+          image: "",
           name: "Sayan Paul",
           whatsapp: "Whatsapp",
           phone: "7003813146",
@@ -321,7 +321,7 @@ const eventDetails = [
         },
         {
           id: 57,
-          image: "default.jpg",
+          image: "",
           name: "Kriti Ganeriwal",
           whatsapp: "Whatsapp",
           phone: "9831798205",
@@ -346,31 +346,31 @@ const eventDetails = [
       incharge: [
         {
           id: 61,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Debopama Kar Ray (Basak)",
         },
         {
           id: 62,
-          image: "default.jpg",
+          image: "",
           name: "Mr Sudeep Samanta",
         },
       ],
       SubCommittee: [
         {
           id: 63,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Atanu Banerjee",
         },
         {
           id: 64,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Suchismita Ghosh Mukherjee",
         },
       ],
       StudentMembers: [
         {
           id: 65,
-          image: "default.jpg",
+          image: "",
           name: "Arghya Pal",
           whatsapp: "Whatsapp",
           phone: "6289058933",
@@ -378,7 +378,7 @@ const eventDetails = [
         },
         {
           id: 66,
-          image: "default.jpg",
+          image: "",
           name: "Akansha Tripathi",
           whatsapp: "Whatsapp",
           phone: "6290839047",
@@ -403,26 +403,26 @@ const eventDetails = [
       incharge: [
         {
           id: 71,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Shampa Sengupta",
         },
       ],
       SubCommittee: [
         {
           id: 72,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Joydeep Banerjee ",
         },
         {
           id: 73,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Priyanath Mahanti",
         },
       ],
       StudentMembers: [
         {
           id: 74,
-          image: "default.jpg",
+          image: "",
           name: "Sunetra Majumder",
           whatsapp: "Whatsapp",
           phone: "8902234465",
@@ -430,7 +430,7 @@ const eventDetails = [
         },
         {
           id: 75,
-          image: "default.jpg",
+          image: "",
           name: "Tiasa Deshmukh ",
           whatsapp: "Whatsapp",
           phone: "9007049807",
@@ -438,7 +438,7 @@ const eventDetails = [
         },
         {
           id: 76,
-          image: "default.jpg",
+          image: "",
           name: "Rit Prasad Dhar ",
           whatsapp: "Whatsapp",
           phone: "8017077624",
@@ -463,12 +463,12 @@ const eventDetails = [
       incharge: [
         {
           id: 41,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Milan Chakraborty,",
         },
         {
           id: 42,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Sourav Ghorai",
         },
       ],
@@ -476,14 +476,14 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 43,
-          image: "default.jpg",
+          image: "",
           name: " Dr. Abhijit Pramanik",
         },
       ],
       StudentMembers: [
         {
           id: 46,
-          image: "default.jpg",
+          image: "",
           name: "  Romit Ghosh",
           whatsapp: "Whatsapp",
           phone: "6297525110",
@@ -492,7 +492,7 @@ const eventDetails = [
 
         {
           id: 47,
-          image: "default.jpg",
+          image: "",
           name: " Akansha Tripathi",
           whatsapp: "Whatsapp",
           phone: "6290839047",
@@ -517,26 +517,26 @@ const eventDetails = [
       incharge: [
         {
           id: 91,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Juin Ghosh Sarkar",
         },
       ],
       SubCommittee: [
         {
           id: 92,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Sumit Majumdar",
         },
         {
           id: 93,
-          image: "default.jpg",
+          image: "",
           name: "Ms. Sulagna Chakraborty",
         },
       ],
       StudentMembers: [
         {
           id: 94,
-          image: "default.jpg",
+          image: "",
           name: "Rohit Samanta",
           whatsapp: "Whatsapp",
           phone: "7044719825",
@@ -544,7 +544,7 @@ const eventDetails = [
         },
         {
           id: 95,
-          image: "default.jpg",
+          image: "",
           name: "Rikita Koley",
           whatsapp: "Whatsapp",
           phone: "8697558062",
@@ -555,65 +555,65 @@ const eventDetails = [
   },
   {
     id: 10,
-    name: "Treasure Hunt",
+    name: "Enigma - A Technical Treasurehunt",
     date: "5th January 2023",
     offer: "",
-    amtin: "₹50",
-    amtout: "₹50",
-    size: "3 members",
+    amtin: "₹100",
+    amtout: "₹200",
+    size: "2-3 members",
     googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
     rules:
-      "https://drive.google.com/file/d/1L34GxcA7Ch84c6-fOTHz1TZOI05OLFVd/view?usp=share_link",
+      "https://drive.google.com/file/d/1IAqD6jHWq12QH69l4iX4xUMfv5W0EQ8_/view",
     reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
     contacts: {
       incharge: [
         {
           id: 101,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Milan Chakraborty",
         },
         {
           id: 102,
-          image: "default.jpg",
+          image: "",
           name: "Ms. Debanjali Chowdhury",
         },
         {
           id: 103,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Santanu Maity",
         },
         {
           id: 104,
-          image: "default.jpg",
+          image: "",
           name: "Ms. Nabamita Majumder",
         },
       ],
       SubCommittee: [
         {
           id: 105,
-          image: "default.jpg",
+          image: "",
           name: "Ms. Sasmita S Choudhury",
         },
         {
           id: 106,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Kailash Chandra Mahatab",
         },
         {
           id: 107,
-          image: "default.jpg",
+          image: "",
           name: "Ms. Aditi Bandyopadhyay",
         },
         {
           id: 108,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Mangal Singh",
         },
       ],
       StudentMembers: [
         {
           id: 109,
-          image: "default.jpg",
+          image: "",
           name: "Tiasa Deshmukh",
           whatsapp: "Whatsapp",
           phone: "9007049807",
@@ -621,7 +621,7 @@ const eventDetails = [
         },
         {
           id: 110,
-          image: "default.jpg",
+          image: "",
           name: "Debarshi Roy",
           whatsapp: "Whatsapp",
           phone: "9002189996",
@@ -629,7 +629,7 @@ const eventDetails = [
         },
         {
           id: 110,
-          image: "default.jpg",
+          image: "",
           name: "Kriti Ganeriwal",
           whatsapp: "Whatsapp",
           phone: "9831798205",
@@ -637,7 +637,7 @@ const eventDetails = [
         },
         {
           id: 110,
-          image: "default.jpg",
+          image: "",
           name: "Ishika Sen",
           whatsapp: "Whatsapp",
           phone: "6289649452",
@@ -662,12 +662,12 @@ const eventDetails = [
       incharge: [
         {
           id: 111,
-          image: "default.jpg",
+          image: "",
           name: "Ms Jayanti Mahata",
         },
         {
           id: 112,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Basudev Ghatak",
         },
       ],
@@ -675,7 +675,7 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 113,
-          image: "default.jpg",
+          image: "",
           name: " Mr. Amlan Karmakar",
         },
       ],
@@ -683,7 +683,7 @@ const eventDetails = [
       StudentMembers: [
         {
           id: 114,
-          image: "default.jpg",
+          image: "",
           name: " Aditya Lal Shah ",
           whatsapp: "Whatsapp",
           phone: "8981195810",
@@ -692,7 +692,7 @@ const eventDetails = [
 
         {
           id: 115,
-          image: "default.jpg",
+          image: "",
           name: " Mrinmoy Sasmal",
           whatsapp: "Whatsapp",
           phone: "7890175823",
@@ -717,12 +717,12 @@ const eventDetails = [
       incharge: [
         {
           id: 121,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Santanu Maity",
         },
         {
           id: 122,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Basudev Ghatak",
         },
       ],
@@ -730,7 +730,7 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 123,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Sandip Chakraborty",
         },
       ],
@@ -738,7 +738,7 @@ const eventDetails = [
       StudentMembers: [
         {
           id: 124,
-          image: "default.jpg",
+          image: "",
           name: "Archisman Chatterjee",
           whatsapp: "Whatsapp",
           phone: "7619460342",
@@ -747,7 +747,7 @@ const eventDetails = [
 
         {
           id: 125,
-          image: "default.jpg",
+          image: "",
           name: "Lytza Chatterjee",
           whatsapp: "Whatsapp",
           phone: "8240864191",
@@ -772,64 +772,64 @@ const eventDetails = [
       incharge: [
         {
           id: 131,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Abhijit Dutta",
         },
         {
           id: 132,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Tapas Kumar Biswas",
         },
         {
           id: 133,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Nabankur Mandal",
         },
       ],
       SubCommittee: [
         {
           id: 134,
-          image: "default.jpg",
+          image: "",
           name: " Mr. Bimal Makhal",
         },
         {
           id: 135,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Drupad Roy",
         },
         {
           id: 136,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Dhiman Bhattacharjee",
         },
         {
           id: 137,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Rajib Majhi",
         },
         {
           id: 138,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Samrat Purkait ",
         },
         {
           id: 139,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Om Prakash",
         },
         {
           id: 1310,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Arijit Ghosh",
         },
         {
           id: 1311,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Joydeb Karmakar",
         },
         {
           id: 1312,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Ashis Taru Roy",
         },
       ],
@@ -837,7 +837,7 @@ const eventDetails = [
       StudentMembers: [
         {
           id: 1313,
-          image: "default.jpg",
+          image: "",
           name: "Nabamita Bakshi ",
           whatsapp: "Whatsapp",
           phone: "7044604970",
@@ -845,7 +845,7 @@ const eventDetails = [
         },
         {
           id: 1314,
-          image: "default.jpg",
+          image: "",
           name: "Souhardik Kundu",
           whatsapp: "Whatsapp",
           phone: "8101284655",
@@ -870,71 +870,71 @@ const eventDetails = [
       incharge: [
         {
           id: 141,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Abhijit Dutta",
         },
         {
           id: 142,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Tapas Kumar Biswas",
         },
         {
           id: 143,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Nabankur Mandal",
         },
       ],
       SubCommittee: [
         {
           id: 144,
-          image: "default.jpg",
+          image: "",
           name: " Mr. Bimal Makhal",
         },
         {
           id: 145,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Drupad Roy",
         },
         {
           id: 146,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Dhiman Bhattacharjee",
         },
         {
           id: 147,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Rajib Majhi",
         },
         {
           id: 148,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Samrat Purkait ",
         },
         {
           id: 149,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Om Prakash",
         },
         {
           id: 1410,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Arijit Ghosh",
         },
         {
           id: 1411,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Joydeb Karmakar",
         },
         {
           id: 1412,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Ashis Taru Roy",
         },
       ],
       StudentMembers: [
         {
           id: 1413,
-          image: "default.jpg",
+          image: "",
           name: "Kaushik Shaw ",
           whatsapp: "Whatsapp",
           phone: "9875386612",
@@ -942,7 +942,7 @@ const eventDetails = [
         },
         {
           id: 1414,
-          image: "default.jpg",
+          image: "",
           name: " Shrayam Banerjee",
           whatsapp: "Whatsapp",
           phone: "9836482698",
@@ -950,7 +950,7 @@ const eventDetails = [
         },
         {
           id: 1415,
-          image: "default.jpg",
+          image: "",
           name: " Akash Singh",
           whatsapp: "Whatsapp",
           phone: "9088801008",
@@ -976,17 +976,17 @@ const eventDetails = [
       incharge: [
         {
           id: 141,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Abhijit Dutta",
         },
         {
           id: 142,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Tapas Kumar Biswas",
         },
         {
           id: 143,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Nabankur Mandal",
         },
       ],
@@ -994,54 +994,54 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 154,
-          image: "default.jpg",
+          image: "",
           name: " Mr. Bimal Makhal",
         },
         {
           id: 155,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Drupad Roy",
         },
         {
           id: 156,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Dhiman Bhattacharjee",
         },
         {
           id: 157,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Rajib Majhi",
         },
         {
           id: 158,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Samrat Purkait ",
         },
         {
           id: 159,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Om Prakash",
         },
         {
           id: 1510,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Arijit Ghosh",
         },
         {
           id: 1511,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Joydeb Karmakar",
         },
         {
           id: 1512,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Ashis Taru Roy",
         },
       ],
       StudentMembers: [
         {
           id: 1413,
-          image: "default.jpg",
+          image: "",
           name: " Pratyay Ghosh",
           whatsapp: "Whatsapp",
           phone: "9051642232",
@@ -1049,7 +1049,7 @@ const eventDetails = [
         },
         {
           id: 1414,
-          image: "default.jpg",
+          image: "",
           name: " Mohit Kumar Singh",
           whatsapp: "Whatsapp",
           phone: "9051802430",
@@ -1075,17 +1075,17 @@ const eventDetails = [
       incharge: [
         {
           id: 141,
-          image: "default.jpg",
+          image: "",
           name: "Dr. Abhijit Dutta",
         },
         {
           id: 142,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Tapas Kumar Biswas",
         },
         {
           id: 143,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Nabankur Mandal",
         },
       ],
@@ -1093,54 +1093,54 @@ const eventDetails = [
       SubCommittee: [
         {
           id: 164,
-          image: "default.jpg",
+          image: "",
           name: " Mr. Bimal Makhal",
         },
         {
           id: 165,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Drupad Roy",
         },
         {
           id: 166,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Dhiman Bhattacharjee",
         },
         {
           id: 167,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Rajib Majhi",
         },
         {
           id: 168,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Samrat Purkait ",
         },
         {
           id: 169,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Om Prakash",
         },
         {
           id: 1610,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Arijit Ghosh",
         },
         {
           id: 1611,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Joydeb Karmakar",
         },
         {
           id: 1612,
-          image: "default.jpg",
+          image: "",
           name: "Mr. Ashis Taru Roy",
         },
       ],
       StudentMembers: [
         {
           id: 1613,
-          image: "default.jpg",
+          image: "",
           name: "Ayan Palit",
           whatsapp: "Whatsapp",
           phone: "6295389311",
@@ -1148,7 +1148,7 @@ const eventDetails = [
         },
         {
           id: 1614,
-          image: "default.jpg",
+          image: "",
           name: " Nageswar Rao Enduga",
           whatsapp: "Whatsapp",
           phone: "8420559756",
@@ -1156,7 +1156,7 @@ const eventDetails = [
         },
         {
           id: 1615,
-          image: "default.jpg",
+          image: "",
           name: " Abhishek Kumar",
           whatsapp: "Whatsapp",
           phone: "6207902850",

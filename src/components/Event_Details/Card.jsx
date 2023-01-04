@@ -3,14 +3,14 @@ import "./Card.css";
 function Card({ details }) {
   return (
     <div className="card-container">
-      <div className="image-div">
+      {details.image && <div className="image-div">
         <img
           src={require(`../../resources/${details.image}`)}
           alt="details"
           className="image"
           draggable={false}
         />
-      </div>
+      </div>}
       <div className="about-div">
         <h3 className="name">{details.name}</h3>
         {details.bio && <span className="bio">{details.bio}</span>}

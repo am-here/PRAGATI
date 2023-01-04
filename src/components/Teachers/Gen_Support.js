@@ -1,0 +1,48 @@
+const gen_contact_data = [
+  {
+    id: 1,
+    name: "Nabanita Bakshi",
+    bio: "",
+    phone: 7044604970,
+    linkedin: "",
+    image: "nabanita.jpeg",
+    whatsapp: "Whatsapp",
+  },
+  {
+    id: 2,
+    name: "Tiasa Deshmukh",
+    bio: "",
+    linkedin: "",
+    image: "tiasha.jpg",
+    phone: 9007049807,
+    whatsapp: "Whatsapp",
+  },
+  {
+    id: 3,
+    name: "Kriti Ganeriwal",
+    bio: "",
+    linkedin: "",
+    image: "kriti.jpg",
+    phone: 9831798205,
+    whatsapp: "Whatsapp",
+  },
+  {
+    id: 4,
+    name: "Kaushik Shaw",
+    bio: "",
+    linkedin: "",
+    image: "kaushik.jpeg",
+    phone: 9875386612,
+    whatsapp: "Whatsapp",
+  },
+  {
+    id: 5,
+    name: "Rit Prasad Dhar",
+    bio: "",
+    linkedin: "",
+    image: "rit.jpeg",
+    phone: 8017077624,
+    whatsapp: "Whatsapp",
+  },
+];
+export default gen_contact_data;

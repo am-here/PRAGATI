@@ -93,7 +93,8 @@ function Event() {
             </Link>
             <Link to="/events/10">
               <li>
-                c) ENIGMA <i class="fa-solid fa-up-right-from-square"></i>
+                c) Enigma - A Technical Treasurehunt{" "}
+                <i class="fa-solid fa-up-right-from-square"></i>
               </li>
             </Link>
           </ol>

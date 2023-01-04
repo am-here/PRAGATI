@@ -1,4 +1,4 @@
-const contact_data = [
+const tech_contact_data = [
   {
     id: 1,
     name: "Ishika Ghosh",
@@ -40,4 +40,4 @@ const contact_data = [
     phone: 8910631623,
   },
 ];
-export default contact_data;
+export default tech_contact_data;

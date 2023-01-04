@@ -13,8 +13,14 @@
 }
 .eventContact_container_T {
   margin-bottom: 190px;
-  /* margin-left: 70px; */
-  margin-right: 70px;
+  margin-top: 50px;
+  /* margin-right: 70px; */
+}
+.eventContact_container_T h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
 }
 @media screen and (max-width: 1020px) {
   .contact-container {

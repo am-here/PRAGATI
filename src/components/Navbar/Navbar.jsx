@@ -98,6 +98,14 @@ function Navbar({ menu, setMenu }) {
               Contact
             </HashLink>
           </span>
+          <span className="nav-items" onClick={() => handleClick("Support")}>
+            <HashLink
+              to="/support"
+              className={menu === "Support" ? "nav-links active" : "nav-links"}
+            >
+              Support
+            </HashLink>
+          </span>
         </div>
       </div>
     </div>

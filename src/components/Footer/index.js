@@ -79,6 +79,11 @@ function Footer() {
                   Contact
                 </Link>
               </li>
+              <li className="li">
+                <Link className="ali" to="/support">
+                  Support
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="col">

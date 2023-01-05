@@ -55,7 +55,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/schedule" element={<Day />} />
-            <Route path="/contact" element={<Teachers />} />
+            <Route path="/contact" element={<Teachers heading="CONTACT" />} />
+            <Route path="/support" element={<Teachers heading="SUPPORT" />} />
             <Route
               path="/events/:id"
               element={<EventDetails setId={setId} details={details} />}

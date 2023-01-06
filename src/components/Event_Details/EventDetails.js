@@ -33,7 +33,7 @@ function EventDetails({ setId, details }) {
               <div className="event_name">{details.name}</div>
               <div className="event_closing_date">
                 <i className="fa-solid fa-calendar-days fa-lg"></i>
-                {details.date} (last date to register)
+                {details.date}
               </div>
               <div className="event_team_size">
                 <i className="fa-solid fa-user-group"></i>
@@ -66,15 +66,17 @@ function EventDetails({ setId, details }) {
                 <div className="event_contacts">
                   <Link to="contact">CONTACT</Link>
                 </div>
-                <div className="event_register">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={details.reg_link}
-                  >
-                    REGISTER
-                  </a>
-                </div>
+                {details.reg_link && (
+                  <div className="event_register">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={details.reg_link}
+                    >
+                      REGISTER
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           </div>

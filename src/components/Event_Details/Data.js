@@ -2,7 +2,7 @@ const eventDetails = [
   {
     id: 1,
     name: "Circuit Design",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹50",
     amtout: "₹50",
@@ -69,7 +69,7 @@ const eventDetails = [
   {
     id: 2,
     name: "Code-fiesta",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹50",
     amtout: "₹100",
@@ -140,7 +140,7 @@ const eventDetails = [
   {
     id: 3,
     name: "ML Mania",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹50",
     amtout: "₹100",
@@ -204,7 +204,7 @@ const eventDetails = [
   {
     id: 4,
     name: "CATIA",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹50",
     amtout: "₹100",
@@ -268,11 +268,11 @@ const eventDetails = [
   {
     id: 5,
     name: "Innovative Idea Contest",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹100",
     amtout: "₹200",
-    size: "4 members",
+    size: "5 members",
     googlr_Form: "https://forms.gle/co64X9ixbpViitgV6",
     rules:
       "https://drive.google.com/file/d/1PqPSovfoBz0130LRcZq5S4rPc5a78LgG/view?usp=share_link",
@@ -333,7 +333,7 @@ const eventDetails = [
   {
     id: 6,
     name: "Innovative Model Contest",
-    date: "2nd January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹100",
     amtout: "₹200",
@@ -390,7 +390,7 @@ const eventDetails = [
   {
     id: 7,
     name: "Technical Poster",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹100",
     amtout: "₹200 ",
@@ -450,7 +450,7 @@ const eventDetails = [
   {
     id: 8,
     name: "Math Mania",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹50",
     amtout: "₹100",
@@ -504,7 +504,7 @@ const eventDetails = [
   {
     id: 9,
     name: "Quiz-o-mania",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹50",
     amtout: "₹60",
@@ -556,15 +556,16 @@ const eventDetails = [
   {
     id: 10,
     name: "Enigma - A Technical Treasurehunt",
-    date: "5th January 2023",
+    date: "REGISTRATIONS CLOSED",
     offer: "",
     amtin: "₹100",
     amtout: "₹200",
     size: "2-3 members",
-    googlr_Form: "https://forms.gle/14k7Hzp8UC1UCJ839",
+    googlr_Form:
+      "https://www.skps.ac.in/wp-content/uploads/2019/10/registration-closed.jpg",
     rules:
       "https://drive.google.com/file/d/1IAqD6jHWq12QH69l4iX4xUMfv5W0EQ8_/view",
-    reg_link: "https://forms.gle/14k7Hzp8UC1UCJ839",
+    reg_link: "",
     contacts: {
       incharge: [
         {
@@ -649,7 +650,7 @@ const eventDetails = [
   {
     id: 11,
     name: "NFS Most Wanted",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹50",
     amtout: "₹100",
@@ -704,7 +705,7 @@ const eventDetails = [
   {
     id: 12,
     name: "FIFA",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "",
     amtin: "₹50",
     amtout: "₹100",
@@ -759,7 +760,7 @@ const eventDetails = [
   {
     id: 13,
     name: "Robo FIFA",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "Check Rules for Offers",
     amtin: "₹100",
     amtout: "₹400",
@@ -857,7 +858,7 @@ const eventDetails = [
   {
     id: 14,
     name: "Robo War",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "Check Rules for Offers",
     amtin: "₹100",
     amtout: "₹400",
@@ -962,7 +963,7 @@ const eventDetails = [
   {
     id: 15,
     name: "Chase the maze",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "Check Rules for Offers",
     amtin: "₹100",
     amtout: "₹400",
@@ -1061,7 +1062,7 @@ const eventDetails = [
   {
     id: 16,
     name: "Line Follower",
-    date: "5th January 2023",
+    date: "10th January 2023 (last date to register)",
     offer: "Check Rules for Offers",
     amtin: "₹100",
     amtout: "₹400",

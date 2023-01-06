@@ -28,7 +28,7 @@ const tech_contact_data = [
     name: "Abhishek Mishra",
     bio: "Developer",
     linkedin: "https://www.linkedin.com/in/abhishek-mishra-b4a275202/",
-    image: "abhishek.jpg",
+    image: "abhishek.jpeg",
     phone: 8887850034,
   },
   {
